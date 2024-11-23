@@ -25,15 +25,15 @@ library(rhmmer)
 
 setwd("/data/san/data2/users/david/nisin/code")
 
-tax_nuc = fread("../data/tables/tax_nuc.tsv") %>% distinct()
-contigs_w_nisin = fread("../data/tables/contigs_w_nisin.tsv")
+tax_nuc = fread("../data/tables/supplementary/supplementary_table_S2.csv")
+contigs_w_nisin = fread("../data/tables/supplementary/supplementary_table_S2.csv") %>%
+  select(nucleotide_acc) 
+
 mge_class_tax = fread("../data/tables/mge_class_tax.tsv", sep="\t")
 mge_table = fread("../data/tables/mge_class_tax.tsv", sep="\t")
 platon_df = fread("../data/plasmids/all_plasmids.tsv") %>%
   janitor::clean_names() %>%
   mutate(nucleotide_acc = id) %>% select(nucleotide_acc) # do not need to merge as all predicted by mlplasmids were predicted by platon
-# hmm_core_BCIT = fread("../data/tables/hmm_core_BCIT.tsv", sep="\t")
-
 
 ############################
 # What is on MGEs - the plasmid content
@@ -46,6 +46,8 @@ plasmids_all = left_join(plasmids_all, mlplasmids_df, by = "nucleotide_acc")
 plasmids_10000to200000 = plasmids_all %>%
   filter(contig_length > 10000 & contig_length < 250000) %>%
   distinct()
+
+  
 
 plasmids_10000to200000_plot = ggplot(plasmids_10000to200000, 
     aes(x = "All plasimids", y = contig_length)) +
@@ -129,7 +131,7 @@ unique(hmm_df$type) # contig must contain core, nisB or nisC
 hgt_assemblies = c("GCA_014488735.1","GCF_000644315.1", "GCF_024580395.1",
   "GCF_002077325.1","GCF_009771385.1","GCF_018424365.1")
 
-tsv_dir = "/data/san/data2/users/david/nisin/data/bakta_out"
+tsv_dir = "../data/bakta_out"
 # read in hgt.tsv files and bind
 hgt_files = list.files(tsv_dir, full.names = TRUE, recursive = TRUE, pattern = ".tsv")
 matching_files = grep(paste(hgt_assemblies, collapse = "|"), hgt_files, value = TRUE)
@@ -243,7 +245,6 @@ ggsave(hgt_plot2,
 ################################
 # gggenomes of all ICE
 ################################
-
 ice_to_query <- c(
   "NZ_ATWZ01000005.1",
   "NZ_ALUP01000012.1",
@@ -318,10 +319,7 @@ file_path <- "/data/san/data1/users/david/mining_2023/nisins/genomes_download/ic
 file_pattern <- "*.faa"
 file_list <- list.files(path = file_path, pattern = file_pattern, full.names = TRUE)
 all_data <- data.frame()
-
-
 ice_contigs = gsub("_I.E.*", "", basename(file_list))
-
 
 extract_data_from_file <- function(file) {
   lines <- readLines(file)
@@ -401,19 +399,18 @@ plasmid_df = fread("../data/tables/plasmid_content_df.tsv", sep="\t") %>%
 
 # Check if ICE part of plasmids
 ice_contigs %in% plasmid_df$seq_id
-# Count the number of unique seq_id for each product
+
 product_seqid_count <- plasmid_df %>%
   distinct(seq_id, product)	 %>%
   group_by(product) %>%
   summarise(seq_id_count = n())
 
-# Calculate the total number of unique seq_id
 total_seq_ids <- n_distinct(plasmid_df$seq_id)
 
 # Calculate the percentage of seq_id for each product
 product_seqid_percentage <- product_seqid_count %>%
   mutate(percentage = (seq_id_count / total_seq_ids) * 100) %>%
-  filter(percentage > 60 & percentage < 75) %>%
+  filter(percentage > 50 ) %>%
   filter(product != "hypothetical protein")
 
 product_seqid_count %>% 
@@ -425,7 +422,7 @@ product_seqid_percentage_80 <- product_seqid_count %>%
   filter(product != "hypothetical protein")
 
 
-high_quality_plasmid_content_plot = ggplot(product_seqid_percentage_80, 
+high_quality_plasmid_content_plot = ggplot(product_seqid_percentage, 
   aes(x = percentage, y = reorder(product, percentage))) +
   geom_bar(stat = "identity", color = "black", size=0.25, aes(
     fill = ifelse(product == "Tetracycline resistance protein", "#E64B35B2", 
@@ -444,23 +441,6 @@ ggsave(high_quality_plasmid_content_plot,
   width = 12, height = 8, units = "cm", dpi=600)  
 
 
-high_quality_plasmid_content_plot_60_75 = ggplot(product_seqid_percentage, 
-  aes(x = percentage, y = reorder(product, percentage))) +
-  geom_bar(stat = "identity", color = "black", size=0.25, aes(
-    fill = ifelse(product == "Tetracycline resistance protein", "#E64B35B2", 
-    ifelse(product %in% nisin_products, "#3C5488B2", "gray")))) +
-  theme_bw(base_size = 6, base_family = "Arial") +
-  labs(x = "% of plasmids", y = element_blank()) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 0.8, vjust = 0), 
-    plot.title = element_text(size = 12),
-    axis.title.x = element_text(size = 10),
-    axis.title.y = element_text(size = 10),
-    legend.position = "bottom") +
-  scale_fill_identity()
-
-ggsave(high_quality_plasmid_content_plot_60_75, 
-  file = "../figures/high_quality_plasmid_content_plot_plot.png",
-  width = 12, height = 8, units = "cm", dpi=600)
 
 ################################
 # content of transposons
@@ -479,7 +459,7 @@ total_seq_ids_tn <- n_distinct(tn_content$assembly)
 # Calculate the percentage of seq_id for each product
 product_seqid_percentage_60_75 <- product_seqid_count_tn %>%
   mutate(percentage = (seq_id_count / total_seq_ids_tn) * 100) %>%
-  filter(percentage > 60 & percentage < 75) %>%
+  filter(percentage > 60 & percentage < 100) %>%
   filter(product != "hypothetical protein") %>%
   arrange(desc(percentage))
 
@@ -563,48 +543,3 @@ mge_table_plot3 = grid.arrange(mge_table_plot, mge_table_plot2,
 ggsave(mge_table_plot3,
   file = "../figures/mge_table_3_plot.png", 
   width = 26, height = 10, units = "cm", dpi=600)
-
-
-
-
-################################
-# NZ_CP024974.1 this is the s suis with an FEG like bacitracin resistance pump
-################################
-rk = c("OCCJGP_06450", "OCCJGP_06455")
-bc = c("Lanthionine synthetase C-like protein", "Lantibiotic dehydratase")
-feg = c("ABC transporter permease","Lantibiotic protection ABC transporter permease protein","Lantibiotic protection ABC transporter ATP-binding protein")
-cloned = c("OCCJGP_06345", "OCCJGP_06335", "OCCJGP_06340")
-bce = c("OCCJGP_06330", "OCCJGP_06325")
-not_cloned_i = "OCCJGP_06350"
-
-bakta_df = fread("../data/tables/bakta_df.tsv", sep="\t") 
-suis_df_cloned = bakta_df %>%
-  filter(seq_id == "NZ_CP024974.1") %>%
-  mutate(color = case_when(
-    grepl("transposa", product,ignore.case = TRUE) ~ "#00A087B2",
-    product %in% bc ~ "#3C5488B2",
-    product %in% feg ~ "#E64B35B2",
-    locus_tag %in% rk ~ "#7E6148B2",
-    locus_tag %in% cloned ~ "#ffdd00b2",
-    locus_tag %in% not_cloned_i ~ "#9a0076b2",
-    locus_tag %in% bce ~ "#4e7800b2",
-    TRUE ~ "grey88")) %>%
-    mutate(bin_id = case_when(
-    seq_id == "NZ_CP024974.1" ~ "S. suis CZ130302",
-    TRUE ~ seq_id))
-
-suis_df_cloned_plot = gggenomes(genes = suis_df_cloned) %>%
-  focus(product %in%  c("Lantibiotic nisin-U"), 
-    .expand = c(2.26e4, 8e3)) +
-  geom_seq() +
-  geom_gene(size = 7, aes(fill=color)) +
-  geom_bin_label(expand_left = 0.3, size=4) +
-  ggtitle("") +
-  scale_fill_identity() +
-  theme_void()
-
-ggsave(suis_df_cloned_plot,
-  file = "../figures/suis_df_cloned_plot.png", 
-  width = 12,
-  dpi=600,
-  height = 3)
