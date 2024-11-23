@@ -1,0 +1,971 @@
+GCA_000691445.1_CAMRasm9.fna	-	-
+GCA_002786175.1_ASM278617v1.fna	-	-
+GCA_005768645.1_ASM576864v1.fna	-	-
+GCA_023497965.3_ASM2349796v3.fna	bsubtilis	-	glpF(~88)	ilvD(27?)	pta(29)	purH(34)	pycA(28)	rpoD(~2)	tpiA(~28)
+GCA_029536855.1_ASM2953685v1.fna	bsubtilis	-	glpF(75)	ilvD(~109)	pta(35)	purH(83)	pycA(79)	rpoD(3)	tpiA(1)
+GCA_029761975.1_ASM2976197v1.fna	bsubtilis	-	glpF(~98)	ilvD(109)	pta(35)	purH(~112)	pycA(~84)	rpoD(3)	tpiA(1)
+GCA_900458135.1_40757_E01.fna	saureus	-	arcC(6)	aroE(1097?)	glpF(51)	gmk(47)	pta(7)	tpi(70?)	yqiL(61)
+GCA_918026835.1_ASM91802683v1.fna	-	-
+GCF_000009785.1_ASM978v1.fna	-	-
+GCF_000015745.1_ASM1574v1.fna	-	-
+GCF_000025045.1_ASM2504v1.fna	-	-
+GCF_000159635.1_ASM15963v1.fna	-	-
+GCF_000177595.1_ASM17759v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_000186445.1_ASM18644v1.fna	sagalactiae	-	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(171?)	tkt(1)
+GCF_000192705.1_ASM19270v1.fna	-	-
+GCF_000227465.1_ASM22746v1.fna	bsubtilis	8	glpF(5)	ilvD(5)	pta(8)	purH(8)	pycA(6)	rpoD(5)	tpiA(7)
+GCF_000231325.1_ASM23132v2.fna	ssuis	776	aroA(137)	cpn60(145)	dpr(204)	gki(103)	mutS(137)	recA(38)	thrA(98)
+GCF_000270165.1_ASM27016v1.fna	sbsec	17	ddl(9)	gki(9)	glnA(8)	mutS(10)	mutS2(10)	pheS(7)	proS(6)	pyrE(12)	thrS(13)	tpi(6)
+GCF_000288435.1_ASM28843v1.fna	sagalactiae	88	adhP(5)	pheS(10)	atr(6)	glnA(3)	sdhA(2)	glcK(1)	tkt(3)
+GCF_000288655.1_ASM28865v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_000289375.1_ASM28937v1.fna	sagalactiae	591	adhP(13)	pheS(1)	atr(6)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_000289395.1_ASM28939v1.fna	sagalactiae	591	adhP(13)	pheS(1)	atr(6)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_000289415.1_ASM28941v1.fna	sagalactiae	591	adhP(13)	pheS(1)	atr(6)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_000290195.1_ASM29019v1.fna	sagalactiae	88	adhP(5)	pheS(10)	atr(6)	glnA(3)	sdhA(2)	glcK(1)	tkt(3)
+GCF_000308615.1_ASM30861v1.fna	-	-
+GCF_000309845.1_Csp_Mad1.0.fna	-	-
+GCF_000310365.1_ASM31036v1.fna	sagalactiae	67	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(1)	tkt(5)
+GCF_000310565.1_ASM31056v1.fna	sagalactiae	67	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(1)	tkt(5)
+GCF_000311325.1_ASM31132v1.fna	sagalactiae	-	adhP(-)	pheS(1)	atr(6)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_000322605.1_ASM32260v1.fna	sagalactiae	415	adhP(13)	pheS(1)	atr(2)	glnA(13)	sdhA(1)	glcK(1)	tkt(5)
+GCF_000344575.1_ASM34457v1.fna	-	-
+GCF_000348965.1_YF11_v1.fna	-	-
+GCF_000394015.1_Ente_mora_BAA-383_V1.fna	-	-
+GCF_000407445.1_Ente_mora_BAA-383_V2.fna	-	-
+GCF_000420785.1_ASM42078v1.fna	-	-
+GCF_000421425.1_ASM42142v1.fna	sbsec	33	ddl(18)	gki(18)	glnA(10)	mutS(16)	mutS2(18)	pheS(17)	proS(18)	pyrE(15)	thrS(20)	tpi(9)
+GCF_000422505.1_ASM42250v1.fna	-	-
+GCF_000424045.1_ASM42404v1.fna	sbsec	19	ddl(11)	gki(11)	glnA(10)	mutS(12)	mutS2(12)	pheS(11)	proS(10)	pyrE(15)	thrS(15)	tpi(9)
+GCF_000428805.1_ASM42880v1.fna	-	-
+GCF_000440075.1_version1.fna	ssuis	329	aroA(16)	cpn60(110)	dpr(98)	gki(136)	mutS(133)	recA(106)	thrA(81)
+GCF_000440135.1_version1.fna	ssuis	953	aroA(91)	cpn60(140)	dpr(74)	gki(129)	mutS(314)	recA(34)	thrA(81)
+GCF_000440175.1_version1.fna	ssuis	332	aroA(121)	cpn60(64)	dpr(74)	gki(103)	mutS(141)	recA(39)	thrA(98)
+GCF_000440195.1_version1.fna	ssuis	872	aroA(91)	cpn60(77)	dpr(99)	gki(138)	mutS(133)	recA(37)	thrA(100)
+GCF_000440895.1_version1.fna	ssuis	68	aroA(14)	cpn60(20)	dpr(31)	gki(27)	mutS(27)	recA(34)	thrA(18)
+GCF_000441095.1_version1.fna	ssuis	310	aroA(113)	cpn60(110)	dpr(98)	gki(124)	mutS(133)	recA(106)	thrA(94)
+GCF_000441115.1_version1.fna	ssuis	328	aroA(108)	cpn60(64)	dpr(106)	gki(135)	mutS(141)	recA(39)	thrA(98)
+GCF_000441135.1_version1.fna	ssuis	311	aroA(23)	cpn60(11)	dpr(5)	gki(125)	mutS(22)	recA(107)	thrA(8)
+GCF_000441155.1_version1.fna	ssuis	312	aroA(114)	cpn60(138)	dpr(99)	gki(126)	mutS(134)	recA(106)	thrA(81)
+GCF_000441215.1_version1.fna	ssuis	315	aroA(45)	cpn60(46)	dpr(30)	gki(72)	mutS(135)	recA(6)	thrA(55)
+GCF_000441275.1_version1.fna	ssuis	317	aroA(116)	cpn60(67)	dpr(44)	gki(128)	mutS(43)	recA(109)	thrA(12)
+GCF_000441355.1_version1.fna	ssuis	330	aroA(16)	cpn60(110)	dpr(98)	gki(136)	mutS(133)	recA(113)	thrA(81)
+GCF_000441415.1_version1.fna	ssuis	345	aroA(118)	cpn60(150)	dpr(101)	gki(39)	mutS(148)	recA(110)	thrA(95)
+GCF_000441455.1_version1.fna	ssuis	321	aroA(31)	cpn60(141)	dpr(101)	gki(130)	mutS(132)	recA(110)	thrA(95)
+GCF_000463385.1_ASM46338v1.fna	-	-
+GCF_000466185.1_ASM46618v1.fna	-	-
+GCF_000478255.1_ASM47825v2.fna	-	-
+GCF_000496575.1_DSM465V1.0.fna	-	-
+GCF_000510405.1_SaBV3L5v1.0.fna	sagalactiae	110	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(9)
+GCF_000621745.1_ASM62174v1.fna	-	-
+GCF_000626995.1_gsa21338v01.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000640935.1_Stap_aure_VET0077R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000643015.1_Stap_aure_VET0283R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000643075.1_Stap_aure_VET0287R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000644315.1_Stap_aure_VET0396R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000645335.1_Stap_aure_VET0632S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000645395.1_Stap_aure_VET0678S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000645415.1_Stap_aure_VET0679S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000645575.1_Stap_aure_VET1020S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000645595.1_Stap_aure_VET1024S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000645615.1_Stap_aure_VET1025S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000645635.1_Stap_aure_VET1026S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000646015.1_Stap_aure_VET1646S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000646035.1_Stap_aure_VET1653S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000683135.1_Stap_aure_VET1373S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000683155.1_Stap_aure_VET1368S_V1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_000683935.1_Stap_aure_VET0184R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000683955.1_Stap_aure_VET0183R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000684235.1_Stap_aure_VET0078R_V1.fna	saureus	398	arcC(3)	aroE(35)	glpF(19)	gmk(2)	pta(20)	tpi(26)	yqiL(39)
+GCF_000703145.1_ASM70314v1.fna	-	-
+GCF_000724125.1_BSUBE1.fna	bsubtilis	81	glpF(3)	ilvD(48)	pta(60)	purH(64)	pycA(2)	rpoD(41)	tpiA(1)
+GCF_000743215.1_BST.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_000761115.1_ASM76111v1.fna	-	-
+GCF_000761565.1_ASM76156v1.fna	-	-
+GCF_000785515.1_ASM78551v1.fna	-	-
+GCF_000807375.1_ASM80737v1.fna	-	-
+GCF_000815295.1_ASM81529v1.fna	bsubtilis	-	glpF(~21)	ilvD(~8)	pta(~7)	purH(~27)	pycA(~22)	rpoD(~8)	tpiA(~24)
+GCF_000832165.1_ASM83216v1.fna	-	-
+GCF_000832175.1_ASM83217v1.fna	-	-
+GCF_000832185.1_ASM83218v1.fna	-	-
+GCF_000832195.1_ASM83219v1.fna	bsubtilis	145	glpF(59)	ilvD(48)	pta(55)	purH(56)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_000832245.1_ASM83224v1.fna	-	-
+GCF_000876895.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000877155.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000877215.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000878265.1_ASM87826v1.fna	bsubtilis	128	glpF(75)	ilvD(64)	pta(35)	purH(83)	pycA(79)	rpoD(56)	tpiA(1)
+GCF_000931815.1_G1A3.fna	bsubtilis	146	glpF(9)	ilvD(73)	pta(6)	purH(68)	pycA(5)	rpoD(61)	tpiA(5)
+GCF_000931835.1_G4C10.fna	bsubtilis	150	glpF(9)	ilvD(85)	pta(6)	purH(7)	pycA(5)	rpoD(61)	tpiA(5)
+GCF_000935945.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000936325.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000936515.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000936535.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000936575.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000936675.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000936735.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000936795.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000937195.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000937695.1_Velvet_assembly.fna	ssuis	890	aroA(25)	cpn60(13)	dpr(235)	gki(254)	mutS(117)	recA(38)	thrA(113)
+GCF_000938095.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000938435.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000938955.1_Velvet_assembly.fna	ssuis	859	aroA(38)	cpn60(10)	dpr(30)	gki(66)	mutS(84)	recA(71)	thrA(174)
+GCF_000939015.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000939095.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000939235.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000940395.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000940415.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000941295.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000941655.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000941675.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000941715.1_Velvet_assembly.fna	ssuis	861	aroA(23)	cpn60(99)	dpr(52)	gki(101)	mutS(220)	recA(194)	thrA(11)
+GCF_000941815.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000942055.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000942295.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000942515.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000942635.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000942795.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000942995.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000943035.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000943275.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000943295.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000943995.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000944195.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000944375.1_Velvet_assembly.fna	ssuis	879	aroA(63)	cpn60(68)	dpr(21)	gki(297)	mutS(7)	recA(30)	thrA(8)
+GCF_000944415.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000944495.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000944755.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000944815.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000945035.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000945095.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000945595.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000945695.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000945775.1_Velvet_assembly.fna	ssuis	877	aroA(15)	cpn60(11)	dpr(9)	gki(7)	mutS(305)	recA(30)	thrA(12)
+GCF_000945795.1_Velvet_assembly.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_000946095.1_Velvet_assembly.fna	ssuis	858	aroA(38)	cpn60(75)	dpr(45)	gki(15)	mutS(84)	recA(26)	thrA(149)
+GCF_000946495.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000946695.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000947415.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000947435.1_Velvet_assembly.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_000959025.1_ASM95902v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_001017975.1_ASM101797v1.fna	sagalactiae	-	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(171?)	tkt(5)
+GCF_001018575.1_ASM101857v1.fna	sagalactiae	-	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(171?)	tkt(5)
+GCF_001057075.1_ASM105707v1.fna	bsubtilis	-	glpF(3)	ilvD(114)	pta(~2)	purH(135)	pycA(2)	rpoD(1)	tpiA(3)
+GCF_001072315.1_ASM107231v1.fna	spneumoniae	-	aroE(486)	gdh(~450)	gki(675)	recP(~139)	spi(~625)	xpt(~735)	ddl(948)
+GCF_001073635.1_ASM107363v1.fna	-	-
+GCF_001094705.1_6925_3_16.fna	spneumoniae	10423	aroE(7)	gdh(443)	gki(2)	recP(16)	spi(15)	xpt(1)	ddl(17)
+GCF_001098285.1_6631_1_5.fna	spneumoniae	4965	aroE(7)	gdh(13)	gki(2)	recP(16)	spi(15)	xpt(1)	ddl(17)
+GCF_001110785.1_6631_1_14.fna	spneumoniae	4965	aroE(7)	gdh(13)	gki(2)	recP(16)	spi(15)	xpt(1)	ddl(17)
+GCF_001152205.1_6630_7_5.fna	sagalactiae	106	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(5)	tkt(2)
+GCF_001168705.1_6899_6_6.fna	spneumoniae	4965	aroE(7)	gdh(13)	gki(2)	recP(16)	spi(15)	xpt(1)	ddl(17)
+GCF_001183905.1_ASM118390v1.fna	bsubtilis	-	glpF(59)	ilvD(48)	pta(55)	purH(56)	pycA(34,34)	rpoD(1)	tpiA(1)
+GCF_001193475.1_6805_4_3.fna	spneumoniae	10423	aroE(7)	gdh(443)	gki(2)	recP(16)	spi(15)	xpt(1)	ddl(17)
+GCF_001221465.1_6630_8_23.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_001286745.1_Bacillus_JRS9.fna	bsubtilis	-	glpF(3)	ilvD(48)	pta(2)	purH(112)	pycA(~34)	rpoD(1)	tpiA(3)
+GCF_001286865.1_Bacillus_JRS6.fna	bsubtilis	-	glpF(~81)	ilvD(64)	pta(2)	purH(~66)	pycA(2)	rpoD(41)	tpiA(3)
+GCF_001286885.1_Bacillus_JRS11.fna	bsubtilis	-	glpF(3)	ilvD(48)	pta(2)	purH(112)	pycA(~34)	rpoD(1)	tpiA(3)
+GCF_001293215.1_Ssuis26-14_v1.0.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_001398975.1_Mother12.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_001398995.1_Child12-1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_001399015.1_Child12-2.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_001412125.1_ASM141212v1.fna	-	-
+GCF_001421115.1_ASM142111v1.fna	-	-
+GCF_001439585.2_ASM143958v2.fna	-	-
+GCF_001456475.1_ASM145647v1.fna	-	-
+GCF_001456495.1_ASM145649v1.fna	-	-
+GCF_001456505.1_ASM145650v1.fna	-	-
+GCF_001456525.1_ASM145652v1.fna	-	-
+GCF_001456545.1_ASM145654v1.fna	-	-
+GCF_001456575.1_ASM145657v1.fna	-	-
+GCF_001456595.1_ASM145659v1.fna	-	-
+GCF_001456615.1_ASM145661v1.fna	-	-
+GCF_001456655.1_ASM145665v1.fna	-	-
+GCF_001456725.1_ASM145672v1.fna	-	-
+GCF_001456775.1_ASM145677v1.fna	-	-
+GCF_001456865.1_ASM145686v1.fna	-	-
+GCF_001465345.1_ASM146534v1.fna	-	-
+GCF_001543085.1_ASM154308v1.fna	-	-
+GCF_001566945.1_ASM156694v1.fna	bsubtilis	-	glpF(~19)	ilvD(~19)	pta(~8)	purH(~25)	pycA(~21)	rpoD(5)	tpiA(7)
+GCF_001584345.1_ASM158434v1.fna	-	-
+GCF_001592395.1_ASM159239v1.fna	-	-
+GCF_001613065.1_ASM161306v1.fna	-	-
+GCF_001613305.1_ASM161330v1.fna	-	-
+GCF_001658065.1_ASM165806v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_001689125.2_ASM168912v2.fna	-	-
+GCF_001694315.1_ASM169431v1.fna	sagalactiae	196	adhP(1)	pheS(1)	atr(3)	glnA(1)	sdhA(1)	glcK(12)	tkt(2)
+GCF_001695175.1_ASM169517v1.fna	sagalactiae	196	adhP(1)	pheS(1)	atr(3)	glnA(1)	sdhA(1)	glcK(12)	tkt(2)
+GCF_001708205.1_ASM170820v1.fna	sagalactiae	103	adhP(16)	pheS(1)	atr(6)	glnA(2)	sdhA(9)	glcK(9)	tkt(2)
+GCF_001721045.1_ASM172104v1.fna	-	-
+GCF_001838805.1_ASM183880v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_001839445.1_ASM183944v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_001886065.1_ASM188606v1.fna	-	-
+GCF_001908025.1_ASM190802v1.fna	-	-
+GCF_001949975.2_ASM194997v2.fna	-	-
+GCF_002042905.1_ASM204290v1.fna	-	-
+GCF_002072065.1_ASM207206v1.fna	-	-
+GCF_002077325.1_ASM207732v1.fna	-	-
+GCF_002078475.4_ASM207847v4.fna	-	-
+GCF_002078995.2_ASM207899v2.fna	-	-
+GCF_002078995.3_ASM207899v3.fna	-	-
+GCF_002079715.1_ASM207971v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_002117565.1_ASM211756v1.fna	-	-
+GCF_002214425.1_ASM221442v1.fna	sagalactiae	103	adhP(16)	pheS(1)	atr(6)	glnA(2)	sdhA(9)	glcK(9)	tkt(2)
+GCF_002221555.2_ASM222155v2.fna	-	-
+GCF_002239235.1_ASM223923v1.fna	sagalactiae	106	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(5)	tkt(2)
+GCF_002272405.1_assembly-7702_v1.fna	bsubtilis	-	glpF(3)	ilvD(114)	pta(~2)	purH(135)	pycA(2)	rpoD(1)	tpiA(3)
+GCF_002563455.1_ASM256345v1.fna	-	-
+GCF_002563475.1_ASM256347v1.fna	-	-
+GCF_002563575.1_ASM256357v1.fna	-	-
+GCF_002706565.1_ASM270656v1.fna	-	-
+GCF_002759625.1_ASM275962v1.fna	ssuis	431	aroA(91)	cpn60(110)	dpr(74)	gki(129)	mutS(133)	recA(34)	thrA(81)
+GCF_002759675.1_ASM275967v1.fna	ssuis	408	aroA(144)	cpn60(110)	dpr(126)	gki(159)	mutS(133)	recA(34)	thrA(81)
+GCF_002759735.1_ASM275973v1.fna	ssuis	406	aroA(142)	cpn60(77)	dpr(74)	gki(158)	mutS(109)	recA(113)	thrA(111)
+GCF_002760075.1_ASM276007v1.fna	ssuis	399	aroA(62)	cpn60(110)	dpr(74)	gki(129)	mutS(133)	recA(34)	thrA(81)
+GCF_002760135.1_ASM276013v1.fna	ssuis	404	aroA(91)	cpn60(167)	dpr(74)	gki(129)	mutS(108)	recA(34)	thrA(94)
+GCF_002760435.1_ASM276043v1.fna	-	-
+GCF_002803825.1_ASM280382v1.fna	ssuis	383	aroA(137)	cpn60(145)	dpr(121)	gki(103)	mutS(137)	recA(38)	thrA(98)
+GCF_002804185.1_ASM280418v1.fna	-	-
+GCF_002804285.1_ASM280428v1.fna	-	-
+GCF_002810005.1_ASM281000v1.fna	-	-
+GCF_002811125.1_ASM281112v1.fna	bsubtilis	-	glpF(~21)	ilvD(~8)	pta(~7)	purH(~27)	pycA(~22)	rpoD(~8)	tpiA(~24)
+GCF_002865715.1_ASM286571v1.fna	bsubtilis	-	glpF(~3)	ilvD(~48)	pta(2)	purH(135)	pycA(34)	rpoD(60)	tpiA(1)
+GCF_002866835.1_ASM286683v1.fna	-	-
+GCF_002879585.1_ASM287958v1.fna	-	-
+GCF_002926075.1_ASM292607v1.fna	-	-
+GCF_002960085.1_ASM296008v1.fna	ssuis	-	aroA(162)	cpn60(110)	dpr(74)	gki(129)	mutS(133)	recA(34)	thrA(81)
+GCF_002960125.1_ASM296012v1.fna	ssuis	-	aroA(162)	cpn60(110)	dpr(74)	gki(129)	mutS(133)	recA(34)	thrA(81)
+GCF_002960145.1_ASM296014v1.fna	ssuis	-	aroA(162)	cpn60(110)	dpr(74)	gki(129)	mutS(133)	recA(34)	thrA(81)
+GCF_002960305.1_ASM296030v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_002960325.1_ASM296032v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_002960345.1_ASM296034v1.fna	ssuis	934	aroA(63)	cpn60(55)	dpr(217)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002960355.1_ASM296035v1.fna	ssuis	-	aroA(312)	cpn60(266?)	dpr(181)	gki(7)	mutS(11)	recA(156)	thrA(175)
+GCF_002960395.1_ASM296039v1.fna	ssuis	-	aroA(214)	cpn60(300)	dpr(131)	gki(235)	mutS(380)	recA(~323)	thrA(232)
+GCF_002960555.1_ASM296055v1.fna	ssuis	-	aroA(162)	cpn60(110)	dpr(74)	gki(129)	mutS(133)	recA(34)	thrA(81)
+GCF_002960695.1_ASM296069v1.fna	ssuis	-	aroA(25)	cpn60(~116)	dpr(30)	gki(4)	mutS(9)	recA(13)	thrA(12)
+GCF_002960745.1_ASM296074v1.fna	ssuis	-	aroA(312)	cpn60(266?)	dpr(181)	gki(7)	mutS(11)	recA(156)	thrA(138)
+GCF_002960825.1_ASM296082v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002960885.1_ASM296088v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002960925.1_ASM296092v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002961075.1_ASM296107v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_002961505.1_ASM296150v1.fna	ssuis	930	aroA(248)	cpn60(330)	dpr(216)	gki(282)	mutS(294)	recA(77)	thrA(138)
+GCF_002961565.1_ASM296156v1.fna	ssuis	930	aroA(248)	cpn60(330)	dpr(216)	gki(282)	mutS(294)	recA(77)	thrA(138)
+GCF_002961795.1_ASM296179v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002961825.1_ASM296182v1.fna	ssuis	-	aroA(13)	cpn60(110)	dpr(74)	gki(138)	mutS(133)	recA(34)	thrA(103)
+GCF_002961845.1_ASM296184v1.fna	ssuis	-	aroA(13)	cpn60(110)	dpr(74)	gki(138)	mutS(133)	recA(34)	thrA(149)
+GCF_002961885.1_ASM296188v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002961905.1_ASM296190v1.fna	ssuis	-	aroA(13)	cpn60(110)	dpr(74)	gki(138)	mutS(133)	recA(34)	thrA(103)
+GCF_002962025.1_ASM296202v1.fna	ssuis	-	aroA(88)	cpn60(142)	dpr(49)	gki(199)	mutS(221)	recA(64)	thrA(38)
+GCF_002962045.1_ASM296204v1.fna	ssuis	-	aroA(88)	cpn60(142)	dpr(49)	gki(199)	mutS(221)	recA(64)	thrA(38)
+GCF_002962225.1_ASM296222v1.fna	ssuis	-	aroA(13)	cpn60(110)	dpr(74)	gki(138)	mutS(133)	recA(34)	thrA(103)
+GCF_002962345.1_ASM296234v1.fna	ssuis	-	aroA(154)	cpn60(77)	dpr(74)	gki(129)	mutS(108)	recA(34)	thrA(81)
+GCF_002962465.1_ASM296246v1.fna	ssuis	-	aroA(13)	cpn60(110)	dpr(123)	gki(164)	mutS(133)	recA(34)	thrA(16)
+GCF_002962505.1_ASM296250v1.fna	ssuis	919	aroA(25)	cpn60(33)	dpr(30)	gki(4)	mutS(9)	recA(13)	thrA(12)
+GCF_002962545.1_ASM296254v1.fna	ssuis	919	aroA(25)	cpn60(33)	dpr(30)	gki(4)	mutS(9)	recA(13)	thrA(12)
+GCF_002962615.1_ASM296261v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002962975.1_ASM296297v1.fna	ssuis	930	aroA(248)	cpn60(330)	dpr(216)	gki(282)	mutS(294)	recA(77)	thrA(138)
+GCF_002963005.1_ASM296300v1.fna	ssuis	930	aroA(248)	cpn60(330)	dpr(216)	gki(282)	mutS(294)	recA(77)	thrA(138)
+GCF_002963065.1_ASM296306v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002963085.1_ASM296308v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002963145.1_ASM296314v1.fna	ssuis	188	aroA(63)	cpn60(55)	dpr(53)	gki(86)	mutS(43)	recA(68)	thrA(12)
+GCF_002963205.1_ASM296320v1.fna	ssuis	-	aroA(16)	cpn60(110)	dpr(74)	gki(138)	mutS(65)	recA(34)	thrA(179)
+GCF_002963385.1_ASM296338v1.fna	ssuis	-	aroA(16)	cpn60(77)	dpr(74)	gki(129)	mutS(108)	recA(34)	thrA(~111)
+GCF_002963405.1_ASM296340v1.fna	ssuis	-	aroA(16)	cpn60(77)	dpr(74)	gki(129)	mutS(108)	recA(34)	thrA(~111)
+GCF_003046665.1_ASM304666v1.fna	bsubtilis	-	glpF(3)	ilvD(48)	pta(55)	purH(71)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_003096215.1_ASM309621v1.fna	-	-
+GCF_003149795.1_ASM314979v1.fna	bsubtilis	42	glpF(29)	ilvD(26)	pta(28)	purH(33)	pycA(29)	rpoD(2)	tpiA(29)
+GCF_003182675.2_ASM318267v2.fna	-	-
+GCF_003238285.1_ASM323828v1.fna	saureus	-	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(~4)
+GCF_003391095.1_ASM339109v1.fna	-	-
+GCF_003434095.1_ASM343409v1.fna	sbsec	-	ddl(7)	gki(6)	glnA(6)	mutS(7)	mutS2(8)	pheS(7)	proS(40)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_003436075.1_ASM343607v1.fna	-	-
+GCF_003438595.1_ASM343859v1.fna	lsalivarius	-	pstB(~2)	rpsB(4)	nrdB(7?)	rpoA(7)	parB(9?)
+GCF_003467665.1_ASM346766v1.fna	-	-
+GCF_003472365.1_ASM347236v1.fna	-	-
+GCF_003479865.1_ASM347986v1.fna	-	-
+GCF_003515825.1_ASM351582v1.fna	-	-
+GCF_003594665.1_ASM359466v1.fna	-	-
+GCF_003667885.1_ASM366788v1.fna	bsubtilis	-	glpF(21)	ilvD(8)	pta(7)	purH(~27)	pycA(~22)	rpoD(~8)	tpiA(~24)
+GCF_003694695.1_ASM369469v1.fna	bsubtilis	102	glpF(59)	ilvD(64)	pta(66)	purH(71)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_003833015.1_ASM383301v1.fna	-	-
+GCF_003833295.1_ASM383329v1.fna	bsubtilis	-	glpF(~3)	ilvD(~89)	pta(2)	purH(24)	pycA(20)	rpoD(1)	tpiA(~3)
+GCF_003839715.1_ASM383971v1.fna	-	-
+GCF_003841285.1_ASM384128v1.fna	-	-
+GCF_003841315.1_ASM384131v1.fna	-	-
+GCF_003931545.1_ASM393154v1.fna	bsubtilis	-	glpF(3)	ilvD(64)	pta(2)	purH(66)	pycA(2)	rpoD(41)	tpiA(3)
+GCF_003990435.1_ASM399043v1.fna	bsubtilis	-	glpF(~3)	ilvD(~89)	pta(2)	purH(24)	pycA(20)	rpoD(1)	tpiA(~3)
+GCF_004022375.1_ASM402237v1.fna	-	-
+GCF_004116955.1_ASM411695v1.fna	bsubtilis	21	glpF(8)	ilvD(8)	pta(7)	purH(11)	pycA(9)	rpoD(8)	tpiA(6)
+GCF_004348675.1_ASM434867v1.fna	-	-
+GCF_004361695.1_ASM436169v1.fna	-	-
+GCF_004366695.1_ASM436669v1.fna	bsubtilis	-	glpF(98)	ilvD(108)	pta(~112)	purH(128)	pycA(~101)	rpoD(40)	tpiA(~64)
+GCF_004795205.1_ASM479520v1.fna	-	-
+GCF_004922855.1_ASM492285v1.fna	ssuis	1091	aroA(118)	cpn60(259)	dpr(239)	gki(138)	mutS(354)	recA(170)	thrA(60)
+GCF_005160065.1_ASM516006v1.fna	-	-
+GCF_006094475.1_ASM609447v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_006146065.1_ASM614606v1.fna	-	-
+GCF_006538925.1_ASM653892v1.fna	-	-
+GCF_006568965.1_ASM656896v1.fna	ssuis	988	aroA(38)	cpn60(259)	dpr(245)	gki(15)	mutS(323)	recA(26)	thrA(149)
+GCF_006569035.1_ASM656903v1.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_006715455.1_ASM671545v1.fna	bsubtilis	-	glpF(~3)	ilvD(64)	pta(~2)	purH(135)	pycA(2)	rpoD(84)	tpiA(64)
+GCF_007829735.1_ASM782973v1.fna	bsubtilis	-	glpF(~61)	ilvD(47)	pta(51)	purH(82)	pycA(4)	rpoD(1)	tpiA(1)
+GCF_007859215.1_ASM785921v1.fna	-	-
+GCF_007989785.1_ASM798978v1.fna	bsubtilis	8	glpF(5)	ilvD(5)	pta(8)	purH(8)	pycA(6)	rpoD(5)	tpiA(7)
+GCF_008131765.1_ASM813176v1.fna	bsubtilis	145	glpF(59)	ilvD(48)	pta(55)	purH(56)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_008369905.1_ASM836990v1.fna	-	-
+GCF_008633305.1_ASM863330v1.fna	-	-
+GCF_008633485.1_ASM863348v1.fna	-	-
+GCF_008709965.1_ASM870996v1.fna	sagalactiae	2	adhP(1)	pheS(1)	atr(3)	glnA(1)	sdhA(1)	glcK(2)	tkt(2)
+GCF_008710645.1_ASM871064v1.fna	sagalactiae	861	adhP(1)	pheS(1)	atr(89)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009017455.1_ASM901745v1.fna	bsubtilis	227	glpF(98)	ilvD(65)	pta(111)	purH(128)	pycA(34)	rpoD(82)	tpiA(1)
+GCF_009663495.1_ASM966349v1.fna	-	-
+GCF_009676665.1_ASM967666v1.fna	bsubtilis	227	glpF(98)	ilvD(65)	pta(111)	purH(128)	pycA(34)	rpoD(82)	tpiA(1)
+GCF_009696045.1_ASM969604v1.fna	-	-
+GCF_009731175.1_ASM973117v1.fna	-	-
+GCF_009771385.1_ASM977138v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009771785.1_ASM977178v1.fna	sagalactiae	1	adhP(1)	pheS(1)	atr(2)	glnA(1)	sdhA(1)	glcK(2)	tkt(2)
+GCF_009862505.1_ASM986250v1.fna	streptomyces	-	16S(68)	atpD(85)	gyrB(84)	recA(126)	rpoB(121)	trpB(138)
+GCF_009863365.1_ASM986336v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863375.1_ASM986337v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863405.1_ASM986340v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009863415.1_ASM986341v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009863465.1_ASM986346v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009863485.1_ASM986348v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863535.1_ASM986353v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863555.1_ASM986355v1.fna	lsalivarius	-	pstB(~3)	rpsB(~2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863595.1_ASM986359v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863605.1_ASM986360v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863625.1_ASM986362v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863685.1_ASM986368v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009863695.1_ASM986369v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863705.1_ASM986370v1.fna	lsalivarius	-	pstB(3)	rpsB(~2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863785.1_ASM986378v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(~14)
+GCF_009863815.1_ASM986381v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863825.1_ASM986382v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(~7)
+GCF_009863835.1_ASM986383v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009863915.1_ASM986391v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(~7)
+GCF_009863925.1_ASM986392v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009865705.1_ASM986570v1.fna	lsalivarius	-	pstB(~2)	rpsB(2)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009865785.1_ASM986578v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009865795.1_ASM986579v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009865805.1_ASM986580v1.fna	lsalivarius	-	pstB(~2)	rpsB(~7)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009865885.1_ASM986588v1.fna	lsalivarius	-	pstB(3)	rpsB(2,2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009865925.1_ASM986592v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009865965.1_ASM986596v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009865985.1_ASM986598v1.fna	lsalivarius	-	pstB(~2)	rpsB(2)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009866085.1_ASM986608v1.fna	lsalivarius	-	pstB(16?)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866105.1_ASM986610v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(~7)
+GCF_009866125.1_ASM986612v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866135.1_ASM986613v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866185.1_ASM986618v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866205.1_ASM986620v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866215.1_ASM986621v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866235.1_ASM986623v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009866265.1_ASM986626v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009869985.1_ASM986998v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009870015.1_ASM987001v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_009870045.1_ASM987004v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_009870175.1_ASM987017v1.fna	lsalivarius	-	pstB(~2)	rpsB(2)	nrdB(5?)	rpoA(6)	parB(9?)
+GCF_009870225.1_ASM987022v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(~5)	parB(7)
+GCF_009870255.1_ASM987025v1.fna	lsalivarius	-	pstB(~8)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009870355.1_ASM987035v1.fna	lsalivarius	-	pstB(~3)	rpsB(~2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_009885055.1_ASM988505v1.fna	-	-
+GCF_009906915.1_ASM990691v1.fna	bsubtilis	-	glpF(34)	ilvD(33)	pta(98)	purH(39)	pycA(60)	rpoD(31)	tpiA(32)
+GCF_009913535.1_ASM991353v1.fna	bsubtilis	3	glpF(3)	ilvD(3)	pta(2)	purH(3)	pycA(2)	rpoD(1)	tpiA(1)
+GCF_009913595.1_ASM991359v1.fna	bsubtilis	252	glpF(3)	ilvD(114)	pta(36)	purH(135)	pycA(2)	rpoD(60)	tpiA(91)
+GCF_009934215.1_ASM993421v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009934385.1_ASM993438v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009934395.1_ASM993439v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009934595.1_ASM993459v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009934715.1_ASM993471v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009934935.1_ASM993493v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_009934955.1_ASM993495v1.fna	sagalactiae	929	adhP(13)	pheS(1)	atr(4)	glnA(4)	sdhA(1)	glcK(3)	tkt(1)
+GCF_009996845.1_ASM999684v1.fna	-	-
+GCF_010570855.1_ASM1057085v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_010578165.1_ASM1057816v1.fna	bsubtilis	-	glpF(~3)	ilvD(64)	pta(2)	purH(66)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_011029235.1_ASM1102923v1.fna	lsalivarius	-	pstB(~3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_011075175.1_ASM1107517v1.fna	bsubtilis	42	glpF(29)	ilvD(26)	pta(28)	purH(33)	pycA(29)	rpoD(2)	tpiA(29)
+GCF_011379285.1_ASM1137928v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_011379305.1_ASM1137930v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_011682135.1_ASM1168213v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_011800165.1_ASM1180016v1.fna	-	-
+GCF_011800235.1_ASM1180023v1.fna	-	-
+GCF_011800275.1_ASM1180027v1.fna	-	-
+GCF_011800435.1_ASM1180043v1.fna	-	-
+GCF_011800445.1_ASM1180044v1.fna	-	-
+GCF_011800585.1_ASM1180058v1.fna	-	-
+GCF_011800605.1_ASM1180060v1.fna	-	-
+GCF_012028945.1_ASM1202894v1.fna	bsubtilis	-	glpF(~102)	ilvD(64)	pta(~2)	purH(66)	pycA(2)	rpoD(41)	tpiA(1)
+GCF_012029855.1_ASM1202985v1.fna	bsubtilis	227	glpF(98)	ilvD(65)	pta(111)	purH(128)	pycA(34)	rpoD(82)	tpiA(1)
+GCF_012648005.1_ASM1264800v1.fna	bsubtilis	-	glpF(~23)	ilvD(23)	pta(11)	purH(~29)	pycA(~24)	rpoD(9)	tpiA(10)
+GCF_013093435.1_B2.fna	-	-
+GCF_013112015.1_ASM1311201v1.fna	-	-
+GCF_013184885.1_ASM1318488v1.fna	ssuis	-	aroA(223)	cpn60(283)	dpr(34)	gki(248)	mutS(21)	recA(142)	thrA(8)
+GCF_013184895.1_ASM1318489v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_013184945.1_ASM1318494v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_013184965.1_ASM1318496v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_013267035.1_ASM1326703v1.fna	bsubtilis	145	glpF(59)	ilvD(48)	pta(55)	purH(56)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_013299825.1_ASM1329982v1.fna	-	-
+GCF_013423685.1_ASM1342368v1.fna	-	-
+GCF_013488185.1_ASM1348818v1.fna	ssuis	787	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(270)	recA(3)	thrA(25)
+GCF_014041875.1_ASM1404187v1.fna	sbsec	-	ddl(16)	gki(~25)	glnA(10)	mutS(~53)	mutS2(~61)	pheS(43)	proS(~17)	pyrE(67)	thrS(40)	tpi(9)
+GCF_014061425.1_ASM1406142v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_014061435.1_ASM1406143v1.fna	saureus	-	arcC(4)	aroE(1)	glpF(4)	gmk(157)	pta(5)	tpi(5)	yqiL(4)
+GCF_014287815.1_ASM1428781v1.fna	-	-
+GCF_014287855.1_ASM1428785v1.fna	-	-
+GCF_014324155.1_ASM1432415v1.fna	-	-
+GCF_014645615.1_ASM1464561v1.fna	-	-
+GCF_014650495.1_ASM1465049v1.fna	streptomyces	-	16S(71)	atpD(125)	gyrB(122)	recA(129?)	rpoB(124)	trpB(140)
+GCF_014679145.1_ASM1467914v1.fna	-	-
+GCF_014830215.1_Llact.fna	-	-
+GCF_014843075.1_ASM1484307v1.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_014856535.1_ASM1485653v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_014858585.1_ASM1485858v1.fna	-	-
+GCF_014875015.1_ASM1487501v1.fna	sagalactiae	110	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(9)
+GCF_014884605.1_ASM1488460v1.fna	-	-
+GCF_015102215.1_ASM1510221v1.fna	-	-
+GCF_015552895.1_ASM1555289v1.fna	-	-
+GCF_015555015.1_ASM1555501v1.fna	-	-
+GCF_015557145.1_ASM1555714v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_015670885.1_ASM1567088v1.fna	sbsec	-	ddl(36)	gki(9)	glnA(26)	mutS(10)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(13)	tpi(6)
+GCF_015700305.1_ASM1570030v1.fna	spneumoniae	-	aroE(427)	gdh(~40)	gki(345)	recP(135?)	spi(441)	xpt(677)	ddl(656)
+GCF_015711475.1_ASM1571147v2.fna	-	-
+GCF_015845775.1_ASM1584577v1.fna	bsubtilis	21	glpF(8)	ilvD(8)	pta(7)	purH(11)	pycA(9)	rpoD(8)	tpiA(6)
+GCF_016127135.1_ASM1612713v1.fna	-	-
+GCF_016406265.1_ASM1640626v1.fna	-	-
+GCF_016585065.1_ASM1658506v1.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_016585105.1_ASM1658510v1.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_016585285.1_ASM1658528v1.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_016585545.1_ASM1658554v1.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_016585645.1_ASM1658564v1.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_016585845.1_ASM1658584v1.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_016585885.1_ASM1658588v1.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_016586085.1_ASM1658608v1.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_016696745.1_ASM1669674v1.fna	-	-
+GCF_016837445.1_ASM1683744v1.fna	suberis	-	arcC(21)	ddl(1)	gki(3)	recP(4)	tdk(2)	tpi(3)	yqiL(14)
+GCF_016905205.1_ASM1690520v1.fna	ssuis	-	aroA(~256)	cpn60(513)	dpr(28)	gki(66)	mutS(~128)	recA(52)	thrA(64)
+GCF_016905215.1_ASM1690521v1.fna	ssuis	-	aroA(52)	cpn60(424)	dpr(28)	gki(79)	mutS(218)	recA(18?)	thrA(28)
+GCF_016905375.1_ASM1690537v1.fna	ssuis	1075	aroA(291)	cpn60(259)	dpr(30)	gki(330)	mutS(163)	recA(18)	thrA(166)
+GCF_016908785.1_ASM1690878v1.fna	-	-
+GCF_017357865.1_ASM1735786v1.fna	-	-
+GCF_017601115.1_ASM1760111v1.fna	bsubtilis	-	glpF(61)	ilvD(47)	pta(35)	purH(~83)	pycA(34)	rpoD(1)	tpiA(64)
+GCF_017869415.1_ASM1786941v1.fna	-	-
+GCF_018015195.1_ASM1801519v1.fna	-	-
+GCF_018140675.1_ASM1814067v1.fna	-	-
+GCF_018195735.1_ASM1819573v1.fna	-	-
+GCF_018195775.1_ASM1819577v1.fna	-	-
+GCF_018195805.1_ASM1819580v1.fna	-	-
+GCF_018224865.2_ASM1822486v2.fna	bsubtilis	-	glpF(59)	ilvD(~56)	pta(43?)	purH(62)	pycA(101)	rpoD(1)	tpiA(3)
+GCF_018252735.1_ASM1825273v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018252905.1_ASM1825290v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018252945.1_ASM1825294v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018252995.1_ASM1825299v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018253015.1_ASM1825301v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018253165.1_ASM1825316v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018253415.1_ASM1825341v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018253555.1_ASM1825355v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018253635.1_ASM1825363v1.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_018320725.1_ASM1832072v1.fna	-	-
+GCF_018365255.1_ASM1836525v1.fna	-	-
+GCF_018366595.1_ASM1836659v1.fna	sbsec	-	ddl(9)	gki(9)	glnA(8)	mutS(10)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(13)	tpi(6)
+GCF_018418025.1_ASM1841802v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_018418035.1_ASM1841803v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_018418115.1_ASM1841811v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018418215.1_ASM1841821v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018418615.1_ASM1841861v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018418655.1_ASM1841865v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_018418675.1_ASM1841867v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018418735.1_ASM1841873v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018418755.1_ASM1841875v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419055.1_ASM1841905v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419115.1_ASM1841911v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419145.1_ASM1841914v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419155.1_ASM1841915v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419295.1_ASM1841929v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_018419345.1_ASM1841934v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419395.1_ASM1841939v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419415.1_ASM1841941v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419455.1_ASM1841945v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419505.1_ASM1841950v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419545.1_ASM1841954v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419695.1_ASM1841969v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419745.1_ASM1841974v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018419855.1_ASM1841985v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_018419865.1_ASM1841986v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018424075.1_ASM1842407v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018424205.1_ASM1842420v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018424365.1_ASM1842436v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018619315.1_ASM1861931v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_018729415.1_ASM1872941v1.fna	bsubtilis	-	glpF(34)	ilvD(33)	pta(98)	purH(39)	pycA(60)	rpoD(31)	tpiA(32)
+GCF_018780865.1_ASM1878086v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018780875.1_ASM1878087v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018780895.1_ASM1878089v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018780925.1_ASM1878092v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018780965.1_ASM1878096v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018780985.1_ASM1878098v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018781005.1_ASM1878100v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_018991605.1_ASM1899160v1.fna	-	-
+GCF_018991645.1_ASM1899164v1.fna	-	-
+GCF_019037305.1_ASM1903730v1.fna	bsubtilis	-	glpF(~61)	ilvD(39)	pta(~112)	purH(~40)	pycA(~84)	rpoD(~40)	tpiA(3)
+GCF_019037405.1_ASM1903740v1.fna	bsubtilis	-	glpF(~61)	ilvD(39)	pta(~112)	purH(~40)	pycA(~84)	rpoD(~40)	tpiA(3)
+GCF_019537135.1_ASM1953713v1.fna	-	-
+GCF_019537155.1_ASM1953715v1.fna	-	-
+GCF_019603355.1_ASM1960335v1.fna	-	-
+GCF_019661225.1_ASM1966122v1.fna	-	-
+GCF_019661245.1_ASM1966124v1.fna	-	-
+GCF_019793495.1_ASM1979349v1.fna	ssuis	-	aroA(~256)	cpn60(513)	dpr(28)	gki(66)	mutS(~128)	recA(52)	thrA(64)
+GCF_019793845.1_ASM1979384v1.fna	ssuis	1590	aroA(122)	cpn60(474)	dpr(100)	gki(163)	mutS(172)	recA(195)	thrA(101)
+GCF_019793875.1_ASM1979387v1.fna	ssuis	-	aroA(141)	cpn60(476)	dpr(~110)	gki(163)	mutS(172)	recA(113)	thrA(101)
+GCF_019793935.1_ASM1979393v1.fna	ssuis	1590	aroA(122)	cpn60(474)	dpr(100)	gki(163)	mutS(172)	recA(195)	thrA(101)
+GCF_019794175.1_ASM1979417v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_019794215.1_ASM1979421v1.fna	ssuis	1599	aroA(124)	cpn60(476)	dpr(100)	gki(163)	mutS(133)	recA(195)	thrA(101)
+GCF_019794345.1_ASM1979434v1.fna	ssuis	-	aroA(141)	cpn60(476)	dpr(~110)	gki(163)	mutS(172)	recA(113)	thrA(101)
+GCF_019794455.1_ASM1979445v1.fna	ssuis	-	aroA(122)	cpn60(476)	dpr(131)	gki(163)	mutS(172)	recA(195)	thrA(101)
+GCF_019794485.1_ASM1979448v1.fna	ssuis	1324	aroA(137)	cpn60(145)	dpr(121)	gki(103)	mutS(137)	recA(276)	thrA(94)
+GCF_019794575.1_ASM1979457v1.fna	ssuis	1143	aroA(137)	cpn60(145)	dpr(121)	gki(103)	mutS(137)	recA(38)	thrA(94)
+GCF_019794595.1_ASM1979459v1.fna	ssuis	1143	aroA(137)	cpn60(145)	dpr(121)	gki(103)	mutS(137)	recA(38)	thrA(94)
+GCF_019794675.1_ASM1979467v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_019794825.1_ASM1979482v1.fna	ssuis	-	aroA(141)	cpn60(476)	dpr(~110)	gki(163)	mutS(172)	recA(113)	thrA(101)
+GCF_019794945.1_ASM1979494v1.fna	ssuis	-	aroA(122)	cpn60(476)	dpr(131)	gki(163)	mutS(172)	recA(195)	thrA(101)
+GCF_019890715.1_ASM1989071v1.fna	-	-
+GCF_019972895.1_ASM1997289v1.fna	-	-
+GCF_019997305.1_ASM1999730v1.fna	bsubtilis	42	glpF(29)	ilvD(26)	pta(28)	purH(33)	pycA(29)	rpoD(2)	tpiA(29)
+GCF_020026555.1_ASM2002655v1.fna	lsalivarius	-	pstB(7)	rpsB(7)	nrdB(10?)	rpoA(6)	parB(~17)
+GCF_020074745.1_ASM2007474v1.fna	saureus	26	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(9)
+GCF_020111455.1_ASM2011145v1.fna	sagalactiae	1	adhP(1)	pheS(1)	atr(2)	glnA(1)	sdhA(1)	glcK(2)	tkt(2)
+GCF_020218165.1_ASM2021816v1.fna	-	-
+GCF_020218185.1_ASM2021818v1.fna	-	-
+GCF_020443465.1_ASM2044346v1.fna	-	-
+GCF_020443485.1_ASM2044348v1.fna	-	-
+GCF_020443525.1_ASM2044352v1.fna	-	-
+GCF_020537305.1_ASM2053730v1.fna	-	-
+GCF_020537665.1_ASM2053766v1.fna	-	-
+GCF_020735845.1_ASM2073584v1.fna	-	-
+GCF_020786485.1_ASM2078648v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_021172185.1_ASM2117218v1.fna	bsubtilis	-	glpF(3)	ilvD(18)	pta(2)	purH(122)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_021432185.1_ASM2143218v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_022239145.1_ASM2223914v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_022239525.1_ASM2223952v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_022402845.1_ASM2240284v1.fna	ssuis	87	aroA(18)	cpn60(8)	dpr(24)	gki(12)	mutS(1)	recA(10)	thrA(4)
+GCF_022426565.1_ASM2242656v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022426645.1_ASM2242664v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022426765.1_ASM2242676v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022426805.1_ASM2242680v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022427205.1_ASM2242720v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427235.1_ASM2242723v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_022427285.1_ASM2242728v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_022427335.1_ASM2242733v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022427365.1_ASM2242736v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427425.1_ASM2242742v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022427445.1_ASM2242744v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427465.1_ASM2242746v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022427525.1_ASM2242752v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427605.1_ASM2242760v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427645.1_ASM2242764v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427655.1_ASM2242765v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427685.1_ASM2242768v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427725.1_ASM2242772v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427805.1_ASM2242780v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427845.1_ASM2242784v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022427885.1_ASM2242788v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022427945.1_ASM2242794v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022428425.1_ASM2242842v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_022489625.1_ASM2248962v1.fna	ssuis	1711	aroA(1)	cpn60(1)	dpr(1)	gki(86)	mutS(1)	recA(1)	thrA(3)
+GCF_022748675.1_ASM2274867v1.fna	bsubtilis	-	glpF(~19)	ilvD(~19)	pta(~8)	purH(~25)	pycA(~5)	rpoD(5)	tpiA(7)
+GCF_022815645.1_ASM2281564v1.fna	-	-
+GCF_022867545.1_ASM2286754v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022867585.1_ASM2286758v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022867605.1_ASM2286760v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_022867685.1_ASM2286768v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_023060875.1_ASM2306087v1.fna	suberis	-	arcC(10)	ddl(67)	gki(4)	recP(1)	tdk(46)	tpi(4)	yqiL(33?)
+GCF_023061955.1_ASM2306195v1.fna	suberis	-	arcC(1)	ddl(2)	gki(3)	recP(2)	tdk(1)	tpi(1)	yqiL(35?)
+GCF_023078515.1_ASM2307851v1.fna	-	-
+GCF_023109105.1_ASM2310910v1.fna	spneumoniae	-	aroE(~525)	gdh(~290)	gki(~118)	recP(~451)	spi(~329)	xpt(~595)	ddl(601?)
+GCF_023149475.1_ASM2314947v1.fna	sagalactiae	23	adhP(5)	pheS(4)	atr(6)	glnA(3)	sdhA(2)	glcK(1)	tkt(3)
+GCF_023162015.2_ASM2316201v2.fna	sbsec	-	ddl(7)	gki(6)	glnA(6)	mutS(7)	mutS2(8)	pheS(7)	proS(40)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_023198165.1_ASM2319816v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023205855.1_ASM2320585v1.fna	-	-
+GCF_023218755.1_ASM2321875v1.fna	-	-
+GCF_023277745.1_ASM2327774v1.fna	-	-
+GCF_023469815.1_ASM2346981v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_023469905.1_ASM2346990v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_023469925.1_ASM2346992v1.fna	ssuis	108	aroA(8)	cpn60(21)	dpr(5)	gki(45)	mutS(44)	recA(22)	thrA(23)
+GCF_023469945.1_ASM2346994v1.fna	ssuis	242	aroA(1)	cpn60(1)	dpr(1)	gki(12)	mutS(1)	recA(1)	thrA(3)
+GCF_023469985.1_ASM2346998v1.fna	ssuis	108	aroA(8)	cpn60(21)	dpr(5)	gki(45)	mutS(44)	recA(22)	thrA(23)
+GCF_023470005.1_ASM2347000v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_023470015.1_ASM2347001v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_023470185.1_ASM2347018v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_023470365.1_ASM2347036v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_023470505.1_ASM2347050v1.fna	ssuis	7	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(3)
+GCF_023521175.1_ASM2352117v1.fna	bsubtilis	-	glpF(~3)	ilvD(64)	pta(2)	purH(66)	pycA(2)	rpoD(41)	tpiA(1)
+GCF_023521475.1_ASM2352147v1.fna	bsubtilis	-	glpF(99)	ilvD(~56)	pta(2)	purH(66)	pycA(34)	rpoD(1)	tpiA(3)
+GCF_023521595.1_ASM2352159v1.fna	bsubtilis	-	glpF(~3)	ilvD(64)	pta(2)	purH(66)	pycA(2)	rpoD(41)	tpiA(1)
+GCF_023613935.1_ASM2361393v1.fna	-	-
+GCF_023614095.1_ASM2361409v1.fna	-	-
+GCF_023653015.1_ASM2365301v1.fna	-	-
+GCF_023655135.1_ASM2365513v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023655165.1_ASM2365516v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023655255.1_ASM2365525v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023655295.1_ASM2365529v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023655315.1_ASM2365531v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023655345.1_ASM2365534v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023655385.1_ASM2365538v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_023657405.1_ASM2365740v1.fna	-	-
+GCF_023713105.1_ASM2371310v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_023809745.1_ASM2380974v1.fna	-	-
+GCF_023955395.1_ASM2395539v1.fna	bsubtilis	-	glpF(~21)	ilvD(~8)	pta(~7)	purH(-)	pycA(~22)	rpoD(~8)	tpiA(~42)
+GCF_024128815.1_ASM2412881v1.fna	bsubtilis	-	glpF(3)	ilvD(65)	pta(~2)	purH(~132)	pycA(2)	rpoD(~41)	tpiA(3?)
+GCF_024136525.1_ASM2413652v1.fna	ssuis	-	aroA(52)	cpn60(424)	dpr(28)	gki(79)	mutS(218)	recA(18?)	thrA(28)
+GCF_024170225.1_ASM2417022v1.fna	-	-
+GCF_024170735.1_ASM2417073v1.fna	-	-
+GCF_024408125.1_ASM2440812v1.fna	bsubtilis	-	glpF(29)	ilvD(61)	pta(45)	purH(~103)	pycA(51)	rpoD(30)	tpiA(68)
+GCF_024461915.1_ASM2446191v1.fna	-	-
+GCF_024461935.1_ASM2446193v1.fna	-	-
+GCF_024580395.1_ASM2458039v1.fna	-	-
+GCF_024580755.1_ASM2458075v1.fna	-	-
+GCF_024580765.1_ASM2458076v1.fna	-	-
+GCF_024580965.1_ASM2458096v1.fna	-	-
+GCF_024581155.1_ASM2458115v1.fna	-	-
+GCF_024581265.1_ASM2458126v1.fna	ssuis	-	aroA(25)	cpn60(~95)	dpr(216)	gki(6)	mutS(9)	recA(13)	thrA(~346)
+GCF_024623085.1_ASM2462308v1.fna	bsubtilis	-	glpF(~61)	ilvD(1)	pta(2)	purH(~123)	pycA(55)	rpoD(1)	tpiA(~64)
+GCF_024653135.1_ASM2465313v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_024665655.1_ASM2466565v1.fna	-	-
+GCF_025188735.1_ASM2518873v1.fna	-	-
+GCF_025189085.1_ASM2518908v1.fna	-	-
+GCF_025189145.1_ASM2518914v1.fna	-	-
+GCF_025189205.1_ASM2518920v1.fna	-	-
+GCF_025245215.1_ASM2524521v1.fna	bsubtilis	-	glpF(3)	ilvD(18)	pta(2)	purH(6)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_026309415.1_ASM2630941v1.fna	bsubtilis	-	glpF(3)	ilvD(18)	pta(2)	purH(6)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_026420065.1_ASM2642006v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_026420085.1_ASM2642008v1.fna	ssuis	353	aroA(1)	cpn60(1)	dpr(1)	gki(147)	mutS(1)	recA(1)	thrA(3)
+GCF_026625945.1_ASM2662594v1.fna	spneumoniae	7645	aroE(12)	gdh(38)	gki(9)	recP(12)	spi(77)	xpt(21)	ddl(14)
+GCF_026625965.1_ASM2662596v1.fna	spneumoniae	7645	aroE(12)	gdh(38)	gki(9)	recP(12)	spi(77)	xpt(21)	ddl(14)
+GCF_026650925.1_ASM2665092v1.fna	-	-
+GCF_026782025.1_ASM2678202v1.fna	sbsec	-	ddl(~68)	gki(6)	glnA(8)	mutS(74)	mutS2(76)	pheS(7)	proS(6)	pyrE(12)	thrS(53)	tpi(22)
+GCF_026788905.1_ASM2678890v1.fna	bsubtilis	-	glpF(~21)	ilvD(~8)	pta(~7)	purH(~26)	pycA(9)	rpoD(~8)	tpiA(23)
+GCF_026789005.1_ASM2678900v1.fna	bsubtilis	-	glpF(21)	ilvD(8)	pta(7)	purH(26)	pycA(22)	rpoD(8)	tpiA(~23)
+GCF_026790935.1_ASM2679093v1.fna	bsubtilis	-	glpF(~8)	ilvD(8)	pta(7)	purH(27)	pycA(22)	rpoD(~8)	tpiA(~23)
+GCF_026790945.1_ASM2679094v1.fna	bsubtilis	-	glpF(21)	ilvD(20)	pta(7)	purH(26)	pycA(22)	rpoD(8)	tpiA(~23)
+GCF_026791425.1_ASM2679142v1.fna	bsubtilis	-	glpF(~21)	ilvD(~8)	pta(7)	purH(27?)	pycA(9)	rpoD(~8)	tpiA(~24)
+GCF_026791995.1_ASM2679199v1.fna	bsubtilis	-	glpF(~21)	ilvD(8)	pta(~7)	purH(26)	pycA(-)	rpoD(8)	tpiA(24)
+GCF_026792035.1_ASM2679203v1.fna	bsubtilis	-	glpF(21)	ilvD(8)	pta(~7)	purH(~27)	pycA(~22)	rpoD(~8)	tpiA(~24)
+GCF_026792345.1_ASM2679234v1.fna	bsubtilis	-	glpF(~8)	ilvD(8)	pta(7)	purH(27)	pycA(22)	rpoD(~8)	tpiA(~23)
+GCF_026793955.1_ASM2679395v1.fna	bsubtilis	-	glpF(3)	ilvD(~106)	pta(~20)	purH(112)	pycA(~84)	rpoD(1)	tpiA(3)
+GCF_026795275.1_ASM2679527v1.fna	bsubtilis	-	glpF(3)	ilvD(39)	pta(~112)	purH(~121)	pycA(~84)	rpoD(40?)	tpiA(3)
+GCF_026847645.1_ASM2684764v1.fna	-	-
+GCF_027213705.1_ASM2721370v1.fna	bsubtilis	-	glpF(~24)	ilvD(~102)	pta(~26)	purH(-)	pycA(~67)	rpoD(19)	tpiA(~66)
+GCF_027356315.1_ASM2735631v1.fna	-	-
+GCF_027568575.1_ASM2756857v1.fna	-	-
+GCF_027594565.1_ASM2759456v1.fna	-	-
+GCF_027594765.1_ASM2759476v1.fna	-	-
+GCF_027658685.1_ASM2765868v1.fna	sbsec	-	ddl(9)	gki(9)	glnA(8)	mutS(10)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(13)	tpi(6)
+GCF_027665935.1_ASM2766593v1.fna	lsalivarius	-	pstB(2)	rpsB(4)	nrdB(7?)	rpoA(1)	parB(9?)
+GCF_027671005.1_ASM2767100v1.fna	-	-
+GCF_027672645.1_ASM2767264v1.fna	-	-
+GCF_027672665.1_ASM2767266v1.fna	-	-
+GCF_027672695.1_ASM2767269v1.fna	-	-
+GCF_027672725.1_ASM2767272v1.fna	-	-
+GCF_027672785.1_ASM2767278v1.fna	-	-
+GCF_027672965.1_ASM2767296v1.fna	-	-
+GCF_027673065.1_ASM2767306v1.fna	-	-
+GCF_027673085.1_ASM2767308v1.fna	-	-
+GCF_027673155.1_ASM2767315v1.fna	-	-
+GCF_027673225.1_ASM2767322v1.fna	-	-
+GCF_027673305.1_ASM2767330v1.fna	-	-
+GCF_027673485.1_ASM2767348v1.fna	-	-
+GCF_027674205.1_ASM2767420v1.fna	-	-
+GCF_027674405.1_ASM2767440v1.fna	-	-
+GCF_027674525.1_ASM2767452v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027674565.1_ASM2767456v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027674685.1_ASM2767468v1.fna	-	-
+GCF_027676135.1_ASM2767613v1.fna	-	-
+GCF_027676165.1_ASM2767616v1.fna	-	-
+GCF_027679985.1_ASM2767998v1.fna	-	-
+GCF_027681385.1_ASM2768138v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027685465.1_ASM2768546v1.fna	sbsec	-	ddl(7)	gki(6)	glnA(6)	mutS(7)	mutS2(8)	pheS(7)	proS(40)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_027685795.1_ASM2768579v1.fna	lsalivarius	-	pstB(~3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027685885.1_ASM2768588v1.fna	lsalivarius	-	pstB(~3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027685965.1_ASM2768596v1.fna	lsalivarius	-	pstB(~3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027686005.1_ASM2768600v1.fna	lsalivarius	-	pstB(~3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027691665.1_ASM2769166v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027692205.1_ASM2769220v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027695365.1_ASM2769536v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_027695745.1_ASM2769574v1.fna	lsalivarius	-	pstB(~3)	rpsB(2)	nrdB(6?)	rpoA(~5)	parB(7)
+GCF_027861765.1_ASM2786176v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_027861865.1_ASM2786186v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_027862685.1_ASM2786268v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_027862775.1_ASM2786277v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_027863105.1_ASM2786310v1.fna	sagalactiae	27	adhP(1)	pheS(1)	atr(3)	glnA(4)	sdhA(2)	glcK(2)	tkt(2)
+GCF_027863155.1_ASM2786315v1.fna	sagalactiae	1167	adhP(36)	pheS(1)	atr(89)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_027963685.1_ASM2796368v1.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_028325685.1_ASM2832568v1.fna	-	-
+GCF_028335765.1_ASM2833576v1.fna	ssuis	1263	aroA(91)	cpn60(110)	dpr(74)	gki(158)	mutS(109)	recA(34)	thrA(101)
+GCF_028462485.1_ASM2846248v1.fna	bsubtilis	-	glpF(~3)	ilvD(48)	pta(~2)	purH(~66)	pycA(2)	rpoD(41)	tpiA(1)
+GCF_028594455.2_ASM2859445v2.fna	-	-
+GCF_028606985.1_ASM2860698v1.fna	-	-
+GCF_028743795.1_ASM2874379v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_028823545.1_ASM2882354v1.fna	sbsec	-	ddl(~16)	gki(~45)	glnA(10)	mutS(53)	mutS2(53)	pheS(~43)	proS(17)	pyrE(~72)	thrS(~40)	tpi(~9)
+GCF_028823555.1_ASM2882355v1.fna	sbsec	-	ddl(~16)	gki(~22)	glnA(10)	mutS(55?)	mutS2(~28)	pheS(~43)	proS(~53)	pyrE(75?)	thrS(~40)	tpi(27)
+GCF_028864405.1_ASM2886440v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_028864415.1_ASM2886441v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_029219665.1_ASM2921966v1.fna	-	-
+GCF_029395415.1_ASM2939541v1.fna	-	-
+GCF_029536775.1_ASM2953677v1.fna	bsubtilis	-	glpF(~3)	ilvD(3)	pta(2)	purH(112)	pycA(2)	rpoD(84)	tpiA(1)
+GCF_029536935.1_ASM2953693v1.fna	bsubtilis	-	glpF(~3)	ilvD(3)	pta(2)	purH(112)	pycA(2)	rpoD(84)	tpiA(1)
+GCF_029537135.1_ASM2953713v1.fna	bsubtilis	-	glpF(3)	ilvD(64)	pta(2)	purH(~131)	pycA(34)	rpoD(1)	tpiA(3)
+GCF_029664405.1_ASM2966440v1.fna	-	-
+GCF_029664435.1_ASM2966443v1.fna	-	-
+GCF_029664485.1_ASM2966448v1.fna	-	-
+GCF_029664495.1_ASM2966449v1.fna	-	-
+GCF_029667185.1_ASM2966718v1.fna	-	-
+GCF_029743055.1_ASM2974305v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_029917105.1_ASM2991710v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_029953655.1_ASM2995365v1.fna	-	-
+GCF_030005595.1_ASM3000559v1.fna	bsubtilis	-	glpF(3)	ilvD(48)	pta(~2)	purH(112)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_030016255.1_ASM3001625v1.fna	bsubtilis	102	glpF(59)	ilvD(64)	pta(66)	purH(71)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_030053535.1_ASM3005353v1.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_030121685.1_ASM3012168v1.fna	bsubtilis	-	glpF(3)	ilvD(64)	pta(107)	purH(112)	pycA(26)	rpoD(41)	tpiA(3)
+GCF_030131845.1_ASM3013184v1.fna	-	-
+GCF_030217095.1_ASM3021709v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_030229925.1_ASM3022992v1.fna	-	-
+GCF_030233755.1_ASM3023375v1.fna	sagalactiae	19	adhP(1)	pheS(1)	atr(3)	glnA(2)	sdhA(2)	glcK(2)	tkt(2)
+GCF_030237775.1_ASM3023777v1.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+GCF_030408595.1_ASM3040859v1.fna	-	-
+GCF_030408815.1_ASM3040881v1.fna	-	-
+GCF_030433815.1_ASM3043381v1.fna	-	-
+GCF_030450615.1_ASM3045061v1.fna	-	-
+GCF_030489665.1_ASM3048966v1.fna	-	-
+GCF_030519455.1_ASM3051945v1.fna	bsubtilis	-	glpF(3)	ilvD(~3)	pta(2)	purH(66)	pycA(34)	rpoD(41)	tpiA(~3)
+GCF_030585465.1_ASM3058546v1.fna	-	-
+GCF_030585485.1_ASM3058548v1.fna	-	-
+GCF_030585545.1_ASM3058554v1.fna	-	-
+GCF_030908585.1_ASM3090858v1.fna	-	-
+GCF_030909955.1_ASM3090995v1.fna	bsubtilis	-	glpF(3)	ilvD(65)	pta(~55)	purH(~131)	pycA(34)	rpoD(~84)	tpiA(1)
+GCF_031192325.1_ASM3119232v1.fna	-	-
+GCF_031316495.1_ASM3131649v1.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_031454175.1_ASM3145417v1.fna	-	-
+GCF_032464685.1_ASM3246468v1.fna	-	-
+GCF_032464735.1_ASM3246473v1.fna	-	-
+GCF_032586255.1_ASM3258625v1.fna	-	-
+GCF_032878815.1_ASM3287881v1.fna	-	-
+GCF_032937075.1_ASM3293707v1.fna	-	-
+GCF_033023055.1_ASM3302305v1.fna	sbsec	-	ddl(7)	gki(6)	glnA(26)	mutS(7)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_033023095.1_ASM3302309v1.fna	sbsec	-	ddl(7)	gki(6)	glnA(26)	mutS(7)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_033023115.1_ASM3302311v1.fna	sbsec	-	ddl(7)	gki(6)	glnA(26)	mutS(7)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_033023195.1_ASM3302319v1.fna	sbsec	-	ddl(7)	gki(6)	glnA(26)	mutS(7)	mutS2(8)	pheS(7)	proS(6)	pyrE(12)	thrS(~53)	tpi(6)
+GCF_900007905.1_assembly_GD-0008.fna	ssuis	28	aroA(2)	cpn60(30)	dpr(5)	gki(34)	mutS(31)	recA(3)	thrA(25)
+GCF_900009905.1_assembly_GD-0032.fna	ssuis	13	aroA(1)	cpn60(12)	dpr(1)	gki(1)	mutS(6)	recA(21)	thrA(21)
+GCF_900010565.1_assembly_12V457.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900016175.1_ASM90001617v1.fna	-	-
+GCF_900041085.1_7748_6_27.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900046425.1_7748_6_30.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900049635.1_7054_7_19.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900050395.1_7054_7_86.fna	ssuis	908	aroA(38)	cpn60(340)	dpr(237)	gki(298)	mutS(84)	recA(26)	thrA(9)
+GCF_900050415.1_7054_7_54.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900050435.1_7054_7_72.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900050845.1_7054_7_69.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900051255.1_7054_7_20.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900051265.1_7054_7_50.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900051595.1_7054_7_11.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900052005.1_8525_5_81.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900053795.1_8337_6_25.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900054565.1_7114_5_51.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900054575.1_7054_7_30.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900054835.1_7054_7_5.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900054845.1_7054_7_75.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900056525.1_7114_5_82.fna	ssuis	877	aroA(15)	cpn60(11)	dpr(9)	gki(7)	mutS(305)	recA(30)	thrA(12)
+GCF_900056545.1_7054_7_8.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900056615.1_8525_5_96.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900058015.1_7114_5_83.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900058025.1_7114_5_84.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900058065.1_8525_5_86.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900058265.1_7114_5_62.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900058275.1_8337_6_26.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900058315.1_8525_5_11.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900058505.1_8337_6_81.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900058685.1_5749_1_9.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900059085.1_7114_5_56.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900059115.1_7054_7_16.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900059415.1_7114_5_12.fna	ssuis	861	aroA(23)	cpn60(99)	dpr(52)	gki(101)	mutS(220)	recA(194)	thrA(11)
+GCF_900059425.1_7114_5_13.fna	ssuis	879	aroA(63)	cpn60(68)	dpr(21)	gki(297)	mutS(7)	recA(30)	thrA(8)
+GCF_900059465.1_8337_6_13.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900059495.1_8337_6_31.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900059775.1_7054_7_40.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900059895.1_7114_5_63.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900060325.1_7114_5_28.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900060645.1_7114_5_69.fna	ssuis	890	aroA(25)	cpn60(13)	dpr(235)	gki(254)	mutS(117)	recA(38)	thrA(113)
+GCF_900060665.1_8525_5_27.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900060955.1_7114_5_85.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900061365.1_7054_7_10.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900061385.1_7054_7_71.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900062275.1_7114_5_90.fna	ssuis	859	aroA(38)	cpn60(10)	dpr(30)	gki(66)	mutS(84)	recA(71)	thrA(174)
+GCF_900063015.1_8525_5_95.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900064665.1_7054_7_15.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900064675.1_7054_7_56.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065045.1_7054_7_59.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065235.1_7054_7_14.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900065705.1_5749_1_3.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065725.1_5749_1_8.fna	ssuis	29	aroA(8)	cpn60(30)	dpr(5)	gki(34)	mutS(30)	recA(3)	thrA(25)
+GCF_900065735.1_5749_1_10.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065765.1_7054_7_31.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065785.1_7054_7_7.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065795.1_8337_6_61.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900065805.1_8337_6_64.fna	ssuis	1	aroA(1)	cpn60(1)	dpr(1)	gki(1)	mutS(1)	recA(1)	thrA(1)
+GCF_900073475.1_10059.fna	sagalactiae	416	adhP(76)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_900073555.1_10058.fna	sagalactiae	416	adhP(76)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_900074065.1_VSA26.fna	sagalactiae	61	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_900080945.1_12625_6_13.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900081615.1_12641_3_44.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900082005.1_12673_2_27.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900082015.1_12673_2_28.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900082135.1_12673_2_60.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900095345.1_ASM90009534v1.fna	bsubtilis	-	glpF(~19)	ilvD(~5)	pta(8)	purH(~25)	pycA(21)	rpoD(5)	tpiA(7)
+GCF_900099985.1_IMG-taxon_2634166206_annotated_assembly.fna	-	-
+GCF_900100035.1_IMG-taxon_2593339267_annotated_assembly.fna	sbsec	186	ddl(52)	gki(40)	glnA(10)	mutS(57)	mutS2(61)	pheS(45)	proS(56)	pyrE(75)	thrS(15)	tpi(9)
+GCF_900100545.1_IMG-taxon_2651870321_annotated_assembly.fna	-	-
+GCF_900109395.1_IMG-taxon_2608642181_annotated_assembly.fna	sbsec	197	ddl(48)	gki(47)	glnA(10)	mutS(56)	mutS2(57)	pheS(41)	proS(17)	pyrE(71)	thrS(40)	tpi(26)
+GCF_900111865.1_IMG-taxon_2654588109_annotated_assembly.fna	-	-
+GCF_900115215.1_IMG-taxon_2606217737_annotated_assembly.fna	-	-
+GCF_900115895.1_IMG-taxon_2654588207_annotated_assembly.fna	sbsec	201	ddl(47)	gki(49)	glnA(10)	mutS(55)	mutS2(56)	pheS(11)	proS(51)	pyrE(70)	thrS(39)	tpi(9)
+GCF_900126195.1_17175_2_54.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900126755.1_17175_3_47.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_900155685.1_Paenibacillus_bouchesdurhonensis.fna	-	-
+GCF_900177305.1_IMG-taxon_2547132509_annotated_assembly.fna	bsubtilis	-	glpF(3)	ilvD(64)	pta(66)	purH(71)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_900191025.1_6512_2_10.fna	spneumoniae	4697	aroE(7)	gdh(5)	gki(15)	recP(10)	spi(17)	xpt(19)	ddl(255)
+GCF_900195045.1_13681_1_28.fna	spneumoniae	11796	aroE(7)	gdh(13)	gki(4)	recP(1)	spi(6)	xpt(1)	ddl(14)
+GCF_900215365.1_IMG-taxon_2545824506_annotated_assembly.fna	bsubtilis	-	glpF(3)	ilvD(64)	pta(66)	purH(71)	pycA(34)	rpoD(1)	tpiA(1)
+GCF_900445425.1_52087_D01.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_900458965.1_43188_F01.fna	sagalactiae	-	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(171?)	tkt(1)
+GCF_900459245.1_41825_C01.fna	sagalactiae	61	adhP(13)	pheS(1)	atr(1)	glnA(13)	sdhA(1)	glcK(1)	tkt(1)
+GCF_900490735.1_G1563.fna	-	-
+GCF_900490815.1_G1564.fna	-	-
+GCF_900626095.1_PRJEB22819.fna	-	-
+GCF_900631615.1_NCTC10741_2.fna	-	-
+GCF_900636435.1_42197_C01.fna	-	-
+GCF_902167555.1_B.longum_ssp_infantis_2_mod_mod2.fna	-	-
+GCF_902364565.1_MGYG-HGUT-00226.fna	-	-
+GCF_902858925.1_Ssal_L22.fna	-	-
+GCF_905319145.1_NRS6185.fna	bsubtilis	-	glpF(3)	ilvD(64)	pta(66)	purH(71)	pycA(1)	rpoD(1)	tpiA(1)
+GCF_918026825.1_ASM91802682v1.fna	-	-
+GCF_925281505.1_IM145.fna	-	-
+GCF_925299355.1_IM914.fna	-	-
+GCF_925301855.1_IM1409.fna	-	-
+GCF_932751155.1_Streptococcus_thoraltensis_DSM110086.fna	-	-
+GCF_934215815.1_ERR7745429_bin.54.fna	-	-
+GCF_945836595.1_BRI_2.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_946887765.1_H3B1-01A.fna	-	-
+GCF_947054575.1_ASM94705457v1.fna	-	-
+GCF_947054585.1_ASM94705458v1.fna	-	-
+GCF_947054595.1_ASM94705459v1.fna	-	-
+GCF_947054675.1_ASM94705467v1.fna	-	-
+GCF_947054685.1_ASM94705468v1.fna	-	-
+GCF_947059885.1_ASM94705988v1.fna	-	-
+GCF_947059895.1_ASM94705989v1.fna	-	-
+GCF_947061625.1_ASM94706162v1.fna	-	-
+GCF_947062035.1_ASM94706203v1.fna	-	-
+GCF_947064825.1_ASM94706482v1.fna	-	-
+GCF_947064895.1_ASM94706489v1.fna	-	-
+GCF_947065575.1_ASM94706557v1.fna	-	-
+GCF_947065665.1_ASM94706566v1.fna	-	-
+GCF_947065965.1_ASM94706596v1.fna	-	-
+GCF_947066195.1_ASM94706619v1.fna	-	-
+GCF_947066335.1_ASM94706633v1.fna	-	-
+GCF_947066655.1_ASM94706665v1.fna	-	-
+GCF_947067415.1_ASM94706741v1.fna	-	-
+GCF_947067565.1_ASM94706756v1.fna	-	-
+GCF_947308445.1_ASM94730844v1.fna	-	-
+GCF_947494875.1_235-3Z.fasta.fna	-	-
+GCF_947644355.1_SRR17794281_bin.15_metawrap_v1.3_MAG.fna	-	-
+GCF_950101985.1_S-thermophilus_M134.fna	streptothermophilus	-	ddlA(1)	glcK(7)	proA(2)	ptsI(22)	serB(10)	tkt(4)
+GCF_954789315.1_J01114.fna	saureus	25	arcC(4)	aroE(1)	glpF(4)	gmk(1)	pta(5)	tpi(5)	yqiL(4)
+GCF_958411575.1_ERR9354029_bin.3_MetaWRAP_v1.3_MAG.fna	bsubtilis	7	glpF(9)	ilvD(4)	pta(6)	purH(7)	pycA(5)	rpoD(4)	tpiA(5)
+GCF_959028625.1_ERR10149253_bin.18_MetaWRAP_v1.3_MAG.fna	-	-
+GCF_963527335.1_ERR9969176_bin.4_MetaWRAP_v1.3_MAG.fna	spneumoniae	-	aroE(~277)	gdh(~290)	gki(675)	recP(~288)	spi(182)	xpt(~735)	ddl(~824)
+MGYG000000226.fna	-	-
+MGYG000003806.fna	-	-
+MGYG000004680.fna	-	-
+MGYG000005527.fna	-	-
+MGYG000008764.fna	-	-
+MGYG000017060.fna	-	-
+MGYG000017845.fna	-	-
+MGYG000018935.fna	-	-
+MGYG000020089.fna	-	-
+MGYG000021667.fna	-	-
+MGYG000034266.fna	-	-
+MGYG000037346.fna	-	-
+MGYG000040494.fna	-	-
+MGYG000047616.fna	-	-
+MGYG000058235.fna	-	-
+MGYG000065619.fna	-	-
+MGYG000066483.fna	sbsec	-	ddl(~52)	gki(~25)	glnA(10)	mutS(-)	mutS2(~57)	pheS(~11)	proS(-)	pyrE(15)	thrS(~40)	tpi(9)
+MGYG000069900.fna	-	-
+MGYG000072529.fna	-	-
+MGYG000075800.fna	-	-
+MGYG000075807.fna	-	-
+MGYG000081683.fna	-	-
+MGYG000081878.fna	-	-
+MGYG000083036.fna	-	-
+MGYG000085765.fna	-	-
+MGYG000086390.fna	-	-
+MGYG000086517.fna	lsalivarius	-	pstB(3)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(~7)
+MGYG000088841.fna	-	-
+MGYG000095231.fna	-	-
+MGYG000095669.fna	-	-
+MGYG000100239.fna	-	-
+MGYG000105923.fna	-	-
+MGYG000121622.fna	-	-
+MGYG000128521.fna	-	-
+MGYG000130817.fna	-	-
+MGYG000133557.fna	-	-
+MGYG000136910.fna	-	-
+MGYG000140074.fna	-	-
+MGYG000141324.fna	-	-
+MGYG000141436.fna	-	-
+MGYG000154361.fna	-	-
+MGYG000156587.fna	-	-
+MGYG000162809.fna	-	-
+MGYG000168161.fna	-	-
+MGYG000175713.fna	-	-
+MGYG000182185.fna	-	-
+MGYG000185046.fna	-	-
+MGYG000185527.fna	-	-
+MGYG000186862.fna	-	-
+MGYG000187106.fna	-	-
+MGYG000187535.fna	-	-
+MGYG000190779.fna	lsalivarius	-	pstB(~2)	rpsB(4)	nrdB(7?)	rpoA(7)	parB(9?)
+MGYG000191003.fna	-	-
+MGYG000196048.fna	-	-
+MGYG000201309.fna	-	-
+MGYG000206721.fna	-	-
+MGYG000214043.fna	-	-
+MGYG000215404.fna	-	-
+MGYG000218646.fna	-	-
+MGYG000218732.fna	-	-
+MGYG000220266.fna	-	-
+MGYG000227734.fna	-	-
+MGYG000228449.fna	-	-
+MGYG000231380.fna	lsalivarius	-	pstB(-)	rpsB(2)	nrdB(6?)	rpoA(5)	parB(7)
+MGYG000233600.fna	-	-
+MGYG000235355.fna	-	-
+MGYG000236776.fna	-	-
+MGYG000239012.fna	-	-
+MGYG000241298.fna	-	-
+MGYG000246327.fna	-	-
+MGYG000246659.fna	-	-
+MGYG000246798.fna	-	-
+MGYG000249400.fna	-	-
+MGYG000255109.fna	-	-
+MGYG000255252.fna	-	-
+MGYG000256807.fna	-	-
+MGYG000257181.fna	-	-
+MGYG000259859.fna	-	-
+MGYG000260492.fna	-	-
+MGYG000263941.fna	-	-
+MGYG000272930.fna	-	-
+MGYG000280475.fna	-	-
+MGYG000280734.fna	sbsec	-	ddl(36)	gki(9)	glnA(26)	mutS(7)	mutS2(~8)	pheS(7)	proS(6)	pyrE(12)	thrS(-)	tpi(22)
+MGYG000281903.fna	-	-
+MGYG000284567.fna	-	-
+MGYG000284947.fna	-	-
+MGYG000301592.fna	sbsec	-	ddl(36)	gki(6)	glnA(8)	mutS(74)	mutS2(8)	pheS(7)	proS(6)	pyrE(-)	thrS(10)	tpi(6)
+MGYG000307678.fna	-	-
+MGYG000313421.fna	-	-
+MGYG000321182.fna	-	-
+MGYG000321476.fna	-	-
