@@ -21,35 +21,37 @@ library(data.table)
 library(tidyr)
 library(ggnewscale)
 pal_npg("nrc")(10)
+library(networkD3)
+library(plotly)
+library(dplyr)
+library(networkD3)
+library(plotly)
+library(ggsankey)
+library(ape)
 
 ####################################
 # Load the data
 ####################################
 nisin_tsv = fread("/data/san/data1/users/david/mining_2023/nisins/tables/nisin_tsv.csv")
 core_peptides = fread("/data/san/data1/users/david/mining_2023/nisins/tables/core_peptides.csv")
-################################
+####################################
 # ggtree of ALL organisms
-################################
+####################################
 library(ggtree)
-
-
-tree = read.tree("/data/san/data1/users/david/mining_2023/nisins/genomes_download/gtdb/infer/intermediate_results/gtdbtk.unrooted.tree")
+tree = read.tree("../data/taxonomy/gtdbtk/tree/infer/intermediate_results/gtdbtk.unrooted.tree")
 tree$tip.label
 # rename tip labels by only taking first 15 characters
 #tree$tip.label = sub("(.{15}).*", "\\1", tree$tip.label)
-
 tree = ape::root.phylo(tree, 
  outgroup = "MGYG000121622")
 
-
-# df from hungate genomes 2023
-tax_file <- fread('/data/san/data1/users/david/mining_2023/nisins/genomes_download/gtdb/classify/classify/gtdbtk.bac120.summary.tsv', 
+tax_file <- fread('../data/taxonomy/gtdbtk/classify/gtdbtk.bac120.summary.tsv', 
   header = TRUE, sep="\t" ) %>%
   separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") 
 
-
+####################################
 ############ TREE
-library(ape)
+####################################
 tree_plot = ggtree(tree)
 tree_plot$data
 tree_plot_2 = tree_plot %<+% tax_file + 
@@ -62,9 +64,8 @@ tree_plot_2 = tree_plot %<+% tax_file +
     legend.key.size = unit(0.1, "cm")) +
 	guides(col=guide_legend(ncol =1))
 
-
 ggsave(tree_plot_2, 
-	filename = "/data/san/data1/users/david/mining_2023/nisins/figures/figure2_tree.jpg", 
+	filename = "../figures/figure2_tree.jpg", 
 	width = 5, 
 	height = 5, 
 	units = "in", 
@@ -72,20 +73,9 @@ ggsave(tree_plot_2,
 
 
 
-################################
+####################################
 #  SANKEY plot
-################################
-
-library(networkD3)
-library(plotly)
-library(dplyr)
-library(networkD3)
-library(plotly)
-library(ggsankey)
-
-# sankey_df = nisin_tsv %>% 
-# 	select(nucleotide_acc, protein_acc, phylum, class, order, family, genus) %>%
-# 	filter(protein_acc %in% core_peptides$protein_acc) 
+####################################
 
 protein_dist_df = fread("/data/san/data1/users/david/mining_2023/nisins/tables/protein_dist_df.tsv")
 unique(protein_dist_df$genus)
@@ -156,11 +146,10 @@ core_peptide_sankey_plot = ggplot(sankey_df,
   theme(legend.position = "none",
     axis.text.x = element_blank(),
     plot.title = element_text(hjust = .5)) +
-  #ggtitle("Core peptides in multiple Genera") +
   xlab("") 
 
 ggsave(core_peptide_sankey_plot, 
-	file="/data/san/data1/users/david/mining_2023/nisins/figures/figure_2_core_peptide_sankey_plot_greater_than_10.png", 
+	file="../figures/figure_3_core_peptide_sankey_plot_greater_than_10.png", 
 	width = 14, 
 	height = 14)
 
@@ -168,7 +157,7 @@ ggsave(core_peptide_sankey_plot,
 ################################
 #  ST of potentially pathogenic strains
 ################################
-st_df = fread("/data/san/data1/users/david/mining_2023/nisins/genomes_download/mlst/ST_clean.tsv", fill=TRUE)
+st_df = fread("../data/tables/supplementary/supplementary_table_S5.csv", fill=TRUE)
 sd_df = st_df %>% select(V1,V2,V3) %>%
   dplyr::rename(id = V1, sp = V2, st = V3) %>%
   group_by(sp, st) %>%
@@ -202,124 +191,5 @@ st_plot = ggplot(sd_df, aes(x = st, y = n)) +
   scale_fill_manual(values = c(pal_npg("nrc")(10)))
 
 ggsave(st_plot, 
-  file = "/data/san/data1/users/david/mining_2023/nisins/figures/st_plot.png",
+  file = "../figures/supplementary_st_plot.png",
   width = 14, height = 4, units = "cm")
-
-
-################################
-#  plot of all 
-################################
-fig2_tax_df = tax_file %>% select(user_genome, family, order, genus, species)
-
-fig2_tax_long <- fig2_tax_df %>%
-  pivot_longer(cols = c(family, order, genus, species), 
-               names_to = "rank", 
-               values_to = "taxon")
-
-# Count and filter for the top 10 in each rank
-taxon_counts_top10 <- fig2_tax_long %>%
-  group_by(rank, taxon) %>%
-  summarize(count = n(), .groups = 'drop') %>%
-  group_by(rank) %>%
-  slice_max(order_by = count, n = 10)  # select the top 10 taxa by count within each rank
-
-top_species = taxon_counts_top10 %>% filter(rank == "species")
-top_genus = taxon_counts_top10 %>% filter(rank == "genus")
-top_family = taxon_counts_top10 %>% filter(rank == "family")
-top_ordder = taxon_counts_top10 %>% filter(rank == "order")
-
-taxa_plot_top10_species = ggplot(top_species, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
-  coord_flip() +  # Flip coordinates for better horizontal layout
-  facet_wrap(~ rank, scales = "free_x", ncol = 4) +
-  labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
-  theme_bw() +
-   theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
-    axis.text.y = element_text(size = 5),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
-  ) +
-  theme(legend.position = "none") +
-  scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
-
-taxa_plot_top10_genus = ggplot(top_genus, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
-  coord_flip() +  # Flip coordinates for better horizontal layout
-  facet_wrap(~ rank, scales = "free_x", ncol = 4) +
-  labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
-  theme_bw() +
-   theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
-    axis.text.y = element_text(size = 5),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
-  ) +
-  theme(legend.position = "none") +
-  scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
-
-taxa_plot_top10_family = ggplot(top_family, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
-  coord_flip() +  # Flip coordinates for better horizontal layout
-  facet_wrap(~ rank, scales = "free_x", ncol = 4) +
-  labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
-  theme_bw() +
-   theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
-    axis.text.y = element_text(size = 5),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
-  ) +
-  theme(legend.position = "none") +
-  scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
-
-taxa_plot_top10_order = ggplot(top_ordder, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
-  coord_flip() +  # Flip coordinates for better horizontal layout
-  facet_wrap(~ rank, scales = "free_x", ncol = 4) +
-  labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
-  theme_bw() +
-   theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
-    axis.text.y = element_text(size = 5),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
-  ) +
-  theme(legend.position = "none") +
-  scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
-
-
-ggsave(taxa_plot_top10_species, 
-  file = "/data/san/data1/users/david/mining_2023/nisins/figures/taxa_plot_top10_species.png",
-  width = 6, height = 5, units = "cm")
-ggsave(taxa_plot_top10_genus, 
-  file = "/data/san/data1/users/david/mining_2023/nisins/figures/taxa_plot_top10_genus.png",
-  width = 6, height = 5, units = "cm")
-ggsave(taxa_plot_top10_family, 
-  file = "/data/san/data1/users/david/mining_2023/nisins/figures/taxa_plot_top10_family.png",
-  width = 6, height = 5, units = "cm")
-ggsave(taxa_plot_top10_order,
-  file = "/data/san/data1/users/david/mining_2023/nisins/figures/taxa_plot_top10_order.png",
-  width = 6, height = 5, units = "cm")
-
-library(gridExtra)
-
-figure2_taxa_plot = grid.arrange(taxa_plot_top10_species, taxa_plot_top10_genus, taxa_plot_top10_family, taxa_plot_top10_order, 
-  ncol = 4, nrow = 1, widths = c(1.2, 1, 1, 1)
-)
-
-ggsave(figure2_taxa_plot,
-  file = "/data/san/data1/users/david/mining_2023/nisins/figures/figure2_taxa_plot.png",
-  width = 20, height = 5, units = "cm")
-
-n_distinct(fig2_tax_df$family)
-n_distinct(fig2_tax_df$genus)
-n_distinct(fig2_tax_df$species)

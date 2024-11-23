@@ -21,6 +21,7 @@ library(data.table)
 library(tidyr)
 library(ggnewscale)
 library(rhmmer)
+library(ggtree)
 pal_npg("nrc")(10)
 
 ####################################
@@ -32,14 +33,8 @@ setwd("/data/san/data2/users/david/nisin/code")
 # Load the data
 ####################################
 
-nisin_tsv = fread("../data/tables/nisin_tsv.csv")
-core_peptides = fread("../data/tables/core_peptides.csv")
-
-
-
-
-
-
+# nisin_tsv = fread("../data/tables/nisin_tsv.csv")
+# core_peptides = fread("../data/tables/core_peptides.csv")
 
 
 
@@ -48,14 +43,12 @@ core_peptides = fread("../data/tables/core_peptides.csv")
 ################################
 # ggtree of ALL organisms
 ################################
-
-library(ggtree)
-tree = read.tree("../data/tree/gtdbtk.unrooted.tree")
+tree = read.tree("../data/taxonomy/gtdbtk/tree/infer/intermediate_results/gtdbtk.unrooted.tree")
 tree$tip.label
 tree = ape::root.phylo(tree, 
  outgroup = "MGYG000121622")
 
-tax_file <- fread('../data/tree/gtdbtk.bac120.summary.tsv', 
+tax_file <- fread('../data/taxonomy/gtdbtk/classify/gtdbtk.bac120.summary.tsv', 
   header = TRUE, sep="\t" ) %>%
   filter(user_genome != "GCA_014488735.1_ASM1448873v1_genomic") %>% # this is the phage genome
   separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") 
@@ -86,7 +79,7 @@ top_family = taxon_counts_top10 %>% filter(rank == "family")
 top_ordder = taxon_counts_top10 %>% filter(rank == "order")
 
 taxa_plot_top10_species = ggplot(top_species, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
+  geom_col(show.legend = FALSE, color="black") +
   coord_flip() +  # Flip coordinates for better horizontal layout
   facet_wrap(~ rank, scales = "free_x", ncol = 4) +
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
@@ -103,7 +96,7 @@ taxa_plot_top10_species = ggplot(top_species, aes(x = reorder(taxon, count), y =
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
 
 taxa_plot_top10_genus = ggplot(top_genus, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
+  geom_col(show.legend = FALSE, color="black") +
   coord_flip() +  # Flip coordinates for better horizontal layout
   facet_wrap(~ rank, scales = "free_x", ncol = 4) +
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
@@ -120,7 +113,7 @@ taxa_plot_top10_genus = ggplot(top_genus, aes(x = reorder(taxon, count), y = cou
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
 
 taxa_plot_top10_family = ggplot(top_family, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
+  geom_col(show.legend = FALSE, color="black") +
   coord_flip() +  # Flip coordinates for better horizontal layout
   facet_wrap(~ rank, scales = "free_x", ncol = 4) +
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
@@ -137,7 +130,7 @@ taxa_plot_top10_family = ggplot(top_family, aes(x = reorder(taxon, count), y = c
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
 
 taxa_plot_top10_order = ggplot(top_ordder, aes(x = reorder(taxon, count), y = count, fill = taxon)) +
-  geom_col(show.legend = FALSE) +
+  geom_col(show.legend = FALSE, color="black") +
   coord_flip() +  # Flip coordinates for better horizontal layout
   facet_wrap(~ rank, scales = "free_x", ncol = 4) +
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
@@ -211,7 +204,7 @@ ggsave(tree_plot_2,
 #  plot a subset of the tree and heatmap of nisin genes they have
 ################################
 
-tax_file <- fread('../data/tree/gtdbtk.bac120.summary.tsv', 
+tax_file <- fread('../data/taxonomy/gtdbtk/classify/gtdbtk.bac120.summary.tsv', 
   header = TRUE, sep="\t" ) %>%
   separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") %>%
   select(user_genome, family, genus, species) 
@@ -240,7 +233,7 @@ tree_tip_labels_old  <- tree$tip.label
 tree$tip.label  <- ifelse(substr(tree$tip.label, 1, 1) == "G", sub("^(G[^_]+_[^_]+)_.*$", "\\1", tree$tip.label), tree$tip.label)
 
 # df from hungate genomes 2023
-tax_file <- fread('../data/tree/gtdbtk.bac120.summary.tsv', 
+tax_file <- fread('../data/taxonomy/gtdbtk/classify/gtdbtk.bac120.summary.tsv', 
   header = TRUE, sep="\t" ) %>%
   separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") 
 
@@ -329,7 +322,7 @@ annot_df$nisB <- as.factor(annot_df$nisB)
 annot_df$nisC <- as.factor(annot_df$nisC)
 # annot_df$nisR <- as.factor(annot_df$nisR)
 # annot_df$nisk <- as.factor(annot_df$nisk)
-# annot_df$nisF <- as.factor(annot_df$nisF)
+# annot_df$nisF <- as.factor(annot_df$nisF) # these were removed due to spurious matches
 # annot_df$nisE <- as.factor(annot_df$nisE)
 # annot_df$nisG <- as.factor(annot_df$nisG)
 # annot_df$nisT <- as.factor(annot_df$nisT)
@@ -342,9 +335,6 @@ tree = ape::root.phylo(tree,
  outgroup = "MGYG000121622")
 
 tree_plot = ggtree(tree)
-
-
-
 small_tax$genus <- gsub("g__Phocaeicola","g__Phocaeicola*",small_tax$genus)
 small_tax$genus <- gsub("g__Bacteroides","g__Bacteroides*",small_tax$genus)
 
@@ -382,100 +372,3 @@ p1 <- gheatmap(tree_plot_2, annot_df,
 ggsave(p1,
   file = "../figures/ggtree_heatmap.png", 
   width = 25, height = 25, limitsize = FALSE,dpi=600, units="cm")
- 
-
-
-
-
-
-# Create a distinct dataset with assembly and type
-distinct_genomes <- hmm_table_genomes %>%
-  	select(assembly, type) %>%
-  	distinct()
-
-tsv_df %>%
-	distinct(assembly) %>%
-	filter(!assembly %in% distinct_genomes$assembly)
-
-phage_id="GCA_014488735.1"
-
-distinct_genomes %>%
-	filter(assembly == phage_id)
-
-
-
-# Count total number of assemblies
-total_assemblies <- n_distinct(tsv_df$assembly)
-
-# Calculate the number of assemblies with nisB, nisC, nisI, and both
-summary_table <- distinct_genomes %>%
-	# mutate(assembly = gsub("GCA_", "GCF_",assembly)) %>%
-	group_by(assembly) %>%
-	summarize(
-		nisB = any(type == "nisB"),
-		nisC = any(type == "nisC"),
-		nisI = any(type == "nisI")
-	) %>%
-	summarize(
-		nisB_count = sum(nisB),
-		nisC_count = sum(nisC),
-		nisI_count = sum(nisI),
-		both_count = sum(nisB & nisC & nisI),
-		nisI_percentage = (nisI_count / total_assemblies) * 100
-	) %>%
-	mutate(
-		nisB_percentage = (nisB_count / total_assemblies) * 100,
-		nisC_percentage = (nisC_count / total_assemblies) * 100,
-		nisI_percentage = (nisI_count / total_assemblies) * 100,
-		both_percentage = (both_count / total_assemblies) * 100,
-	) %>%
-	select(nisB_count, nisB_percentage, nisC_count, nisC_percentage, nisI_count, nisI_percentage, both_count, both_percentage) %>%
-  mutate(total_count = total_assemblies)
-
-
-lanb <- hmmer_wgs_master[hmmer_wgs_master$type == "nisB",]$protein_acc
-writeLines(lanb, "/data/san/data2/users/david/nisin/data/lanBCI_analysis/lanb.txt")
-
-lanc <- hmmer_wgs_master[hmmer_wgs_master$type == "nisC",]$protein_acc
-writeLines(lanc, "/data/san/data2/users/david/nisin/data/lanBCI_analysis/lanc.txt")
-
-lani <- hmmer_wgs_master[hmmer_wgs_master$type == "nisI",]$protein_acc
-writeLines(lani, "/data/san/data2/users/david/nisin/data/lanBCI_analysis/lani.txt")
-
-
-
-# Load necessary libraries
-library(data.table)
-library(dplyr)
-library(tidyr)
-
-# Read the data without row names
-core_pid <- fread("/data/san/data2/users/david/nisin/data/core_peptides/pid/total_unique_core.pid", header = TRUE, data.table = FALSE)
-
-# Ensure column names are unique
-colnames(core_pid) <- make.unique(colnames(core_pid))
-
-# Convert the data to long format
-core_pid_long <- core_pid %>%
-  pivot_longer(cols = -V1, names_to = "V2", values_to = "V3")
-
-# Perform the filtering operation
-# WP_195320622.1 = ce02
-query_Core = c(
-	"NZ_WHVU01000008.1_17530_17713", # nisin J
-	"WP_014570405.1", # 
-	"WP_117640235.1", # nisin O
-	"WP_008881441.1",
-	"WP_003220055.1", # subtilin
-	"WP_195320622.1")
-filtered_core_pid <- core_pid_long %>%
-  filter(V1 %in% query_Core & V2 %in% query_Core) %>%
-  filter(V1 != V2) %>%
-  arrange(V3)
-
-# Print the filtered data
-print(filtered_core_pid, n = Inf)
-
-x = core_pid_long %>%
-  filter(V1 == "NZ_WHVU01000008.1_17530_17713")
-View(x)

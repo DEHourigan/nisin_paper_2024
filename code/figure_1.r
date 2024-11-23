@@ -20,11 +20,12 @@ library(countrycode)
 library(ggplot2)
 library(data.table)
 library(tidyr)
+library(cowplot)
 pal_npg("nrc")(10)
 setwd("/data/san/data2/users/david/nisin/code")
 
 
-nisin_meta <- fread("../data/tables/assembly_host_source_country.csv")
+nisin_meta <- fread("../data/tables/supplementary/supplementary_table_S1.csv")
 
 
 nisin_countres_all = c(nisin_meta$country_value)
@@ -69,10 +70,8 @@ world_plot <- ggplot() +
 ggsave(world_plot, file = "../figures/world_map_colored.png", 
   width = 18, height = 10, units = "cm", dpi = 600)
 
-
 # SET PIE COLOURS
 pie_colors = c(pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.2)(10))
-
 
 
 
@@ -158,9 +157,6 @@ ggsave(combined_plot,
 
 
 
-
-
-
 #################################
 # get meta data for assemblies
 #################################
@@ -194,7 +190,7 @@ last_5_years_avg <- meta_df %>%
   filter(year >= as.Date("2018-01-01")) %>%
   summarise(last_5_years_avg = mean(n, na.rm = TRUE))
 
-# Print the results
+
 overall_avg
 last_5_years_avg
 
@@ -203,12 +199,11 @@ date_plot = ggplot(monthly_counts) +
   theme_bw() +
   labs(x = "", y = "", title = "Release Date") +
    theme(
-    plot.title = element_text(size = 10),  
     axis.title.x = element_text(size = 7),  
     axis.title.y = element_blank() ,  
     axis.text.x = element_text(size = 7),   
     axis.text.y = element_text(size = 7) ,
-    plot.title = element_text(face = "bold")   
+    plot.title = element_text(face = "bold",size = 10)   
    ) +
   theme(legend.position = "none")
 
@@ -265,8 +260,7 @@ genome_size_vs_protein_coding_gene_count_plot = meta_df %>%
 # checkm2
 ####################################
 checkm2_df=fread("../data/tables/quality_report.tsv") %>%
-  clean_names %>%
-  filter(name != "GCA_014488735.1_ASM1448873v1_genomic") # this is the phage genonme
+  clean_names()
 
 comp_vs_cont = checkm2_df %>% 
   ggplot() +
@@ -296,80 +290,6 @@ combined_plot = plot_grid(
   genome_size_vs_protein_coding_gene_count_plot, 
   comp_vs_cont, ncol = 4)
 
-# Save the combined plot
 ggsave(combined_plot, 
   filename = "../figures/figure_1_e.png", 
   width = 18, height = 5, units = "cm", dpi = 600)
-
-
-
-
-
-#################################
-### How many in pigs are s. suis and pigs but not s.suis 
-#################################
-tax_df = fread("/data/san/data1/users/david/mining_2023/nisins/genomes_download/gtdb/classify/classify/gtdbtk.bac120.summary.tsv") %>%
-  mutate(assembly = sub("^(([^_]*_[^_]*)).*", "\\1", user_genome)) %>%
-  separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") %>%
-  mutate(assembly = sub("^GCF_", "GCA_", assembly)) 
-
-source_host_tax= tax_df %>%
-  left_join(isolation_source_manual, by="assembly") %>%
-  left_join(host_source_manual, by="assembly") %>%
-  select(assembly, phylum, family, genus, species, isolation_source, host)
-# replace 'na' with NA
-source_host_tax$isolation_source[source_host_tax$isolation_source == "na"] <- NA
-
-# find out how many had NA in both isolattion source and host
-source_host_tax %>% 
-  filter(is.na(isolation_source) & is.na(host)) %>%
-  nrow()
-
-
-
-# how many in the phylum actinomycetota
-source_host_tax %>% 
-  dplyr::count(phylum) %>%
-  arrange(desc(n))
-# count the unique species found in pigs
-source_host_tax %>% 
-  filter(host == "pig") %>%
-  dplyr::count(species) %>%
-  arrange(desc(n))
-source_host_tax$species %>% unique() %>% sort()
-
-source_host_tax %>%
-  filter(isolation_source == "brain" | isolation_source == "blood") %>%
-  dplyr::count(isolation_source, species) %>%
-  group_by(species) %>%
-  mutate(total_count = sum(n)) %>%
-  ungroup() %>%
-  mutate(total = sum(total_count)) %>%
-  mutate(percent = (n/total) * 100) 
-
-source_host_tax %>%
-  filter(phylum == "p__Actinomycetota") %>%
-  dplyr::count(phylum) %>%
-  arrange(desc(n))
-
-source_host_tax %>%
-  dplyr::count(species) %>%
-  mutate(total = sum(n)) %>%
-  mutate(percent = (n/total) * 100)
-
-source_host_tax %>%
-  dplyr::count(species, host) %>%
-  mutate(total = sum(n)) %>%
-  mutate(percent = (n/total) * 100) 
-
-source_host_tax %>%
-  dplyr::count(phylum, species) %>%
-  mutate(total = sum(n)) %>%
-  mutate(percent = (n/total) * 100) %>%
-  arrange(desc(percent))
-
-source_host_tax %>%
-  dplyr::count(genus, species) %>%
-  mutate(total = sum(n)) %>%
-  nrow() # -1 for phage
-
