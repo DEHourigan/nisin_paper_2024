@@ -1,0 +1,143 @@
+contig_id	seq_id	type	start	stop	strand	locus_tag	gene	product	assembly	color	feat_id	end
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	7612	8976	-	EHOPIB_00050	lanP	Leader peptidase	Apilactobacillus_kunkeei	#4e7800b2	EHOPIB_00050	8976
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	9083	9277	-	EHOPIB_00055	lanA	Lantibiotic	Apilactobacillus_kunkeei	black	EHOPIB_00055	9277
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	9356	10669	-	EHOPIB_00060	lanB	Lanthionine synthetase C-like protein	Apilactobacillus_kunkeei	#4DBBD5FF	EHOPIB_00060	10669
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	10662	12395	-	EHOPIB_00065	lanT	ABC transporter ATP-binding protein	Apilactobacillus_kunkeei	#3C5488FF	EHOPIB_00065	12395
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	12511	13194	+	EHOPIB_00070	lanFEG	ABC transporter ATP-binding protein	Apilactobacillus_kunkeei	#3C5488FF	EHOPIB_00070	13194
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	13197	13922	+	EHOPIB_00075	lanFEG	Lantibiotic immunity ABC transporter MutG family permease subunit	Apilactobacillus_kunkeei	#3C5488FF	EHOPIB_00075	13922
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	13919	14656	+	EHOPIB_00080	lanFEG	Lantibiotic immunity ABC transporter MutG family permease subunit	Apilactobacillus_kunkeei	#3C5488FF	EHOPIB_00080	14656
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	14667	17657	+	EHOPIB_00085	lanB	Thiopeptide-type bacteriocin biosynthesis domain-containing protein	Apilactobacillus_kunkeei	#4DBBD5FF	EHOPIB_00085	17657
+NZ_AP019008.1	Apilactobacillus kunkeei kunkecin-A	CDS	17885	19342	+	EHOPIB_00090		PIN-8 domain-containing protein	Apilactobacillus_kunkeei	grey88	EHOPIB_00090	19342
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	8557	9069	+	ALOGBI_10450	lanRK	helix-turn-helix domain-containing protein	GCF_003436075.1	#91D1C2FF	ALOGBI_10450	9069
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	9053	9610	+	ALOGBI_10455	lanA	Bacteriocin	GCF_003436075.1	black	ALOGBI_10455	9610
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	9730	10347	-	ALOGBI_10460		PBECR4 domain-containing protein	GCF_003436075.1	grey88	ALOGBI_10460	10347
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	11408	11503	+	ALOGBI_10465		hypothetical protein	GCF_003436075.1	grey88	ALOGBI_10465	11503
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	11685	12389	+	ALOGBI_10470	lanFEG	NsoF	GCF_003436075.1	#3C5488FF	ALOGBI_10470	12389
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	12389	13108	+	ALOGBI_10475	lanFEG	Lantibiotic immunity ABC transporter MutE/EpiE family permease subunit	GCF_003436075.1	#3C5488FF	ALOGBI_10475	13108
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	13105	13866	+	ALOGBI_10480	lanFEG	Lantibiotic immunity ABC transporter MutG family permease subunit	GCF_003436075.1	#3C5488FF	ALOGBI_10480	13866
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	13856	14692	+	ALOGBI_10485	lanI	NsoI	GCF_003436075.1	#3C5488FF	ALOGBI_10485	14692
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	14754	15419	+	ALOGBI_10490		Stage 0 sporulation A-like protein	GCF_003436075.1	grey88	ALOGBI_10490	15419
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	15410	16768	+	ALOGBI_10495	lanRK	histidine kinase	GCF_003436075.1	#91D1C2FF	ALOGBI_10495	16768
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	16899	17087	-	ALOGBI_10500		SMI1/KNR4 family protein	GCF_003436075.1	grey88	ALOGBI_10500	17087
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	17923	18063	+	ALOGBI_10505	lanA	Gallidermin/nisin family lantibiotic	GCF_003436075.1	black	ALOGBI_10505	18063
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	18088	18258	+	ALOGBI_10510	lanA	Gallidermin/nisin family lantibiotic	GCF_003436075.1	black	ALOGBI_10510	18258
+NZ_QSOL01000028.1	Blautia Obeum nisin-O1-4	CDS	18282	18452	+	ALOGBI_10515	lanA	Gallidermin/nisin family lantibiotic	GCF_003436075.1	black	ALOGBI_10515	18452
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	81342	81515	+	FBLNFP_12210	lanA	Lantibiotic	GCF_006146065.1	black	FBLNFP_12210	81515
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	81622	84603	+	FBLNFP_12215	lanB	Lantibiotic dehydratase	GCF_006146065.1	#4DBBD5FF	FBLNFP_12215	84603
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	84614	86416	+	FBLNFP_12220	lanT	Nisin transport ATP-binding protein NisT	GCF_006146065.1	#3C5488FF	FBLNFP_12220	86416
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	86409	87650	+	FBLNFP_12225	lanC	Lantibiotic cyclase	GCF_006146065.1	#4DBBD5FF	FBLNFP_12225	87650
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	87647	88384	+	FBLNFP_12230	lanI	Immunity protein	GCF_006146065.1	#3C5488FF	FBLNFP_12230	88384
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	88386	90473	+	FBLNFP_12235	lanP	Leader peptide-processing serine protease	GCF_006146065.1	#4e7800b2	FBLNFP_12235	90473
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	90539	91225	+	FBLNFP_12240	lanRK	Response regulator	GCF_006146065.1	#91D1C2FF	FBLNFP_12240	91225
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	91218	92561	+	FBLNFP_12245	lanRK	histidine kinase	GCF_006146065.1	#91D1C2FF	FBLNFP_12245	92561
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	86409	87650	+	FBLNFP_12225	lanC	Lantibiotic cyclase	GCF_006146065.1	grey88	FBLNFP_12225	87650
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	87647	88384	+	FBLNFP_12230	lanI	Immunity protein	GCF_006146065.1	#3C5488FF	FBLNFP_12230	88384
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	88386	90473	+	FBLNFP_12235	lanP	Leader peptide-processing serine protease	GCF_006146065.1	#4e7800b2	FBLNFP_12235	90473
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	90539	91225	+	FBLNFP_12240	lanRK	Response regulator	GCF_006146065.1	#91D1C2FF	FBLNFP_12240	91225
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	91218	92561	+	FBLNFP_12245	lanRK	histidine kinase	GCF_006146065.1	#91D1C2FF	FBLNFP_12245	92561
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	92659	93336	+	FBLNFP_12250	lanFEG	Nisin transport protein NisF	GCF_006146065.1	grey88	FBLNFP_12250	93336
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	93338	94066	+	FBLNFP_12255	lanFEG	Immunity protein	GCF_006146065.1	#3C5488FF	FBLNFP_12255	94066
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	94053	94697	+	FBLNFP_12260	lanFEG	Immunity protein	GCF_006146065.1	#3C5488FF	FBLNFP_12260	94697
+NZ_VANM01000008.1	Lactococcus lactis nisin-Q	CDS	94798	94971	+	FBLNFP_12265	lanA	Lantibiotic	GCF_006146065.1	black	FBLNFP_12265	94971
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	9416	10123	+	LADOHE_00060	lanFEG	lanFEG lantibiotic protection ABC transporter ATP-binding	GCF_009663495.1	#3C5488FF	LADOHE_00060	10123
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	10125	10871	+	LADOHE_00065	lanFEG	lanFEG ABC2 membrane superfamily	GCF_009663495.1	#3C5488FF	LADOHE_00065	10871
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	10868	11605	+	LADOHE_00070	lanFEG	lanFEG lantibiotic protection, ABC transporter	GCF_009663495.1	#3C5488FF	LADOHE_00070	11605
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	11630	14545	+	LADOHE_00075	lanB	lanB lantibiotic dehydratase	GCF_009663495.1	#4DBBD5FF	LADOHE_00075	14545
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	14718	16268	+	LADOHE_00080	lanT	lanT ABC transporter ATP-binding protein	GCF_009663495.1	#3C5488FF	LADOHE_00080	16268
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	16261	17490	+	LADOHE_00085	lanC	lanC Lanthionine synthetase C-like protein	GCF_009663495.1	#4DBBD5FF	LADOHE_00085	17490
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	17531	17713	+	LADOHE_00090	lanA	Lantibiotic	GCF_009663495.1	black	LADOHE_00090	17713
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	17833	19173	+	LADOHE_00095	lanP	lanP S8 family serine protease	GCF_009663495.1	#4e7800b2	LADOHE_00095	19173
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	19230	19625	+	LADOHE_00100		hypothetical protein	GCF_009663495.1	grey88	LADOHE_00100	19625
+NZ_WHVU01000008.1	Staphylococcus capitis nisin-J	CDS	19717	20325	+	LADOHE_00105	spoIVCA	Site-specific DNA recombinase SpoIVCA/DNA invertase PinE	GCF_009663495.1	grey88	LADOHE_00105	20325
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	158609	159337	-	KAEPKB_05935		Stage 0 sporulation A-like protein	GCF_009696045.1	grey88	KAEPKB_05935	159337
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	159483	160829	-	KAEPKB_05940	lanC	Lanthionine synthetase C family protein	GCF_009696045.1	#4DBBD5FF	KAEPKB_05940	160829
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	160831	162639	-	KAEPKB_05945	lanT	ABC transporter ATP-binding protein	GCF_009696045.1	#3C5488FF	KAEPKB_05945	162639
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	162626	165706	-	KAEPKB_05950	lanB	Subtilin biosynthesis protein SpaB	GCF_009696045.1	#4DBBD5FF	KAEPKB_05950	165706
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	165775	167091	-	KAEPKB_05955	lanRK	histidine kinase	GCF_009696045.1	#91D1C2FF	KAEPKB_05955	167091
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	167076	167744	-	KAEPKB_05960		Stage 0 sporulation A-like protein	GCF_009696045.1	grey88	KAEPKB_05960	167744
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	167923	168096	+	KAEPKB_05965	lanA	Gallidermin/nisin family lantibiotic	GCF_009696045.1	black	KAEPKB_05965	168096
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	168161	168334	+	KAEPKB_05970	lanA	Gallidermin/nisin family lantibiotic	GCF_009696045.1	black	KAEPKB_05970	168334
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	168522	169523	+	KAEPKB_05975		BIG2 domain-containing protein	GCF_009696045.1	grey88	KAEPKB_05975	169523
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	169675	170376	+	KAEPKB_05980	lanFEG	Lantibiotic protection ABC transporter ATP-binding protein	GCF_009696045.1	#3C5488FF	KAEPKB_05980	170376
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	170379	171107	+	KAEPKB_05985	lanFEG	Lantibiotic immunity ABC transporter MutE/EpiE family permease subunit	GCF_009696045.1	#3C5488FF	KAEPKB_05985	171107
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	171107	171838	+	KAEPKB_05990	lanFEG	Lantibiotic immunity ABC transporter MutG family permease subunit	GCF_009696045.1	#3C5488FF	KAEPKB_05990	171838
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	171831	172661	+	KAEPKB_05995	lanI	NisI/SpaI family lantibiotic immunity lipoprotein	GCF_009696045.1	#3C5488FF	KAEPKB_05995	172661
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	172742	173404	+	KAEPKB_06000		Stage 0 sporulation A-like protein	GCF_009696045.1	grey88	KAEPKB_06000	173404
+NZ_VUMT01000002.1	Velocimicrobium porci nisin-VP	CDS	173392	174777	+	KAEPKB_06005	lanRK	histidine kinase	GCF_009696045.1	#91D1C2FF	KAEPKB_06005	174777
+NZ_CP053228.1	Blautia producta blauticin	CDS	1263907	1264608	+	IFIEJI_06155	lanFEG	Lantibiotic ABC transporter ATP-binding protein	GCF_013112015.1	#3C5488FF	IFIEJI_06155	1264608
+NZ_CP053228.1	Blautia producta blauticin	CDS	1264612	1265334	+	IFIEJI_06160	lanFEG	Lantibiotic ABC transporter permease	GCF_013112015.1	#3C5488FF	IFIEJI_06160	1265334
+NZ_CP053228.1	Blautia producta blauticin	CDS	1265336	1266067	+	IFIEJI_06165	lanFEG	Lantibiotic ABC transporter permease	GCF_013112015.1	#3C5488FF	IFIEJI_06165	1266067
+NZ_CP053228.1	Blautia producta blauticin	CDS	1266060	1266875	+	IFIEJI_06170	lanI	NisI/SpaI family lantibiotic immunity lipoprotein	GCF_013112015.1	#3C5488FF	IFIEJI_06170	1266875
+NZ_CP053228.1	Blautia producta blauticin	CDS	1266937	1267596	+	IFIEJI_06175		Stage 0 sporulation A-like protein	GCF_013112015.1	grey88	IFIEJI_06175	1267596
+NZ_CP053228.1	Blautia producta blauticin	CDS	1267593	1268954	+	IFIEJI_06180	lanRK	histidine kinase	GCF_013112015.1	#91D1C2FF	IFIEJI_06180	1268954
+NZ_CP053228.1	Blautia producta blauticin	CDS	1269377	1269550	+	IFIEJI_06185	lanA	Gallidermin/nisin family lantibiotic	GCF_013112015.1	black	IFIEJI_06185	1269550
+NZ_CP053228.1	Blautia producta blauticin	CDS	1269579	1269752	+	IFIEJI_06190	lanA	Gallidermin/nisin family lantibiotic	GCF_013112015.1	black	IFIEJI_06190	1269752
+NZ_CP053228.1	Blautia producta blauticin	CDS	1269780	1269953	+	IFIEJI_06195	lanA	Gallidermin/nisin family lantibiotic	GCF_013112015.1	black	IFIEJI_06195	1269953
+NZ_CP053228.1	Blautia producta blauticin	CDS	1269982	1270155	+	IFIEJI_06200	lanA	Gallidermin/nisin family lantibiotic	GCF_013112015.1	black	IFIEJI_06200	1270155
+NZ_CP053228.1	Blautia producta blauticin	CDS	1270183	1270332	+	IFIEJI_06205	lanA	Lantibiotic	GCF_013112015.1	black	IFIEJI_06205	1270332
+NZ_CP053228.1	Blautia producta blauticin	CDS	1270479	1271144	+	IFIEJI_06210		Stage 0 sporulation A-like protein	GCF_013112015.1	grey88	IFIEJI_06210	1271144
+NZ_CP053228.1	Blautia producta blauticin	CDS	1271129	1272502	+	IFIEJI_06215	lanRK	histidine kinase	GCF_013112015.1	#91D1C2FF	IFIEJI_06215	1272502
+NZ_CP053228.1	Blautia producta blauticin	CDS	1272585	1275650	+	IFIEJI_06220	lanB	Lantibiotic dehydratase	GCF_013112015.1	#4DBBD5FF	IFIEJI_06220	1275650
+NZ_CP053228.1	Blautia producta blauticin	CDS	1275637	1277442	+	IFIEJI_06225	lanT	ABC transporter ATP-binding protein	GCF_013112015.1	#3C5488FF	IFIEJI_06225	1277442
+NZ_CP053228.1	Blautia producta blauticin	CDS	1277445	1278767	+	IFIEJI_06230	lanC	Lanthionine synthetase C-like protein	GCF_013112015.1	#4DBBD5FF	IFIEJI_06230	1278767
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	265879	267252	+	JMBKLK_01400	lanP	Leader peptide-processing serine protease	GCF_023061975.1	#4e7800b2	JMBKLK_01400	267252
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	267293	267991	+	JMBKLK_01405	lanRK	lanR	GCF_023061975.1	#91D1C2FF	JMBKLK_01405	267991
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	267972	268940	+	JMBKLK_01410	lanRK	histidine kinase	GCF_023061975.1	#91D1C2FF	JMBKLK_01410	268940
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	268972	269319	+	JMBKLK_01415	lanRK	Nisin biosynthesis sensor protein nisK	GCF_023061975.1	#91D1C2FF	JMBKLK_01415	269319
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	269411	270103	+	JMBKLK_01420	lanFEG	lanF	GCF_023061975.1	#3C5488FF	JMBKLK_01420	270103
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	270105	270851	+	JMBKLK_01425	lanFEG	lanE	GCF_023061975.1	#3C5488FF	JMBKLK_01425	270851
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	270820	271512	+	JMBKLK_01430	lanFEG	lanG	GCF_023061975.1	#3C5488FF	JMBKLK_01430	271512
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	272256	272423	+	JMBKLK_01435	lanA	gallidermin/nisin family lantibiotic	GCF_023061975.1	black	JMBKLK_01435	272423
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	272669	275644	+	JMBKLK_01440	lanB	Lantibiotic dehydratase	GCF_023061975.1	#4DBBD5FF	JMBKLK_01440	275644
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	275637	276749	+	JMBKLK_01445		hypothetical protein	GCF_023061975.1	#3C5488FF	JMBKLK_01445	276749
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	276784	277434	+	JMBKLK_01450	lanT	ATP-binding cassette domain-containing protein	GCF_023061975.1	#3C5488FF	JMBKLK_01450	277434
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	277427	278704	+	JMBKLK_01455	lanC	lanC	GCF_023061975.1	#4DBBD5FF	JMBKLK_01455	278704
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	278706	279422	+	JMBKLK_01460	lanI	lanI	GCF_023061975.1	#3C5488FF	JMBKLK_01460	279422
+NZ_JALLFH010000001.1	Streptococcus uberis nisin-U	CDS	279680	279832	+	JMBKLK_01465		Transposase	GCF_023061975.1	grey88	JMBKLK_01465	279832
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	9186	9872	-	AOJFFK_05665	lanRK	Response regulator	GCF_028325685.1	#91D1C2FF	AOJFFK_05665	9872
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	9927	11687	-	AOJFFK_05670	lanP	Peptidase	GCF_028325685.1	#4e7800b2	AOJFFK_05670	11687
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	11758	12984	-	AOJFFK_05675	lanC	Lanthionine synthetase	GCF_028325685.1	#4DBBD5FF	AOJFFK_05675	12984
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	12977	14779	-	AOJFFK_05680	lanT	Transporter	GCF_028325685.1	#3C5488FF	AOJFFK_05680	14779
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	14781	17771	-	AOJFFK_05685	lanB	Lantibiotic dehydratase	GCF_028325685.1	#4DBBD5FF	AOJFFK_05685	17771
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	17882	18055	-	AOJFFK_05690	lanA	gallidermin/nisin family lantibiotic	GCF_028325685.1	black	AOJFFK_05690	18055
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	18411	18584	-	AOJFFK_05695l	lanA	gallidermin/nisin family lantibiotic	GCF_028325685.1	black	AOJFFK_05695	18584
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	19125	19415	+	AOJFFK_05705		Mutator family transposase	GCF_028325685.1	grey88	AOJFFK_05705	19415
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	19432	19971	+	AOJFFK_05710		Mutator family transposase	GCF_028325685.1	grey88	AOJFFK_05710	19971
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	20059	20520	+	AOJFFK_05715		IS3 family transposase	GCF_028325685.1	grey88	AOJFFK_05715	20520
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	21225	21902	+	AOJFFK_05720	lanFEG	ABC transporter	GCF_028325685.1	#3C5488FF	AOJFFK_05720	21902
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	21904	22611	+	AOJFFK_05725	lanFEG	ABC transporter	GCF_028325685.1	#3C5488FF	AOJFFK_05725	22611
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	22615	23259	+	AOJFFK_05730	lanFEG	ABC transporter	GCF_028325685.1	#3C5488FF	AOJFFK_05730	23259
+NZ_JAQMJI010000027.1	Streptococcus salivarius nisin-G	CDS	23303	23911	-	AOJFFK_05735		Integrase catalytic domain-containing protein	GCF_028325685.1	grey88	AOJFFK_05735	23911
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	130	303	+	BDCGMA_00005	lanA	Lantibiotic	Hyo	black	BDCGMA_00005	303
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	408	3398	+	BDCGMA_00010	lanB	Lantibiotic dehydratase	Hyo	#4DBBD5FF	BDCGMA_00010	3398
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	3400	5202	+	BDCGMA_00015	lanT	Transporter	Hyo	#3C5488FF	BDCGMA_00015	5202
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	5195	6430	+	BDCGMA_00020	lanC	Lanthionine synthetase	Hyo	#4DBBD5FF	BDCGMA_00020	6430
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	6491	8239	+	BDCGMA_00025	lanP	Peptidase	Hyo	#4e7800b2	BDCGMA_00025	8239
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	8414	9571	-	BDCGMA_00030		IS110 family transposase	Hyo	grey88	BDCGMA_00030	9571
+KP793707.1	Streptococcus hyointestinalis nisin-H	CDS	9849	10535	+	BDCGMA_00035	lanRK	Response regulator	Hyo	#91D1C2FF	BDCGMA_00035	10535
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1306294	1306980	-	HBIJEP_06405	lanRK	Nisin biosynthesis regulatory protein NisR	Lactococcus_lactis_subsp_lactis_ATCC_11454	#91D1C2FF	HBIJEP_06405	1306980
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1307049	1309097	-	HBIJEP_06410	lanP	Nisin leader peptide-processing serine protease lanP	Lactococcus_lactis_subsp_lactis_ATCC_11454	#4e7800b2	HBIJEP_06410	1309097
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1309099	1309836	-	HBIJEP_06415	lanI	Nisin immunity protein	Lactococcus_lactis_subsp_lactis_ATCC_11454	#3C5488FF	HBIJEP_06415	1309836
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1309833	1311077	-	HBIJEP_06420	lanC	lanin biosynthesis protein NisC	Lactococcus_lactis_subsp_lactis_ATCC_11454	#4DBBD5FF	HBIJEP_06420	1311077
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1311070	1312872	-	HBIJEP_06425	lanT	Nisin transport ATP-binding protein NisT	Lactococcus_lactis_subsp_lactis_ATCC_11454	#3C5488FF	HBIJEP_06425	1312872
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1312883	1315864	-	HBIJEP_06430	lanB	Nisin biosynthesis protein NisB	Lactococcus_lactis_subsp_lactis_ATCC_11454	#4DBBD5FF	HBIJEP_06430	1315864
+assembly_6844634a21f9468f_1	Lactococcus lactis subsp. lactis nisin-A	CDS	1315972	1316145	-	HBIJEP_06435	lanA	Lantibiotic nisin-Z	Lactococcus_lactis_subsp_lactis_ATCC_11454	black	HBIJEP_06435	1316145
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	599615	599788	+	JOABFC_03025	lanA	Lantibiotic nisin-Z	Lactococcus_lactis_subsp_lactis_IO-1	black	JOABFC_03025	599788
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	599896	602877	+	JOABFC_03030	lanB	Nisin biosynthesis protein NisB	Lactococcus_lactis_subsp_lactis_IO-1	#4DBBD5FF	JOABFC_03030	602877
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	602888	604690	+	JOABFC_03035	lanT	Nisin transport ATP-binding protein NisT	Lactococcus_lactis_subsp_lactis_IO-1	#3C5488FF	JOABFC_03035	604690
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	604683	605927	+	JOABFC_03040	lanC	Nisin biosynthesis protein NisC	Lactococcus_lactis_subsp_lactis_IO-1	#4DBBD5FF	JOABFC_03040	605927
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	605924	606661	+	JOABFC_03045	lanI	Nisin immunity protein	Lactococcus_lactis_subsp_lactis_IO-1	#3C5488FF	JOABFC_03045	606661
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	606663	608711	+	JOABFC_03050	lanP	Nisin leader peptide-processing serine protease lanP	Lactococcus_lactis_subsp_lactis_IO-1	#4e7800b2	JOABFC_03050	608711
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	608780	609466	+	JOABFC_03055	lanRK	Nisin biosynthesis regulatory protein NisR	Lactococcus_lactis_subsp_lactis_IO-1	#91D1C2FF	JOABFC_03055	609466
+AP012281.1	Lactococcus lactis subsp. lactis nisin-Z	CDS	609459	610802	+	JOABFC_03060	lanRK	Nisin biosynthesis sensor protein NisK	Lactococcus_lactis_subsp_lactis_IO-1	#91D1C2FF	JOABFC_03060	610802
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	13766	15139	+	NHHCHB_07225	lanP	Leader peptide-processing serine protease	Strep_agalactiae_nisinP	#4e7800b2	NHHCHB_07225	15139
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	15180	15878	+	NHHCHB_07230	lanRK	Two-component system, response regulator, lantibiotic associated	Strep_agalactiae_nisinP	#91D1C2FF	NHHCHB_07230	15878
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	15856	17199	+	NHHCHB_07235	lanRK	histidine kinase	Strep_agalactiae_nisinP	#91D1C2FF	NHHCHB_07235	17199
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	17389	18090	+	NHHCHB_07240	lanFEG	Lantibiotic protection ABC transporter ATP-binding protein	Strep_agalactiae_nisinP	#3C5488FF	NHHCHB_07240	18090
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	18083	18820	+	NHHCHB_07245	lanFEG	Lantibiotic protection ABC transporter permease protein	Strep_agalactiae_nisinP	#3C5488FF	NHHCHB_07245	18820
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	18798	19484	+	NHHCHB_07250	lanFEG	ABC transporter permease	Strep_agalactiae_nisinP	#3C5488FF	NHHCHB_07250	19484
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	19832	19999	+	NHHCHB_07255	lanA	Lantibiotic	Strep_agalactiae_nisinP	black	NHHCHB_07255	19999
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	20240	23215	+	NHHCHB_07260	lanB	Lantibiotic dehydratase	Strep_agalactiae_nisinP	#4DBBD5FF	NHHCHB_07260	23215
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	23196	25004	+	NHHCHB_07265	lanT	lanT	Strep_agalactiae_nisinP	#3C5488FF	NHHCHB_07265	25004
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	24997	26274	+	NHHCHB_07270	lanC	Lanthionine synthetase C-like protein	Strep_agalactiae_nisinP	#4DBBD5FF	NHHCHB_07270	26274
+WIDP01000009.1	Streptococcus agalactiae nisin-P	CDS	26276	26992	+	NHHCHB_07275	lanI	Immunity protein	Strep_agalactiae_nisinP	#3C5488FF	NHHCHB_07275	26992
