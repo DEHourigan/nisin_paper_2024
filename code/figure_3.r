@@ -30,11 +30,6 @@ library(ggsankey)
 library(ape)
 
 ####################################
-# Load the data
-####################################
-nisin_tsv = fread("/data/san/data1/users/david/mining_2023/nisins/tables/nisin_tsv.csv")
-core_peptides = fread("/data/san/data1/users/david/mining_2023/nisins/tables/core_peptides.csv")
-####################################
 # ggtree of ALL organisms
 ####################################
 library(ggtree)
@@ -77,7 +72,7 @@ ggsave(tree_plot_2,
 #  SANKEY plot
 ####################################
 
-protein_dist_df = fread("/data/san/data1/users/david/mining_2023/nisins/tables/protein_dist_df.tsv")
+protein_dist_df = fread("../data/sankey/protein_dist_df.tsv")
 unique(protein_dist_df$genus)
 sankey_df = protein_dist_df %>%
   filter(n > 10) %>%
