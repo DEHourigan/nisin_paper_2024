@@ -26,8 +26,6 @@ setwd("/data/san/data2/users/david/nisin/code")
 
 
 nisin_meta <- fread("../data/tables/supplementary/supplementary_table_S1.csv")
-
-
 nisin_countres_all = c(nisin_meta$country_value)
 world_coordinates <- map_data("world") 
 
@@ -102,6 +100,7 @@ isolation_source_plot <- nisin_meta %>%
 
 # Create the host attribute value plot
 host_attribute_value_plot <- nisin_meta %>%
+  filter(host_attribute_value != "") %>%
   count(host_attribute_value) %>%
   filter(!is.na(host_attribute_value) & host_attribute_value != "na" & n >= 4) %>%
   arrange(desc(n)) %>%
@@ -293,3 +292,55 @@ combined_plot = plot_grid(
 ggsave(combined_plot, 
   filename = "../figures/figure_1_e.png", 
   width = 18, height = 5, units = "cm", dpi = 600)
+
+
+
+####################################
+# descriptive statistics on the metadata
+####################################
+nisin_meta %>%
+  filter(isolation_source == 'na' & host_attribute_value == 'na') %>%
+  count(assembly)
+
+# count all sources
+nisin_meta %>%
+  count(isolation_source) %>%
+  arrange(desc(n))
+
+
+
+table_species_per_source = nisin_meta %>%
+  count(species, isolation_source) %>%
+  arrange(desc(n))
+
+nisin_meta %>%
+  filter(grepl("diseased pig_unknown|systemic|infectioncerebrospinal|blood|brain|organ", isolation_source, ignore.case = TRUE)) %>%
+  count(isolation_source,host_attribute_value,species) %>%
+  filter(grepl("suis", species, ignore.case = TRUE)) %>%
+  mutate( total = sum(n))
+
+# count genera per source
+table_host = nisin_meta %>%
+  count(host_attribute_value) %>%
+  arrange(desc(n))
+
+table_species_per_host = nisin_meta %>%
+  count(species, host_attribute_value) %>%
+  arrange(desc(n))
+
+# count species of s. suis
+table_species_suis = nisin_meta %>%
+  count(species, host_attribute_value) %>%
+  filter(grepl("suis", species, ignore.case = TRUE)) %>%
+  arrange(desc(n)) %>%
+  mutate( total = sum(n)) %>%
+  mutate(pig_total = sum(n))
+
+# species table
+table_species = nisin_meta %>%
+  count(species) %>%
+  arrange(desc(n))
+
+unique(nisin_meta$species)
+unique(nisin_meta$family)
+unique(nisin_meta$genus)

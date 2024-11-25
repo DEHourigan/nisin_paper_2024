@@ -87,7 +87,7 @@ GCA_000832245.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales_B,f__Caldibaci
 GCA_000876895.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,brain,human,Viet Nam
 GCA_000877155.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,pig_unknown,pig,United Kingdom
 GCA_000877215.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,brain,human,Viet Nam
-GCA_000878265.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Bacillaceae,g__Bacillus,s__Bacillus subtilis,,,
+GCA_000878265.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Bacillaceae,g__Bacillus,s__Bacillus subtilis,"","",""
 GCA_000931815.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Bacillaceae,g__Bacillus,s__Bacillus spizizenii,soil,na,USA
 GCA_000931835.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Bacillaceae,g__Bacillus,s__Bacillus spizizenii,soil,na,USA
 GCA_000935945.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,respiratory tract,pig,United Kingdom
@@ -207,7 +207,7 @@ GCA_002042905.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Anoxybacill
 GCA_002072065.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Anoxybacillaceae,g__Geobacillus,s__Geobacillus thermodenitrificans,food,na,Austria
 GCA_002077325.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Enterococcaceae,g__Enterococcus_B,s__Enterococcus_B hirae,gut,cow,Canada
 GCA_002078475.4,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,food,na,Italy
-GCA_002078995.2,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,,,
+GCA_002078995.2,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,"","",""
 GCA_002078995.3,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,food,na,Italy
 GCA_002079715.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Lactobacillaceae,g__Ligilactobacillus,s__Ligilactobacillus sp945923665,na,na,Cork
 GCA_002117565.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Anoxybacillaceae,g__Anoxybacillus,s__Anoxybacillus ayderensis,hot spring,na,USA
@@ -428,7 +428,7 @@ GCA_014061435.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Staphylococcales,f__Staph
 GCA_014287815.1,d__Bacteria,p__Bacillota_A,c__Clostridia,o__Clostridiales,f__Clostridiaceae,g__Clostridium,s__Clostridium lentum,gut,human,China
 GCA_014287855.1,d__Bacteria,p__Bacillota_A,c__Clostridia,o__Clostridiales,f__Clostridiaceae,g__Clostridium,s__Clostridium lentum,gut,human,China
 GCA_014324155.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Lactobacillaceae,g__Lactobacillus,s__Lactobacillus helsingborgensis,gut,bee,Italy
-GCA_014488735.1,Unclassified,,,,,,,na,na,China
+GCA_014488735.1,Unclassified,"","","","","","",na,na,China
 GCA_014645615.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Paenibacillales,f__Paenibacillaceae,g__Paenibacillus_J,s__Paenibacillus_J hunanensis,plant,na,China
 GCA_014650495.1,d__Bacteria,p__Actinomycetota,c__Actinomycetes,o__Streptomycetales,f__Streptomycetaceae,g__Streptomyces,s__Streptomyces cinnamoneus,soil,na,Japan
 GCA_014679145.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Anoxybacillaceae,g__Geobacillus,s__Geobacillus thermoleovorans,"Yates Shaft, SURF",na,USA
@@ -519,7 +519,7 @@ GCA_018780925.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Strept
 GCA_018780965.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,na,pig,China
 GCA_018780985.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,na,human,China
 GCA_018781005.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,na,human,China
-GCA_018919065.1,d__Bacteria,p__Bacillota_A,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Blautia_A,s__Blautia_A sp018919065,,,
+GCA_018919065.1,d__Bacteria,p__Bacillota_A,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Blautia_A,s__Blautia_A sp018919065,"","",""
 GCA_018991605.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,food,na,USA
 GCA_018991645.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,food,na,USA
 GCA_019037305.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Bacillales,f__Bacillaceae,g__Bacillus,s__Bacillus subtilis,environmental,na,USA
@@ -636,7 +636,7 @@ GCA_022867545.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Strept
 GCA_022867585.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,blood,human,China
 GCA_022867605.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,blood,human,China
 GCA_022867685.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus suis,blood,human,China
-GCA_022900215.1,d__Bacteria,p__Bacillota_A,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Blautia_A,s__Blautia_A sp900066335,,,
+GCA_022900215.1,d__Bacteria,p__Bacillota_A,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Blautia_A,s__Blautia_A sp900066335,"","",""
 GCA_023060875.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus uberis,dairy,sheep,Italy
 GCA_023061955.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Streptococcus,s__Streptococcus uberis,dairy,sheep,Italy
 GCA_023078515.1,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Streptococcaceae,g__Lactococcus,s__Lactococcus lactis,food,na,South Korea

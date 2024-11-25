@@ -29,7 +29,6 @@ tax_nuc = fread("../data/tables/supplementary/supplementary_table_S2.csv")
 contigs_w_nisin = fread("../data/tables/supplementary/supplementary_table_S2.csv") %>%
   select(nucleotide_acc) 
 
-mge_class_tax = fread("../data/tables/mge_class_tax.tsv", sep="\t")
 mge_table = fread("../data/tables/mge_class_tax.tsv", sep="\t")
 platon_df = fread("../data/plasmids/all_plasmids.tsv") %>%
   janitor::clean_names() %>%
@@ -106,6 +105,9 @@ ggsave(plasmid_plot,
 ############################
 # HGT of some nisin core peptides
 ############################
+
+# note this part of the code requires all the annotated tables from bakta 
+# and cannot be uploaded to github due to the size
 hmm_dir = "../data/tables/hmm_bakta/"
 hmm_files = list.files(hmm_dir, pattern = "*hmm.out", recursive = FALSE, full.names = TRUE)
 hmm_df = do.call(rbind, lapply(hmm_files, read_tblout)) %>%
@@ -312,10 +314,9 @@ ggsave(ice_plot1,
 ################################
 # plot gene content of ICE
 ################################
-n_ice = 145
+n_ice = 145 # number of ice predicted with nisin core peptides
 
-# Define the directory and file pattern
-file_path <- "/data/san/data1/users/david/mining_2023/nisins/genomes_download/icefinder/protein_content_analysis/in"
+file_path <- "../data/ice/protein_content_analysis/in"
 file_pattern <- "*.faa"
 file_list <- list.files(path = file_path, pattern = file_pattern, full.names = TRUE)
 all_data <- data.frame()
@@ -334,14 +335,11 @@ extract_data_from_file <- function(file) {
   return(data)
 }
 
-# Loop through each file and extract data
 for (file in file_list) {
   file_data <- extract_data_from_file(file)
   all_data <- bind_rows(all_data, file_data)
 }
 
-
-# Select the relevant columns
 ice_content <- all_data %>% select(product, contig)
 
 # Count the number of unique contigs for each product
@@ -350,8 +348,9 @@ product_contig_count <- ice_content %>%
   group_by(product) %>%
   summarise(contig_count = n())
 
-# Calculate the total number of unique contigs
+# Calculate the total number of unique contigs, this should equal the number of ICEs
 total_contigs <- n_distinct(ice_content$contig)
+total_contigs == n_ice
 
 # Calculate the percentage of contigs for each product
 product_contig_percentage <- product_contig_count %>%
@@ -390,6 +389,7 @@ ggsave(ice_content_plot,
   file = "../figures/ice_content_plot.png",
   width = 12, height = 8, units = "cm", dpi=600)  
 
+fwrite(product_contig_count, "../data/tables/supplementary/supplementary_table_S8.csv", sep="\t")
 
 ################################
 # plot gene content of plasmids
@@ -440,6 +440,7 @@ ggsave(high_quality_plasmid_content_plot,
   file = "../figures/high_quality_plasmid_content_plot_plot.png",
   width = 12, height = 8, units = "cm", dpi=600)  
 
+fwrite(product_seqid_count, "../data/tables/supplementary/supplementary_table_S9.csv", sep="\t")
 
 
 ################################
@@ -451,10 +452,12 @@ tn_content <- fread("../data/tables/tn_content.tsv", sep="\t")
 product_seqid_count_tn <- tn_content %>%
   distinct(nucleotide_acc, product) %>%
   group_by(product) %>%
-  summarise(seq_id_count = n())
+  summarise(seq_id_count = n()) %>%
+  arrange(desc(seq_id_count))
 
 # Calculate the total number of unique seq_id
 total_seq_ids_tn <- n_distinct(tn_content$assembly)
+total_seq_ids_tn == 123
 
 # Calculate the percentage of seq_id for each product
 product_seqid_percentage_60_75 <- product_seqid_count_tn %>%
@@ -475,32 +478,16 @@ product_seqid_percentage <- product_seqid_count_tn %>%
   mutate(percentage = (seq_id_count / total_seq_ids_tn) * 100) %>%
   filter(product != "hypothetical protein")
 
-
-
-
-
 ################################
 # plot of counts on MGE (Figure 4)
 ################################
-mge_table_class = fread("../data/tables/mge_table_class.tsv", sep="\t")
-mge_table = fread("../data/tables/mge_class_tax.tsv", sep="\t") %>%
-  mutate(mge_class = case_when( mge_class == "transposon" ~ "ICE_element",
-    TRUE ~ mge_class)) 
-
-mge_table_class$mge_class <- gsub("transposon", "ICE_element", mge_table_class$mge_class)
-mge_table_class$mge_class <- gsub("plasmid, ICE_element", "ICE_element, plasmid", mge_table_class$mge_class)
-# there are X in total on MGE
-mge_table_class %>%
-  summarise(count = n_distinct(nucleotide_acc))
-
-mge_table_class %>%
-  group_by(mge_class) %>%
-  summarise(count = n_distinct(nucleotide_acc))
+mge_table_class = fread("../data/tables/supplementary/supplementary_table_S6.csv")
 
 count_mge = mge_table %>% select(species, nucleotide_acc, mge_class) %>%
 group_by(species, mge_class) %>%
 summarise(count = n_distinct(nucleotide_acc)) %>%
 arrange(desc(count))
+
 
 mge_table_df_for_plot = mge_table_class %>%
   left_join(., dplyr::select(mge_table, nucleotide_acc, genus), by = "nucleotide_acc") %>%

@@ -65,13 +65,7 @@ ggsave(gg_core,
 # SYNTENY of operons
 ##############################	
 ava = read_sublinks("../data/nisin_vp/synteny/region_proteins.blast", format = "blast") 
-
-
 synteny_table = fread("../data/nisin_vp/synteny/vp_synteny_table.tsv") 
-
-
-
-
 nisin_operons_plot = gggenomes(synteny_table) %>%
   add_sublinks(ava %>% filter(length > 200)) %>%
   pick_seqs(c(
