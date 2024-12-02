@@ -24,8 +24,8 @@ library(cowplot)
 pal_npg("nrc")(10)
 setwd("/data/san/data2/users/david/nisin/code")
 
+nisin_meta <- fread("../data/tables/supplementary/supplementary_table_S1.csv") 
 
-nisin_meta <- fread("../data/tables/supplementary/supplementary_table_S1.csv")
 nisin_countres_all = c(nisin_meta$country_value)
 world_coordinates <- map_data("world") 
 
@@ -70,8 +70,6 @@ ggsave(world_plot, file = "../figures/world_map_colored.png",
 
 # SET PIE COLOURS
 pie_colors = c(pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.2)(10))
-
-
 
 
 #################################
@@ -160,8 +158,13 @@ ggsave(combined_plot,
 # get meta data for assemblies
 #################################
 library(lubridate)
+epidermin = fread("../data/tables/supplementary/supplementary_epidermin.csv", 
+  header=FALSE) 
+
 meta_df = fread("../data/tables/assemblies_meta.tsv") %>%
-  clean_names()
+  clean_names() %>%
+  mutate(assembly_accession = sub("GCF_", "GCA_", assembly_accession)) %>%
+  filter(!assembly_accession %in% epidermin$V3)
 
 meta_df$seq_release_format <- as.Date(meta_df$assembly_bio_sample_submission_date, format="%Y%M")
 meta_df$year <- floor_date(meta_df$seq_release_format, "year")
@@ -170,7 +173,8 @@ monthly_counts <- meta_df %>%
   group_by(year, assembly_accession) %>% 
   summarise(total_genomes = n_distinct(assembly_accession)) %>%
   ungroup() %>%
-  mutate(total_genomes = cumsum(total_genomes)) 
+  mutate(total_genomes = cumsum(total_genomes))  %>%
+  filter(!assembly_accession %in% epidermin$V3)
 
 # Calculate the average number of genomes per year in total
 overall_avg <- meta_df %>%
@@ -228,7 +232,7 @@ assembly_level_plot = ggplot(assembly_level_counts) +
     plot.title = element_text(size = 10, face="bold"),
     axis.title.x = element_text(size = 7),  
     axis.title.y = element_text(size= 7) ,  
-    axis.text.x = element_text(size = 7),  # Adjust size and angle as needed 
+    axis.text.x = element_text(size = 7),
     axis.text.y = element_text(size = 7)
   )
 
