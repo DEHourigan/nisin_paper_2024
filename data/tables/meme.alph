@@ -1,0 +1,23 @@
+ALPHABET "Protein" PROTEIN-LIKE
+
+# Core symbols
+A "Alanine" 3C5488
+R "Arginine" 00A087
+N "Asparagine" E64B35
+D "Aspartic acid" 8491B4
+C "Cysteine" 3C5488
+E "Glutamic acid" 8491B4
+Q "Glutamine" E64B35
+G "Glycine" F39B7F
+H "Histidine" 7E6148
+I "Isoleucine" 3C5488
+L "Leucine" 3C5488
+K "Lysine" 00A087
+M "Methionine" 3C5488
+F "Phenylalanine" 3C5488
+P "Proline" 91D1C2
+S "Serine" E64B35
+T "Threonine" E64B35
+W "Tryptophan" 3C5488
+Y "Tyrosine" DC0000
+V "Valine" 3C5488
