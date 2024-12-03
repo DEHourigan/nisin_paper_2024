@@ -1,288 +1,484 @@
-nucleotide_acc,mge_class
-MGYG000190779_4,ICE_element
-NC_009328.1,prophage
-NC_015600.1,ICE_element
-NC_017486.1,ICE_element
-NZ_AEYY01000049.1,ICE_element
-NZ_ALLX01000038.1,plasmid
-NZ_ALMJ01000010.1,ICE_element
-NZ_ALMQ01000002.1,ICE_element
-NZ_ALNB01000002.1,ICE_element
-NZ_ALNF01000037.1,plasmid
-NZ_ALTM01000005.1,ICE_element
-NZ_ALUP01000012.1,ICE_element
-NZ_ANCL01000039.1,plasmid
-NZ_ANCM01000037.1,plasmid
-NZ_AP020310.1,ICE_element
-NZ_ATWZ01000005.1,ICE_element
-NZ_AUWB01000020.1,ICE_element
-NZ_BCCR01000016.1,ICE_element
-NZ_BCDA01000017.1,ICE_element
-NZ_BCDN01000002.1,ICE_element
-NZ_BCEC01000028.1,ICE_element
-NZ_BCEE01000029.1,ICE_element
-NZ_BCEO01000032.1,ICE_element
-NZ_BCFB01000042.1,"ICE_element, plasmid"
-NZ_BHYS01000003.1,ICE_element
-NZ_BHYV01000001.1,ICE_element
-NZ_CAKMBL010000007.1,ICE_element
-NZ_CAKMCT010000003.1,ICE_element
-NZ_CATNMR010000001.1,ICE_element
-NZ_CATOZE010000007.1,ICE_element
-NZ_CAURQI010000002.1,ICE_element
-NZ_CDSW01000109.1,ICE_element
-NZ_CDSX01000002.1,ICE_element
-NZ_CDTQ01000002.1,ICE_element
-NZ_CDTS01000001.1,ICE_element
-NZ_CDUB01000005.1,ICE_element
-NZ_CDVC01000006.1,ICE_element
-NZ_CDVQ01000002.1,ICE_element
-NZ_CDVS01000004.1,ICE_element
-NZ_CDWD01000002.1,ICE_element
-NZ_CDWM01000002.1,ICE_element
-NZ_CEBE01000002.1,ICE_element
-NZ_CEBK01000003.1,ICE_element
-NZ_CEBM01000009.1,ICE_element
-NZ_CECQ01000016.1,ICE_element
-NZ_CECX01000005.1,ICE_element
-NZ_CEDD01000051.1,ICE_element
-NZ_CEDG01000006.1,ICE_element
-NZ_CEDK01000055.1,ICE_element
-NZ_CEDN01000007.1,ICE_element
-NZ_CEDQ01000001.1,ICE_element
-NZ_CEEG01000031.1,ICE_element
-NZ_CEEI01000021.1,ICE_element
-NZ_CEFA01000040.1,ICE_element
-NZ_CEGR01000001.1,ICE_element
-NZ_CEHA01000002.1,ICE_element
-NZ_CEHE01000002.1,ICE_element
-NZ_CEHF01000001.1,ICE_element
-NZ_CEHL01000002.1,ICE_element
-NZ_CEIF01000001.1,ICE_element
-NZ_CEIJ01000001.1,ICE_element
-NZ_CEIK01000001.1,ICE_element
-NZ_CEIM01000002.1,ICE_element
-NZ_CEIN01000002.1,ICE_element
-NZ_CEJH01000002.1,ICE_element
-NZ_CEJI01000001.1,ICE_element
-NZ_CEJT01000045.1,ICE_element
-NZ_CEJY01000001.1,ICE_element
-NZ_CEKB01000003.1,ICE_element
-NZ_CEKC01000001.1,ICE_element
-NZ_CEKD01000001.1,ICE_element
-NZ_CEKI01000001.1,ICE_element
-NZ_CEKJ01000002.1,ICE_element
-NZ_CEKK01000001.1,ICE_element
-NZ_CEKP01000001.1,ICE_element
-NZ_CKGJ01000002.1,ICE_element
-NZ_CKGW01000003.1,ICE_element
-NZ_CLFO01000002.1,ICE_element
-NZ_CP008813.1,ICE_element
-NZ_CP009913.1,ICE_element
-NZ_CP014144.1,ICE_element
-NZ_CP015405.2,prophage
-NZ_CP022713.1,prophage
-NZ_CP023704.1,ICE_element
-NZ_CP024974.1,ICE_element
-NZ_CP027303.2,ICE_element
-NZ_CP031379.1,ICE_element
-NZ_CP058741.1,ICE_element
-NZ_CP065312.1,prophage
-NZ_CP065984.1,ICE_element
-NZ_CP086149.1,ICE_element
-NZ_CP113114.1,ICE_element
-NZ_CP113115.1,ICE_element
-NZ_CP116604.1,ICE_element
-NZ_CP116958.1,ICE_element
-NZ_CP123987.1,plasmid
-NZ_CP124538.1,ICE_element
-NZ_CP133476.1,ICE_element
-NZ_CP136799.1,ICE_element
-NZ_CQDE01000008.1,ICE_element
-NZ_CRTO01000002.1,ICE_element
-NZ_CZEY01000059.1,ICE_element
-NZ_CZFK01000069.1,ICE_element
-NZ_FGTH01000002.1,ICE_element
-NZ_FIFD01000006.1,plasmid
-NZ_FIFF01000008.1,ICE_element
-NZ_FIFH01000002.1,ICE_element
-NZ_FIFI01000007.1,ICE_element
-NZ_FIFU01000007.1,ICE_element
-NZ_FIGD01000009.1,ICE_element
-NZ_FIHC01000008.1,ICE_element
-NZ_FIHF01000004.1,ICE_element
-NZ_FIHK01000008.1,ICE_element
-NZ_FIHO01000009.1,ICE_element
-NZ_FIIF01000004.1,ICE_element
-NZ_FIIH01000001.1,ICE_element
-NZ_FIII01000009.1,ICE_element
-NZ_FIIK01000010.1,ICE_element
-NZ_FIIN01000005.1,ICE_element
-NZ_FIIT01000008.1,ICE_element
-NZ_FIIV01000010.1,ICE_element
-NZ_FIIY01000001.1,ICE_element
-NZ_FIJC01000008.1,ICE_element
-NZ_FIJE01000011.1,ICE_element
-NZ_FIJR01000007.1,ICE_element
-NZ_FIJV01000008.1,ICE_element
-NZ_FIJX01000005.1,ICE_element
-NZ_FIKG01000008.1,ICE_element
-NZ_FIKR01000008.1,ICE_element
-NZ_FIKX01000007.1,ICE_element
-NZ_FIKY01000009.1,ICE_element
-NZ_FILC01000006.1,ICE_element
-NZ_FILG01000009.1,ICE_element
-NZ_FILH01000009.1,ICE_element
-NZ_FILI01000009.1,ICE_element
-NZ_FILM01000006.1,ICE_element
-NZ_FILN01000006.1,ICE_element
-NZ_FILT01000008.1,ICE_element
-NZ_FILV01000007.1,ICE_element
-NZ_FILW01000009.1,ICE_element
-NZ_FILZ01000008.1,ICE_element
-NZ_FIMQ01000006.1,ICE_element
-NZ_FIMZ01000009.1,ICE_element
-NZ_FINC01000008.1,ICE_element
-NZ_FINI01000008.1,ICE_element
-NZ_FION01000008.1,ICE_element
-NZ_FIOP01000007.1,ICE_element
-NZ_FIPG01000009.1,ICE_element
-NZ_FIPO01000007.1,ICE_element
-NZ_FIRQ01000009.1,ICE_element
-NZ_FIRV01000009.1,ICE_element
-NZ_FISD01000009.1,ICE_element
-NZ_FISF01000010.1,ICE_element
-NZ_FITE01000009.1,ICE_element
-NZ_FOJS01000046.1,ICE_element
-NZ_FYOD01000001.1,ICE_element
-NZ_GG667191.1,ICE_element
-NZ_GL636070.1,ICE_element
-NZ_JAAADK010000004.1,ICE_element
-NZ_JAFBEO010000003.1,plasmid
-NZ_JAFFHI010000008.1,ICE_element
-NZ_JAFFHJ010000004.1,ICE_element
-NZ_JAGMVX010000022.1,plasmid
-NZ_JAGUAK010000001.1,ICE_element
-NZ_JAGUBT010000006.1,ICE_element
-NZ_JAGZHU010000002.1,ICE_element
-NZ_JAHFZO010000034.1,ICE_element
-NZ_JAILYK010000003.1,ICE_element
-NZ_JAIMDX010000010.1,ICE_element
-NZ_JAINRO010000010.1,plasmid
-NZ_JAIWQY010000002.1,ICE_element
-NZ_JAKTAH010000006.1,ICE_element
-NZ_JAKTAY010000006.1,ICE_element
-NZ_JAKTAZ010000006.1,ICE_element
-NZ_JAKTBA010000006.1,ICE_element
-NZ_JAKTBB010000006.1,ICE_element
-NZ_JAKTBC010000006.1,ICE_element
-NZ_JAKTBD010000006.1,ICE_element
-NZ_JAKTBE010000006.1,ICE_element
-NZ_JAKTBF010000006.1,ICE_element
-NZ_JAKTBG010000006.1,ICE_element
-NZ_JAKTBH010000006.1,ICE_element
-NZ_JAKTBI010000006.1,ICE_element
-NZ_JAKTBJ010000006.1,ICE_element
-NZ_JAKTBK010000006.1,ICE_element
-NZ_JAKTBL010000006.1,ICE_element
-NZ_JAKTBM010000006.1,ICE_element
-NZ_JAKTBN010000006.1,ICE_element
-NZ_JAKTBU010000007.1,ICE_element
-NZ_JALIDU010000009.1,ICE_element
-NZ_JAMBUO010000003.1,ICE_element
-NZ_JAMDIC010000006.1,ICE_element
-NZ_JAMDIF010000006.1,ICE_element
-NZ_JAMDIG010000006.1,ICE_element
-NZ_JAMDJE010000005.1,ICE_element
-NZ_JAMYJQ010000009.1,ICE_element
-NZ_JANIKZ010000008.1,plasmid
-NZ_JANILA010000008.1,plasmid
-NZ_JANILB010000008.1,plasmid
-NZ_JANILC010000009.1,plasmid
-NZ_JAPHEZ010000002.1,ICE_element
-NZ_JAPHFL010000001.1,ICE_element
-NZ_JAPHHL010000005.1,ICE_element
-NZ_JAQCTP010000014.1,plasmid
-NZ_JAQCUJ010000015.1,plasmid
-NZ_JAQDQV010000001.1,"ICE_element, plasmid"
-NZ_JAQEHZ010000049.1,plasmid
-NZ_JAQEUO010000003.1,plasmid
-NZ_JAQMJI010000027.1,ICE_element
-NZ_JARBJM010000002.1,plasmid
-NZ_JARBJN010000002.1,plasmid
-NZ_JASFZV010000004.1,ICE_element
-NZ_JASGSL010000002.1,plasmid
-NZ_JAULTN010000002.1,ICE_element
-NZ_JAWKGS010000003.1,ICE_element
-NZ_JAWKGT010000003.1,ICE_element
-NZ_JAWKGU010000003.1,"ICE_element, plasmid"
-NZ_JAWKGW010000003.1,"ICE_element, plasmid"
-NZ_JHXK01000032.1,plasmid
-NZ_JIIW01000002.1,ICE_element
-NZ_KK236787.1,ICE_element
-NZ_KK237105.1,ICE_element
-NZ_KK237158.1,ICE_element
-NZ_KV757177.1,ICE_element
-NZ_LBLK01000027.1,ICE_element
-NZ_LDEK01000006.1,ICE_element
-NZ_LR134274.1,ICE_element
-NZ_LR793265.1,ICE_element
-NZ_MAWI01000032.1,ICE_element
-NZ_MBKK01000022.1,ICE_element
-NZ_MBLB01000017.1,ICE_element
-NZ_MBLH01000033.1,ICE_element
-NZ_MBLI01000033.1,ICE_element
-NZ_MBLK01000033.1,ICE_element
-NZ_MJDR01000005.1,ICE_element
-NZ_NAXD01000028.1,plasmid
-NZ_NAXI01000010.1,plasmid
-NZ_NAXY01000046.1,"ICE_element, plasmid"
-NZ_NAYF01000033.1,plasmid
-NZ_NAYM01000006.1,ICE_element
-NZ_NBET01000043.1,plasmid
-NZ_NXEM01000027.1,ICE_element
-NZ_POIY01000040.1,ICE_element
-NZ_POJM01000034.1,ICE_element
-NZ_PXON01000003.1,ICE_element
-NZ_PXOP01000005.1,ICE_element
-NZ_QSTB01000004.1,ICE_element
-NZ_QVEY01000014.1,plasmid
-NZ_RAGK01000014.1,ICE_element
-NZ_SSXN01000004.1,ICE_element
-NZ_UAVB01000001.1,ICE_element
-NZ_UEND01000001.1,ICE_element
-NZ_UHET01000003.1,ICE_element
-NZ_UHEW01000005.1,ICE_element
-NZ_VANM01000008.1,"ICE_element, plasmid"
-NZ_VIEC01000009.1,ICE_element
-NZ_VSTI01000002.1,"ICE_element, plasmid"
-NZ_VSTJ01000004.1,plasmid
-NZ_VSTM01000003.1,plasmid
-NZ_VSTP01000004.1,plasmid
-NZ_VSTS01000004.1,plasmid
-NZ_VSTU01000003.1,plasmid
-NZ_VSTV01000002.1,plasmid
-NZ_VSTX01000003.1,plasmid
-NZ_VSUD01000013.1,plasmid
-NZ_VSUE01000005.1,plasmid
-NZ_VSUI01000005.1,plasmid
-NZ_VSUK01000003.1,plasmid
-NZ_VSUX01000003.1,plasmid
-NZ_VSUY01000004.1,plasmid
-NZ_VSVH01000009.1,plasmid
-NZ_VSVI01000002.1,plasmid
-NZ_VSVK01000003.1,plasmid
-NZ_VSVP01000003.1,"ICE_element, plasmid"
-NZ_VSVR01000005.1,plasmid
-NZ_VSVT01000004.1,plasmid
-NZ_VSVW01000005.1,plasmid
-NZ_VSWA01000004.1,plasmid
-NZ_VYJT01000010.1,ICE_element
-NZ_VYRC01000025.1,ICE_element
-NZ_VZJE01000008.1,ICE_element
-NZ_VZKB01000006.1,ICE_element
-NZ_VZKT01000008.1,ICE_element
-NZ_VZLI01000008.1,ICE_element
-NZ_VZLK01000008.1,ICE_element
-NZ_WHVU01000008.1,"ICE_element, plasmid"
-NZ_WNJJ01000001.1,"prophage, ICE_element"
+nucleotide_acc,detail,mge_class,genus,species
+NC_009328.1,pp2 ,prophage,g__Geobacillus,s__Geobacillus thermodenitrificans
+NZ_CP015405.2,pp3 ,prophage,g__Blautia,s__Blautia pseudococcoides
+NZ_CP022713.1,pp2 ,prophage,g__Blautia,s__Blautia pseudococcoides
+NZ_WNJJ01000001.1,pp2 ,prophage,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CP065312.1,pp1 ,prophage,g__Blautia,s__Blautia pseudococcoides
+NC_015600.1, NC_015600.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NC_015600.1, NC_015600.1_ICE7,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_AEYY01000049.1, NZ_AEYY01000049.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis_P
+NZ_ALMJ01000010.1, NZ_ALMJ01000010.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_ALMJ01000010.1, NZ_ALMJ01000010.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_ALMQ01000002.1, NZ_ALMQ01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_ALNB01000002.1, NZ_ALNB01000002.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_ALTM01000005.1, NZ_ALTM01000005.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_ALUP01000012.1, NZ_ALUP01000012.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_AP020310.1, NZ_AP020310.1_ICE14,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_ATWZ01000005.1, NZ_ATWZ01000005.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus equinus
+NZ_AUWB01000020.1, NZ_AUWB01000020.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_AUWB01000020.1, NZ_AUWB01000020.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_BCCR01000016.1, NZ_BCCR01000016.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCCR01000016.1, NZ_BCCR01000016.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCDA01000017.1, NZ_BCDA01000017.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCDN01000002.1, NZ_BCDN01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCDN01000002.1, NZ_BCDN01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCEC01000028.1, NZ_BCEC01000028.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCEC01000028.1, NZ_BCEC01000028.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCEE01000029.1, NZ_BCEE01000029.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCEE01000029.1, NZ_BCEE01000029.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCEO01000032.1, NZ_BCEO01000032.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCEO01000032.1, NZ_BCEO01000032.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_BCFB01000042.1, NZ_BCFB01000042.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus ruminantium
+NZ_CDSW01000109.1, NZ_CDSW01000109.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDSX01000002.1, NZ_CDSX01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDSX01000002.1, NZ_CDSX01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDTQ01000002.1, NZ_CDTQ01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDTQ01000002.1, NZ_CDTQ01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDTS01000001.1, NZ_CDTS01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDTS01000001.1, NZ_CDTS01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDUB01000005.1, NZ_CDUB01000005.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDVC01000006.1, NZ_CDVC01000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDVC01000006.1, NZ_CDVC01000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDVQ01000002.1, NZ_CDVQ01000002.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDVS01000004.1, NZ_CDVS01000004.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDVS01000004.1, NZ_CDVS01000004.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDWD01000002.1, NZ_CDWD01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDWD01000002.1, NZ_CDWD01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CDWM01000002.1, NZ_CDWM01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEBE01000002.1, NZ_CEBE01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEBE01000002.1, NZ_CEBE01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEBK01000003.1, NZ_CEBK01000003.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEBK01000003.1, NZ_CEBK01000003.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEBM01000009.1, NZ_CEBM01000009.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CECQ01000016.1, NZ_CECQ01000016.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CECQ01000016.1, NZ_CECQ01000016.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CECX01000005.1, NZ_CECX01000005.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CECX01000005.1, NZ_CECX01000005.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEDD01000051.1, NZ_CEDD01000051.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_CEDD01000051.1, NZ_CEDD01000051.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_CEDG01000006.1, NZ_CEDG01000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_CEDK01000055.1, NZ_CEDK01000055.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEDK01000055.1, NZ_CEDK01000055.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEDN01000007.1, NZ_CEDN01000007.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEDQ01000001.1, NZ_CEDQ01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEDQ01000001.1, NZ_CEDQ01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEEG01000031.1, NZ_CEEG01000031.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEEI01000021.1, NZ_CEEI01000021.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEFA01000040.1, NZ_CEFA01000040.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEGR01000001.1, NZ_CEGR01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEGR01000001.1, NZ_CEGR01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHA01000002.1, NZ_CEHA01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHA01000002.1, NZ_CEHA01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHE01000002.1, NZ_CEHE01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHE01000002.1, NZ_CEHE01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHF01000001.1, NZ_CEHF01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHF01000001.1, NZ_CEHF01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHL01000002.1, NZ_CEHL01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEHL01000002.1, NZ_CEHL01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIF01000001.1, NZ_CEIF01000001.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIF01000001.1, NZ_CEIF01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIJ01000001.1, NZ_CEIJ01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIJ01000001.1, NZ_CEIJ01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIK01000001.1, NZ_CEIK01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIK01000001.1, NZ_CEIK01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIM01000002.1, NZ_CEIM01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIM01000002.1, NZ_CEIM01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIN01000002.1, NZ_CEIN01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEIN01000002.1, NZ_CEIN01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJH01000002.1, NZ_CEJH01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJH01000002.1, NZ_CEJH01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJI01000001.1, NZ_CEJI01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJI01000001.1, NZ_CEJI01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJT01000045.1, NZ_CEJT01000045.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJY01000001.1, NZ_CEJY01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEJY01000001.1, NZ_CEJY01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKB01000003.1, NZ_CEKB01000003.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKB01000003.1, NZ_CEKB01000003.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKC01000001.1, NZ_CEKC01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKC01000001.1, NZ_CEKC01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKD01000001.1, NZ_CEKD01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKD01000001.1, NZ_CEKD01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKI01000001.1, NZ_CEKI01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKI01000001.1, NZ_CEKI01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKJ01000002.1, NZ_CEKJ01000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKJ01000002.1, NZ_CEKJ01000002.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKK01000001.1, NZ_CEKK01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKK01000001.1, NZ_CEKK01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKP01000001.1, NZ_CEKP01000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CEKP01000001.1, NZ_CEKP01000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CKGJ01000002.1, NZ_CKGJ01000002.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CKGJ01000002.1, NZ_CKGJ01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CKGW01000003.1, NZ_CKGW01000003.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CKGW01000003.1, NZ_CKGW01000003.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CLFO01000002.1, NZ_CLFO01000002.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CLFO01000002.1, NZ_CLFO01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CP008813.1, NZ_CP008813.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CP008813.1, NZ_CP008813.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CP008813.1, NZ_CP008813.1_ICE7,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CP024974.1, NZ_CP024974.1_ICE12,ICE_element,g__Streptococcus,s__Streptococcus suis_P
+NZ_CP024974.1, NZ_CP024974.1_ICE15,ICE_element,g__Streptococcus,s__Streptococcus suis_P
+NZ_CP031379.1, NZ_CP031379.1_ICE7,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CP058741.1, NZ_CP058741.1_ICE7,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CP058741.1, NZ_CP058741.1_ICE8,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CP113114.1, NZ_CP113114.1_ICE10,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CP113115.1, NZ_CP113115.1_ICE9,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CP116604.1, NZ_CP116604.1_ICE8,ICE_element,g__Streptococcus,s__Streptococcus suis_P
+NZ_CP116958.1, NZ_CP116958.1_ICE17,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_CP116958.1, NZ_CP116958.1_IME5,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_CQDE01000008.1, NZ_CQDE01000008.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CQDE01000008.1, NZ_CQDE01000008.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CRTO01000002.1, NZ_CRTO01000002.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CRTO01000002.1, NZ_CRTO01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_CZEY01000059.1, NZ_CZEY01000059.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_CZFK01000069.1, NZ_CZFK01000069.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFD01000006.1, NZ_FIFD01000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFD01000006.1, NZ_FIFD01000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFF01000008.1, NZ_FIFF01000008.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFH01000002.1, NZ_FIFH01000002.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFH01000002.1, NZ_FIFH01000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFI01000007.1, NZ_FIFI01000007.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFI01000007.1, NZ_FIFI01000007.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFU01000007.1, NZ_FIFU01000007.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIFU01000007.1, NZ_FIFU01000007.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIGD01000009.1, NZ_FIGD01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIGD01000009.1, NZ_FIGD01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHC01000008.1, NZ_FIHC01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHC01000008.1, NZ_FIHC01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHF01000004.1, NZ_FIHF01000004.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHK01000008.1, NZ_FIHK01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHK01000008.1, NZ_FIHK01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHO01000009.1, NZ_FIHO01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIHO01000009.1, NZ_FIHO01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIF01000004.1, NZ_FIIF01000004.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIH01000001.1, NZ_FIIH01000001.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIH01000001.1, NZ_FIIH01000001.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIII01000009.1, NZ_FIII01000009.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIK01000010.1, NZ_FIIK01000010.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIN01000005.1, NZ_FIIN01000005.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_FIIT01000008.1, NZ_FIIT01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIT01000008.1, NZ_FIIT01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIV01000010.1, NZ_FIIV01000010.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIIV01000010.1, NZ_FIIV01000010.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJC01000008.1, NZ_FIJC01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJC01000008.1, NZ_FIJC01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJE01000011.1, NZ_FIJE01000011.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJR01000007.1, NZ_FIJR01000007.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJR01000007.1, NZ_FIJR01000007.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJV01000008.1, NZ_FIJV01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJV01000008.1, NZ_FIJV01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIJX01000005.1, NZ_FIJX01000005.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_FIKG01000008.1, NZ_FIKG01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKG01000008.1, NZ_FIKG01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKR01000008.1, NZ_FIKR01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKR01000008.1, NZ_FIKR01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKX01000007.1, NZ_FIKX01000007.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKX01000007.1, NZ_FIKX01000007.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKY01000009.1, NZ_FIKY01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIKY01000009.1, NZ_FIKY01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILC01000006.1, NZ_FILC01000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILC01000006.1, NZ_FILC01000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILG01000009.1, NZ_FILG01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILG01000009.1, NZ_FILG01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILH01000009.1, NZ_FILH01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILH01000009.1, NZ_FILH01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILI01000009.1, NZ_FILI01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILI01000009.1, NZ_FILI01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILM01000006.1, NZ_FILM01000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILM01000006.1, NZ_FILM01000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILN01000006.1, NZ_FILN01000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILN01000006.1, NZ_FILN01000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILT01000008.1, NZ_FILT01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILT01000008.1, NZ_FILT01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILV01000007.1, NZ_FILV01000007.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILW01000009.1, NZ_FILW01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILW01000009.1, NZ_FILW01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILZ01000008.1, NZ_FILZ01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FILZ01000008.1, NZ_FILZ01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIMQ01000006.1, NZ_FIMQ01000006.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIMZ01000009.1, NZ_FIMZ01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIMZ01000009.1, NZ_FIMZ01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FINC01000008.1, NZ_FINC01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FINC01000008.1, NZ_FINC01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FINI01000008.1, NZ_FINI01000008.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FION01000008.1, NZ_FION01000008.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIOP01000007.1, NZ_FIOP01000007.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIPG01000009.1, NZ_FIPG01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIPG01000009.1, NZ_FIPG01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIPO01000007.1, NZ_FIPO01000007.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIRQ01000009.1, NZ_FIRQ01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIRQ01000009.1, NZ_FIRQ01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIRV01000009.1, NZ_FIRV01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FIRV01000009.1, NZ_FIRV01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FISD01000009.1, NZ_FISD01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FISD01000009.1, NZ_FISD01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FISF01000010.1, NZ_FISF01000010.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FISF01000010.1, NZ_FISF01000010.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FITE01000009.1, NZ_FITE01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FITE01000009.1, NZ_FITE01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_FYOD01000001.1, NZ_FYOD01000001.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_JAAADK010000004.1, NZ_JAAADK010000004.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAFFHI010000008.1, NZ_JAFFHI010000008.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_JAFFHJ010000004.1, NZ_JAFFHJ010000004.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_JAGUAK010000001.1, NZ_JAGUAK010000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAGUAK010000001.1, NZ_JAGUAK010000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAGUBT010000006.1, NZ_JAGUBT010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAGUBT010000006.1, NZ_JAGUBT010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAGZHU010000002.1, NZ_JAGZHU010000002.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JAILYK010000003.1, NZ_JAILYK010000003.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_JAIMDX010000010.1, NZ_JAIMDX010000010.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTAH010000006.1, NZ_JAKTAH010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTAY010000006.1, NZ_JAKTAY010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTAY010000006.1, NZ_JAKTAY010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTAZ010000006.1, NZ_JAKTAZ010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBA010000006.1, NZ_JAKTBA010000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBA010000006.1, NZ_JAKTBA010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBB010000006.1, NZ_JAKTBB010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBB010000006.1, NZ_JAKTBB010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBC010000006.1, NZ_JAKTBC010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBD010000006.1, NZ_JAKTBD010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBE010000006.1, NZ_JAKTBE010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBF010000006.1, NZ_JAKTBF010000006.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBF010000006.1, NZ_JAKTBF010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBG010000006.1, NZ_JAKTBG010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBH010000006.1, NZ_JAKTBH010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBI010000006.1, NZ_JAKTBI010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBI010000006.1, NZ_JAKTBI010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBJ010000006.1, NZ_JAKTBJ010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBK010000006.1, NZ_JAKTBK010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBK010000006.1, NZ_JAKTBK010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBL010000006.1, NZ_JAKTBL010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBL010000006.1, NZ_JAKTBL010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBM010000006.1, NZ_JAKTBM010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBN010000006.1, NZ_JAKTBN010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBN010000006.1, NZ_JAKTBN010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBU010000007.1, NZ_JAKTBU010000007.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAKTBU010000007.1, NZ_JAKTBU010000007.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JALIDU010000009.1, NZ_JALIDU010000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JALIDU010000009.1, NZ_JALIDU010000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMBUO010000003.1, NZ_JAMBUO010000003.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAMDIC010000006.1, NZ_JAMDIC010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMDIC010000006.1, NZ_JAMDIC010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMDIF010000006.1, NZ_JAMDIF010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMDIG010000006.1, NZ_JAMDIG010000006.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMDIG010000006.1, NZ_JAMDIG010000006.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMDJE010000005.1, NZ_JAMDJE010000005.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAMYJQ010000009.1, NZ_JAMYJQ010000009.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_JAPHEZ010000002.1, NZ_JAPHEZ010000002.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAPHFL010000001.1, NZ_JAPHFL010000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAPHHL010000005.1, NZ_JAPHHL010000005.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAQDQV010000001.1, NZ_JAQDQV010000001.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JAQDQV010000001.1, NZ_JAQDQV010000001.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JASFZV010000004.1, NZ_JASFZV010000004.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JASFZV010000004.1, NZ_JASFZV010000004.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_JAWKGS010000003.1, NZ_JAWKGS010000003.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JAWKGT010000003.1, NZ_JAWKGT010000003.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JAWKGU010000003.1, NZ_JAWKGU010000003.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JAWKGW010000003.1, NZ_JAWKGW010000003.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_KV757177.1, NZ_KV757177.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_KV757177.1, NZ_KV757177.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_KV757177.1, NZ_KV757177.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_LBLK01000027.1, NZ_LBLK01000027.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MAWI01000032.1, NZ_MAWI01000032.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MAWI01000032.1, NZ_MAWI01000032.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MBKK01000022.1, NZ_MBKK01000022.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MBLH01000033.1, NZ_MBLH01000033.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MBLI01000033.1, NZ_MBLI01000033.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MBLK01000033.1, NZ_MBLK01000033.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_MJDR01000005.1, NZ_MJDR01000005.1_ICE3,ICE_element,g__Enterococcus_B,s__Enterococcus_B hirae
+NZ_NAXY01000046.1, NZ_NAXY01000046.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_NAYM01000006.1, NZ_NAYM01000006.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_POIY01000040.1, NZ_POIY01000040.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_POIY01000040.1, NZ_POIY01000040.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_POJM01000034.1, NZ_POJM01000034.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_PXON01000003.1, NZ_PXON01000003.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_PXON01000003.1, NZ_PXON01000003.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_PXOP01000005.1, NZ_PXOP01000005.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_PXOP01000005.1, NZ_PXOP01000005.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_SSXN01000004.1, NZ_SSXN01000004.1_ICE2,ICE_element,g__Streptococcus,s__Streptococcus suis_W
+NZ_UHET01000003.1, NZ_UHET01000003.1_ICE10,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_UHET01000003.1, NZ_UHET01000003.1_ICE8,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_UHEW01000005.1, NZ_UHEW01000005.1_ICE10,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_VIEC01000009.1, NZ_VIEC01000009.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VIEC01000009.1, NZ_VIEC01000009.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VYJT01000010.1, NZ_VYJT01000010.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_VYJT01000010.1, NZ_VYJT01000010.1_ICE6,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_VYRC01000025.1, NZ_VYRC01000025.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_VZJE01000008.1, NZ_VZJE01000008.1_ICE4,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VZJE01000008.1, NZ_VZJE01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VZKB01000006.1, NZ_VZKB01000006.1_ICE7,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VZKT01000008.1, NZ_VZKT01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VZLI01000008.1, NZ_VZLI01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_VZLK01000008.1, NZ_VZLK01000008.1_ICE5,ICE_element,g__Streptococcus,s__Streptococcus suis
+NZ_WNJJ01000001.1, NZ_WNJJ01000001.1_ICE3,ICE_element,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAQDQV010000001.1, ,plasmid,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_VSTV01000002.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JASGSL010000002.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JAGMVX010000022.1, ,plasmid,g__Weissella,s__Weissella uvarum
+NZ_JAFBEO010000003.1, ,plasmid,g__Weissella,s__Weissella uvarum
+NZ_JAWKGW010000003.1, ,plasmid,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_JAWKGU010000003.1, ,plasmid,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_VSTS01000004.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSUK01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVK01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JARBJM010000002.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JARBJN010000002.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_CP123987.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSTI01000002.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVP01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSTX01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSTU01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVT01000004.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVI01000002.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSTJ01000004.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_NBET01000043.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSWA01000004.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSUX01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JAQEUO010000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSUI01000005.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVW01000005.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VANM01000008.1, ,plasmid,g__Lactococcus,s__Lactococcus lactis
+NZ_VSUE01000005.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSTM01000003.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_NAXY01000046.1, ,plasmid,g__Streptococcus,s__Streptococcus agalactiae
+NZ_VSTP01000004.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_BCFB01000042.1, ,plasmid,g__Streptococcus,s__Streptococcus ruminantium
+NZ_FIFD01000006.1, ,plasmid,g__Streptococcus,s__Streptococcus suis
+NZ_VSUY01000004.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVR01000005.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_NAYF01000033.1, ,plasmid,g__Streptococcus,s__Streptococcus agalactiae
+NZ_VSVH01000009.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_NAXI01000010.1, ,plasmid,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JHXK01000032.1, ,plasmid,g__Clostridium,s__Clostridium beijerinckii_A
+NZ_NAXD01000028.1, ,plasmid,g__Streptococcus,s__Streptococcus agalactiae
+NZ_ALNF01000037.1, ,plasmid,g__Streptococcus,s__Streptococcus suis_P
+NZ_JAINRO010000010.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JAQCTP010000014.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_JANIKZ010000008.1, ,plasmid,g__Staphylococcus,s__Staphylococcus hyicus
+NZ_JANILA010000008.1, ,plasmid,g__Staphylococcus,s__Staphylococcus hyicus
+NZ_JANILC010000009.1, ,plasmid,g__Staphylococcus,s__Staphylococcus hyicus
+NZ_JANILB010000008.1, ,plasmid,g__Staphylococcus,s__Staphylococcus hyicus
+NZ_ALLX01000038.1, ,plasmid,g__Streptococcus,s__Streptococcus suis_F
+NZ_JAQCUJ010000015.1, ,plasmid,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_QVEY01000014.1, ,plasmid,g__Streptococcus,s__Streptococcus pasteurianus
+NZ_VSUD01000013.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_WHVU01000008.1, ,plasmid,g__Staphylococcus,s__Staphylococcus capitis
+NZ_ANCL01000039.1, ,plasmid,g__Streptococcus,s__Streptococcus agalactiae
+NZ_ANCM01000037.1, ,plasmid,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAQEHZ010000049.1, ,plasmid,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+MGYG000190779_4,"ET-ID979|ISLjo5|IS200-IS605|IS605|Tnp,AG:TnpB|2101 ",transposon,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NC_017486.1,ET-ID4120|ISLla3|IS3|IS150|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_ALTM01000005.1,ET-ID1622|ISSag5|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_ALUP01000012.1,ET-ID1622|ISSag5|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_BCCR01000016.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_BCDA01000017.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_BCEC01000028.1,ET-ID727|ISSa4|IS982|other|Tnp|962 ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_BCEE01000029.1,ET-ID727|ISSa4|IS982|other|Tnp|962 ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_BCEO01000032.1,ET-ID727|ISSa4|IS982|other|Tnp|962 ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_BHYS01000003.1,ET-ID75|IS1167A|ISL3|other|Tnp|1419 ,transposon,g__Streptococcus,s__Streptococcus intermedius
+NZ_BHYV01000001.1,ET-ID75|IS1167A|ISL3|other|Tnp|1419 ,transposon,g__Streptococcus,s__Streptococcus intermedius
+NZ_CAKMBL010000007.1,ET-ID475|IS981|IS3|IS3|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_CAKMCT010000003.1,ET-ID2593|ISEfa10|IS3|IS150|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_CATNMR010000001.1,ET-ID2001|ISEnfa364|IS30|other|Tnp|1056 ,transposon,g__Streptococcus,s__Streptococcus thermophilus
+NZ_CAURQI010000002.1,ET-ID2484|ISDha13|IS200-IS605|IS200|Tnp|745 ,transposon,g__Streptococcus,s__Streptococcus mitis_C
+NZ_CDSW01000109.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDSX01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDTQ01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDTS01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDUB01000005.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDVC01000006.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDVQ01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDVS01000004.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDWD01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CDWM01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEBE01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEBK01000003.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEBM01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CECQ01000016.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEDK01000055.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEDQ01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEGR01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEHA01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEHE01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEHF01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEHL01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEIJ01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEIK01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEIM01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEIN01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEJH01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEJI01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEJY01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKB01000003.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKC01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKD01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKI01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKJ01000002.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKK01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CEKP01000001.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_CP009913.1,ET-ID4913|ISSsu7|IS110|other|Tnp|1619 ,transposon,g__Streptococcus,s__Streptococcus salivarius
+NZ_CP014144.1,ET-ID4913|ISSsu7|IS110|other|Tnp|1619 ,transposon,g__Streptococcus,s__Streptococcus salivarius
+NZ_CP023704.1,"ET-ID3040|ISBth16|IS200-IS605|IS605|Tnp,AG:TnpB|1821 ",transposon,g__Bacillus_J,s__Bacillus_J thermoamylovorans
+NZ_CP027303.2,ET-ID1340|ISGka3|IS4|IS231|Tnp|1605 ,transposon,g__Geobacillus,s__Geobacillus thermoleovorans
+NZ_CP065984.1,ET-ID4120|ISLla3|IS3|IS150|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_CP086149.1,ET-ID1833|ISBce14|IS3|other|ORF ,transposon,g__Clostridium_AD,s__Clostridium_AD estertheticum
+NZ_CP124538.1,ET-ID4120|ISLla3|IS3|IS150|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_CP133476.1,ET-ID4913|ISSsu7|IS110|other|Tnp|1619 ,transposon,g__Streptococcus,s__Streptococcus salivarius
+NZ_CP136799.1,ET-ID1816|ISSmu2|ISL3|other|Tnp|1411 ,transposon,g__Streptococcus,s__Streptococcus intermedius
+NZ_CQDE01000008.1,ET-ID1622|ISSag5|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_CZEY01000059.1,ET-ID727|ISSa4|IS982|other|Tnp|962 ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIFD01000006.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIFI01000007.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIFU01000007.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIGD01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIHC01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIHK01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIHO01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIIY01000001.1,ET-ID1445|ISSsu2|IS4|IS4|Tnp|1503 ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIKR01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FILC01000006.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FILI01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FILM01000006.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FILN01000006.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FILT01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FILV01000007.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIMQ01000006.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIMZ01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FINC01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FINI01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FION01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIOP01000007.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIPG01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIPO01000007.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIRQ01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FIRV01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FISD01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FISF01000010.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FITE01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_FOJS01000046.1,ET-ID1285|ISGka2|IS110|other|Tnp|1561 ,transposon,g__Parageobacillus,s__Parageobacillus thermantarcticus
+NZ_FYOD01000001.1,ET-ID895|ISSth1|ISL3|other|Tnp|1416 ,transposon,g__Streptococcus,s__Streptococcus pneumoniae
+NZ_GG667191.1,ET-ID341|IS3502|IS3|IS51|ORF ,transposon,g__Corynebacterium,s__Corynebacterium lipophiloflavum
+NZ_GL636070.1,ET-ID3728|ISSth1b|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAHFZO010000034.1,ET-ID3412|ISBpu1|IS1182|other|Tnp|1709 ,transposon,g__Bacillus,s__Bacillus vallismortis
+NZ_JAIWQY010000002.1,ET-ID4120|ISLla3|IS3|IS150|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_JAPHHL010000005.1,ET-ID3728|ISSth1b|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_JAQMJI010000027.1,ET-ID445|IS861|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus salivarius
+NZ_JASFZV010000004.1,ET-ID727|ISSa4|IS982|other|Tnp|962 ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_JAULTN010000002.1,ET-ID475|IS981|IS3|IS3|ORF ,transposon,g__Lactococcus,s__Lactococcus cremoris
+NZ_LDEK01000006.1,ET-ID475|IS981|IS3|IS3|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_LR134274.1,ET-ID4913|ISSsu7|IS110|other|Tnp|1619 ,transposon,g__Streptococcus,s__Streptococcus salivarius
+NZ_LR793265.1,ET-ID4721|ISSpn11|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus salivarius
+NZ_MBLB01000017.1,ET-ID2077|ISSpy2|IS982|other|Tnp|962 ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_NXEM01000027.1,ET-ID3412|ISBpu1|IS1182|other|Tnp|1709 ,transposon,g__Bacillus,s__Bacillus vallismortis
+NZ_QSTB01000004.1,"ET-ID979|ISLjo5|IS200-IS605|IS605|Tnp,AG:TnpB|2101 ",transposon,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_RAGK01000014.1,ET-ID475|IS981|IS3|IS3|ORF ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_UAVB01000001.1,ET-ID3728|ISSth1b|IS3|IS150|ORF ,transposon,g__Streptococcus,s__Streptococcus agalactiae
+NZ_UEND01000001.1,ET-ID75|IS1167A|ISL3|other|Tnp|1419 ,transposon,g__Streptococcus,s__Streptococcus intermedius
+NZ_VANM01000008.1,ET-ID608|IS-LL6|IS3|IS3|Tnp|1254 ,transposon,g__Lactococcus,s__Lactococcus lactis
+NZ_VIEC01000009.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_VSTI01000002.1,ET-ID1838|ISBce15|IS3|IS150|ORF ,transposon,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VSVP01000003.1,"ET-ID979|ISLjo5|IS200-IS605|IS605|Tnp,AG:TnpB|2101 ",transposon,g__Ligilactobacillus,s__Ligilactobacillus salivarius
+NZ_VZJE01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_VZKT01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_VZLI01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_VZLK01000008.1,ET-ID1117|ISSsu3|IS630|other|ORF ,transposon,g__Streptococcus,s__Streptococcus suis
+NZ_WHVU01000008.1,ET-ID973|ISSau6|IS6|other|Tnp|793 ,transposon,g__Staphylococcus,s__Staphylococcus capitis
