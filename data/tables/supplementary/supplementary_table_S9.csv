@@ -19,7 +19,6 @@ product	seq_id_count
 (pseudo) Transposase for insertion sequence-like element IS431mec	9
 (pseudo) alanine dehydrogenase	6
 (pseudo) hypothetical protein	6
-(pseudo) lantibiotic dehydratase	4
 (pseudo) rhodanese-like domain-containing protein	2
 (pseudo) site-specific DNA-methyltransferase (adenine-specific)	1
 (pseudo) type I restriction-modification system endonuclease	1
@@ -558,15 +557,10 @@ LPXTG cell wall anchor domain-containing protein	22
 LTA synthase family protein	1
 LZ-Tnp-IS66 domain-containing protein	1
 Lactococcin 972 family bacteriocin	2
-Lant-dehydr-N domain-containing protein	2
-Lanthionine synthetase C-like protein	17
 Lantibiotic	51
 Lantibiotic ABC transporter ATP-binding protein	28
 Lantibiotic ABC transporter permease	28
-Lantibiotic cyclase	1
-Lantibiotic dehydratase	14
 Lantibiotic immunity ABC transporter MutG family permease subunit	28
-Lantibiotic modifying enzyme	5
 Lantibiotic nisin-U	1
 Lantibiotic protection ABC transporter ATP-binding protein	19
 Lantibiotic protection ABC transporter permease protein	19
@@ -658,13 +652,10 @@ NR LBD domain-containing protein	3
 NTP pyrophosphohydrolase	3
 Na+/proline symporter	21
 Na-H-Exchanger domain-containing protein	1
-Nisin biosynthesis protein NisB	23
 Nisin transport ATP-binding protein NisT	1
 Nisin transport protein NisF	1
 Nitroreductase domain-containing protein	2
 NodB-like y domain-containing protein	1
-NsjB lantibiotic dehydratase	1
-NsjC Lanthionine synthetase C-like protein	1
 NsjE ABC2 membrane superfamily	1
 NsjF lantibiotic protection ABC transporter ATP-binding	1
 NsjG lantibiotic protection, ABC transporter	1
@@ -1090,8 +1081,8 @@ hypothetical protein	48
 imidazole glycerol phosphate synthase subunit HisH	3
 imidazoleglycerol-phosphate dehydratase HisB	3
 inositol monophosphatase family protein	2
-lanthionine synthetase C family protein	22
-lantibiotic dehydratase	5
+lanthionine synthetase C family protein	41
+lantibiotic dehydratase	51
 large conductance mechanosensitive channel protein MscL	1
 large-conductance mechanosensitive channel protein MscL	1
 linear amide C-N hydrolase	2
@@ -1209,7 +1200,6 @@ tetracycline resistance ribosomal protection protein Tet(O)	8
 thiaminase II	1
 thiamine pyrophosphate-dependent dehydrogenase E1 component subunit alpha	2
 thiol peroxidase	1
-thiopeptide-type bacteriocin biosynthesis protein	4
 thioredoxin family protein	2
 threonine--tRNA ligase	2
 threonine/serine exporter family protein	2
