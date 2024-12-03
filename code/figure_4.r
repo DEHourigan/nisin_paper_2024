@@ -25,14 +25,18 @@ library(rhmmer)
 
 setwd("/data/san/data2/users/david/nisin/code")
 
-tax_nuc = fread("../data/tables/supplementary/supplementary_table_S2.csv")
-contigs_w_nisin = fread("../data/tables/supplementary/supplementary_table_S2.csv") %>%
-  select(nucleotide_acc) 
+tax_nuc = fread("../data/tables/supplementary/supplementary_table_S1.csv")
+contigs_w_nisin = fread("../data/tables/supplementary/contigs.txt") 
 
-mge_table = fread("../data/tables/mge_class_tax.tsv", sep="\t")
+
+
 platon_df = fread("../data/plasmids/all_plasmids.tsv") %>%
   janitor::clean_names() %>%
-  mutate(nucleotide_acc = id) %>% select(nucleotide_acc) # do not need to merge as all predicted by mlplasmids were predicted by platon
+  mutate(nucleotide_acc = id) %>% select(nucleotide_acc) %>%
+  filter(nucleotide_acc %in% contigs_w_nisin$nucleotide_acc)
+
+
+tax_nuc$assembly %>% unique()
 
 ############################
 # What is on MGEs - the plasmid content
@@ -387,7 +391,7 @@ ice_content_plot = ggplot(product_contig_percentage,
 
 ggsave(ice_content_plot,
   file = "../figures/ice_content_plot.png",
-  width = 12, height = 8, units = "cm", dpi=600)  
+  width = 10, height = 8, units = "cm", dpi=600)  
 
 fwrite(product_contig_count, "../data/tables/supplementary/supplementary_table_S8.csv", sep="\t")
 
@@ -395,11 +399,38 @@ fwrite(product_contig_count, "../data/tables/supplementary/supplementary_table_S
 # plot gene content of plasmids
 ################################
 plasmid_df = fread("../data/tables/plasmid_content_df.tsv", sep="\t") %>%
-  select(seq_id, product)
+  select(seq_id, product) %>%
+   mutate(product = case_when(
+      product == "Nisin biosynthesis protein NisB" ~ "lantibiotic dehydratase",
+      product == "Lantibiotic dehydratase"~ "lantibiotic dehydratase",
+      product == "NsjB lantibiotic dehydratase" ~ "lantibiotic dehydratase",
+      product == "Lantibiotic modifying enzyme" ~ "lantibiotic dehydratase",
+      product == "Lant-dehydr-N domain-containing protein" ~ "lantibiotic dehydratase",
+      product == "thiopeptide-type bacteriocin biosynthesis protein" ~ "lantibiotic dehydratase",
+      product == "(pseudo) lantibiotic dehydratase" ~ "lantibiotic dehydratase",
+      product == "lanthionine synthetase C family protein" ~ "lanthionine synthetase C family protein",
+      product == "Lanthionine synthetase C-like protein" ~ "lanthionine synthetase C family protein",
+      product == "Lantibiotic cyclase" ~ "lanthionine synthetase C family protein",
+      product == "NsjC Lanthionine synthetase C-like protein" ~ "lanthionine synthetase C family protein",
+      TRUE ~ product
+    )
+  )
+
+plasmid_df %>%
+  group_by(seq_id) %>%
+  filter(grepl("dehy", product, ignore.case = TRUE)) 
+
+seq_ids_without_dehydratase <- plasmid_df %>%
+  group_by(seq_id) %>%
+  filter(!any(grepl("dehydratase", product, ignore.case = TRUE))) %>%
+  ungroup() %>%
+  select(seq_id, product) %>%
+  distinct()
+
+seq_ids_without_dehydratase
 
 # Check if ICE part of plasmids
 ice_contigs %in% plasmid_df$seq_id
-
 product_seqid_count <- plasmid_df %>%
   distinct(seq_id, product)	 %>%
   group_by(product) %>%
@@ -407,11 +438,15 @@ product_seqid_count <- plasmid_df %>%
 
 total_seq_ids <- n_distinct(plasmid_df$seq_id)
 
-# Calculate the percentage of seq_id for each product
+# Calculate the percentage of seq_ids for each product and standardize product names
 product_seqid_percentage <- product_seqid_count %>%
-  mutate(percentage = (seq_id_count / total_seq_ids) * 100) %>%
-  filter(percentage > 50 ) %>%
-  filter(product != "hypothetical protein")
+  mutate(percentage = (seq_id_count / total_seq_ids) * 100
+  ) %>%
+  filter(percentage > 50) %>%
+  filter(product != "hypothetical protein") %>%
+  arrange(desc(percentage)) 
+
+product_seqid_percentage %>% filter(grepl("thio", product, ignore.case = TRUE))
 
 product_seqid_count %>% 
   filter(grepl("Tet", product, ignore.case = TRUE))
@@ -438,7 +473,7 @@ high_quality_plasmid_content_plot = ggplot(product_seqid_percentage,
 
 ggsave(high_quality_plasmid_content_plot, 
   file = "../figures/high_quality_plasmid_content_plot_plot.png",
-  width = 12, height = 8, units = "cm", dpi=600)  
+  width = 8, height = 6, units = "cm", dpi=600)  
 
 fwrite(product_seqid_count, "../data/tables/supplementary/supplementary_table_S9.csv", sep="\t")
 
@@ -481,22 +516,64 @@ product_seqid_percentage <- product_seqid_count_tn %>%
 ################################
 # plot of counts on MGE (Figure 4)
 ################################
-mge_table_class = fread("../data/tables/supplementary/supplementary_table_S6.csv")
+mge_table_class = fread("../data/tables/supplementary/supplementary_table_S6.csv") 
+
+n_distinct(mge_table_class$nucleotide_acc) / 915 * 100
+
+count_mge_species = mge_table %>% select(species, nucleotide_acc, mge_class) %>%
+  group_by(nucleotide_acc, species, mge_class) %>%
+  distinct() %>%
+  group_by(nucleotide_acc, species) %>%
+  summarise(mge_class = paste(mge_class, collapse = ", "), .groups = 'drop') %>% # t
+  group_by(species, mge_class) %>%
+  summarise(count = n_distinct(nucleotide_acc)) %>%
+  arrange(desc(count))
 
 count_mge = mge_table %>% select(species, nucleotide_acc, mge_class) %>%
-group_by(species, mge_class) %>%
-summarise(count = n_distinct(nucleotide_acc)) %>%
-arrange(desc(count))
-
+  group_by(nucleotide_acc, species, mge_class) %>%
+  distinct() %>%
+  group_by(nucleotide_acc, species) %>%
+  summarise(mge_class = paste(mge_class, collapse = ", "), .groups = 'drop') %>% # t
+  group_by(mge_class) %>%
+  summarise(count = n_distinct(nucleotide_acc)) %>%
+  arrange(desc(count)) %>%
+  mutate(pecent = (count / 915) * 100)
 
 mge_table_df_for_plot = mge_table_class %>%
-  left_join(., dplyr::select(mge_table, nucleotide_acc, genus), by = "nucleotide_acc") %>%
+  # left_join(., dplyr::select(mge_table, nucleotide_acc, genus), by = "nucleotide_acc") %>%
+  select(nucleotide_acc, mge_class, genus) %>%
+  group_by(nucleotide_acc, genus, mge_class) %>%
+  distinct() %>%
+  dplyr::slice(1) %>%
+  group_by(nucleotide_acc, genus) %>%
+  summarise(mge_class = paste(mge_class, collapse = ", "), .groups = 'drop') %>% # this stops double counting
+  mutate(mge_class = case_when(
+    mge_class == "ICE_element, transposon" ~ "ICE_element",
+    TRUE ~ mge_class)) %>%
   group_by(genus, mge_class) %>%
   summarise(count = n_distinct(nucleotide_acc), .groups = 'drop') %>% 
   filter(count > 0) %>%
-  mutate(subset = case_when(count > 50 ~ "yes", TRUE ~ "no"))
+  mutate(subset = case_when(count > 50 ~ "yes", TRUE ~ "no")) %>%
+  arrange(desc(count)) 
 
-mge_table_plot = ggplot(mge_table_df_for_plot, 
+
+  
+strep_df = mge_table_df_for_plot %>%
+  filter(grepl("Streptococcus", genus, ignore.case = TRUE))
+
+mge_table_plot = ggplot(strep_df, 
+  aes(x = count, y = reorder(mge_class, -count, function(x) -sum(x)), fill = mge_class)) +
+  geom_bar(stat = "identity", color="black") +
+  theme_bw(base_size = 10) +
+  labs(x = "g__Streptococcus MGE count", y = "", fill = "MGE Class") +  # Add fill legend name
+  theme(axis.text.x = element_text(angle = 90, hjust = 0.8, vjust = 0), 
+    plot.title = element_text(size = 12),
+    axis.title.x = element_text(size = 10),
+    axis.title.y = element_text(size = 10),
+    legend.position = "none") +
+  scale_fill_manual(values = c(pal_npg("nrc")(10) )) 
+
+mge_table_plot2 = ggplot(mge_table_df_for_plot %>% filter(genus != "g__Streptococcus"), 
   aes(x = count, y = reorder(genus, -count, function(x) -sum(x)), fill = mge_class)) +
   geom_bar(stat = "identity", color="black") +
   theme_bw(base_size = 10) +
@@ -508,18 +585,7 @@ mge_table_plot = ggplot(mge_table_df_for_plot,
     legend.position = "right") +
   scale_fill_manual(values = c(pal_npg("nrc")(10) )) 
 
-mge_table_plot2 = ggplot(mge_table_df_for_plot %>% filter(subset == "no"), 
-  aes(x = count, y = reorder(genus, -count, function(x) -sum(x)), fill = mge_class)) +
-  geom_bar(stat = "identity", color="black") +
-  theme_bw(base_size = 10) +
-  labs(x = "Count", y = "Genus", fill = "MGE Class") +  # Add fill legend name
-  theme(axis.text.x = element_text(angle = 90, hjust = 0.8, vjust = 0), 
-    plot.title = element_text(size = 12),
-    axis.title.x = element_text(size = 10),
-    axis.title.y = element_text(size = 10),
-    legend.position = "right") +
-  scale_fill_manual(values = c(pal_npg("nrc")(10) )) 
-mge_table_plot2
+
 ggsave(mge_table_plot, 
   file = "../figures/mge_table_plot_plot.png",
   width = 14, height = 6, units = "cm", dpi=600)
@@ -527,6 +593,7 @@ ggsave(mge_table_plot,
 mge_table_plot3 = grid.arrange(mge_table_plot, mge_table_plot2, 
   ncol = 2,
   widths = c(4, 5))
+
 ggsave(mge_table_plot3,
   file = "../figures/mge_table_3_plot.png", 
-  width = 26, height = 10, units = "cm", dpi=600)
+  width = 26, height = 8, units = "cm", dpi=600)
