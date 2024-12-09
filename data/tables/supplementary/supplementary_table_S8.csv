@@ -6,19 +6,24 @@ product	contig_count
 23S rRNA methyltransferase attenuation leader peptide	79
 23S rRNA methyltransferase attenuator leader peptide ErmL	5
 3-dehydroquinate synthase	1
-3-phosphoshikimate 1-carboxyvinyltransferase	7
+3-phosphoshikimate 1-carboxyvinyltransferase	17
 30S ribosomal protein S16	1
 30S ribosomal protein S21	1
 4-alpha-glucanotransferase	1
+5-deoxy-D-ribulose 1-phosphate aldolase	2
+50S ribosomal protein L10	1
 50S ribosomal protein L19	1
 50S ribosomal protein L20	1
 50S ribosomal protein L21	1
 50S ribosomal protein L27	1
 50S ribosomal protein L35	1
+50S ribosomal protein L7/L12	1
 8-oxo-dGTP diphosphatase	1
 AAA family ATPase	138
 ABC transporter ATP-binding protein	145
+ABC transporter ATP-binding protein YxdL	3
 ABC transporter permease	8
+ABC transporter permease protein YxdM	1
 ABC transporter substrate-binding protein	5
 ABC transporter substrate-binding protein/permease	1
 ASCH domain-containing protein	1
@@ -30,21 +35,34 @@ ATP-dependent helicase	2
 ATP-grasp domain-containing protein	3
 ATPase AAA	57
 Abi family protein	89
+Aminoglycoside 3'-phosphotransferase	14
+Aminoglycoside 6-adenylyltransferase	13
+Antitoxin PezA	41
+Antitoxin epsilon	6
 AraC family transcriptional regulator	2
+Bacitracin export permease protein BceB	2
+Bacitracin transport ATP-binding protein BcrA	44
+Bifunctional chorismate mutase/prephenate dehydratase	9
+C5a peptidase	1
 CD0415/CD1112 family protein	2
 CD1845 family protein	1
 CHAP domain-containing protein	2
 CPBP family intramembrane glutamic endopeptidase	104
 CPBP family intramembrane metalloprotease	33
+Cadmium resistance transcriptional regulatory protein CadC	1
 CapA family protein	1
 CdaR family protein	1
+Chromosome-partitioning ATPase Soj	5
 ClC family H(+)/Cl(-) exchange transporter	1
 ClbS/DfsB family four-helix bundle protein	1
+Copper-exporting P-type ATPase	1
+Copper-exporting P-type ATPase B	1
 CsbD family protein	1
 D-alanine--D-alanine ligase	1
 DEAD/DEAH box helicase family protein	7
 DNA (cytosine-5-)-methyltransferase	24
 DNA cytosine methyltransferase	2
+DNA gyrase subunit B	1
 DNA primase	3
 DNA topoisomerase	1
 DNA topoisomerase (ATP-hydrolyzing) subunit B	2
@@ -75,7 +93,11 @@ DUF6556 family protein	1
 DUF87 domain-containing protein	48
 DeoR/GlpR family DNA-binding transcription regulator	1
 EbsA family protein	1
+Enolase	1
+Fe(3+)-citrate-binding protein YfmC	2
 Fe-S cluster assembly protein SufB	1
+Ferric enterobactin transport system permease protein FepD	2
+Fluorothreonine transaldolase	1
 FtsK/SpoIIIE domain-containing protein	5
 FtsW/RodA/SpoVE family cell cycle protein	2
 FtsX-like permease family protein	3
@@ -84,53 +106,87 @@ GBS Bsp-like repeat-containing protein	1
 GNAT family N-acetyltransferase	1
 GTPase ObgE	1
 GbpC/Spa domain-containing protein	61
+Group II intron-encoded protein LtrA	15
 HAD family hydrolase	4
 HAD-IA family hydrolase	2
 HAMP domain-containing sensor histidine kinase	137
 HTH domain-containing protein	11
+HTH-type transcriptional repressor CsqR	2
+High-affinity zinc uptake system binding-protein ZnuA	1
 IS110 family transposase	18
+IS110 family transposase ISCARN28	16
+IS110 family transposase ISSsu7	1
+IS1182 family transposase ISStin8	1
 IS1182-like element IS1182 family transposase	2
 IS3 family transposase	3
+IS3 family transposase ISSag4	1
+IS3 family transposase ISSag5	2
+IS3 family transposase ISSdy2	1
+IS3 family transposase ISStin5	1
+IS3 family transposase ISStin6	1
 IS30 family transposase	1
+IS30 family transposase ISSpn8	9
+IS30 family transposase ISStin2	3
 IS4 family transposase	1
+IS4 family transposase ISSsu2	1
 IS6-like element IS1216 family transposase	1
 IS630 family transposase	3
 IS66 family insertion sequence element accessory protein TnpB	3
+IS982 family transposase ISSsu12	4
+ISAs1 family transposase ISSeq10	1
 ISLre2 family transposase	1
+Intracellular maltogenic amylase	2
 KH domain-containing protein	1
 KilA-N domain-containing protein	1
-L-fucose isomerase	1
+L-Rhamnulokinase	2
+L-fucose isomerase	3
 L-fuculose-phosphate aldolase	1
 L-lactate dehydrogenase	1
 LCP family protein	7
 LPXTG cell wall anchor domain-containing protein	1
 LTA synthase family protein	1
 LacI family DNA-binding transcriptional regulator	1
+Lipid A export ATP-binding/permease protein MsbA	1
 LlaJI family restriction endonuclease	1
 LysR family transcriptional regulator	1
 MFS transporter	1
 Maff2 family protein	2
 MarR family transcriptional regulator	3
+Melibiose/raffinose/stachyose import permease protein MelD	2
+Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO	3
 MobC family plasmid mobilization relaxosome protein	140
 MobT family relaxase	5
 MobV family relaxase	122
+Modification methylase HhaI	2
 MptD family putative ECF transporter S component	1
+Multicopper oxidase mco	1
 N-6 DNA methylase	1
+N-acetyl-D-glucosamine kinase	2
 NAD-dependent epimerase/dehydratase family protein	1
 NADPH-dependent FMN reductase	3
 NUDIX domain-containing protein	1
-NisI/SpaI family lantibiotic immunity lipoprotein	145
+NisI/SpaI family lantibiotic immunity lipoprotein	189
+Nisin leader peptide-processing serine protease NisP	17
 PBECR4 domain-containing protein	4
 PC4/YdbC family ssDNA-binding protein	125
 ParA family protein	24
 ParB/RepB/Spo0J family partition protein	126
 PcfB family protein	6
+Peptidoglycan glycosyltransferase RodA	1
+Petrobactin import ATP-binding protein FpuD	2
+Phosphomannomutase/phosphoglucomutase	3
+Phosphoserine phosphatase	1
 PhrA family quorum-sensing system peptide	1
+Plasmid recombination enzyme	1
 PrgI family protein	142
+Putative lipid kinase	2
+Putative mycofactocin radical SAM maturase MftC	1
+Putative transposase InsK for insertion sequence element IS150	1
 RNA helicase	12
 RNA polymerase sigma factor RpoD	1
 ROK family protein	1
 Rep family protein	2
+Response regulator protein GraR	3
 RibD family protein	12
 RluA family pseudouridine synthase	1
 S8 family serine peptidase	71
@@ -139,15 +195,28 @@ SAG1252 family conjugative relaxosome accessory protein	142
 SAG1386/EF1546 family surface-associated protein	1
 SEC10/PgrA surface exclusion domain-containing protein	1
 SNF2-related protein	130
+Sensor histidine kinase GraS	3
+Sensor protein CreC	44
+Sensory transduction protein regX3	44
+Septation ring formation regulator EzrA	1
+Shikimate kinase	10
 SspB-related isopeptide-forming adhesin	25
+Streptothricin acetyltransferase A	13
 TIGR01457 family HAD-type hydrolase	1
 TIGR01906 family membrane protein	1
 TetM/TetW/TetO/TetS family tetracycline resistance ribosomal protection protein	1
 TetR-like C-terminal domain-containing protein	1
 TetR/AcrR family transcriptional regulator	5
 TnpV protein	112
+Toxin PezT	41
+Toxin zeta	4
 TraX family protein	1
+Transcriptional repressor CopY	1
+Transposase from transposon Tn916	4
 TrbL/VirB6 plasmid conjugal transfer protein	3
+Trehalose transport system permease protein SugB	2
+Tyrosine recombinase XerD	5
+Tyrosine recombinase XerS	3
 UDP-galactopyranose mutase	3
 UvrD-helicase domain-containing protein	5
 VTT domain-containing protein	1
@@ -205,7 +274,7 @@ extracellular solute-binding protein	1
 ferredoxin	1
 flavodoxin	1
 folylpolyglutamate synthase/dihydrofolate synthase family protein	1
-gallidermin/nisin family lantibiotic	145
+gallidermin/nisin family lantibiotic	189
 glycerate kinase	1
 glycogen/starch/alpha-glucan family phosphorylase	1
 glycoside hydrolase family 98 domain-containing protein	1
@@ -218,17 +287,16 @@ helix-turn-helix domain-containing protein	3
 helix-turn-helix transcriptional regulator	15
 histidinol dehydrogenase	1
 histidinol-phosphate transaminase	1
-hypothetical protein	145
+hypothetical protein	189
 imidazole glycerol phosphate synthase subunit HisF	1
 imidazole glycerol phosphate synthase subunit HisH	1
 imidazoleglycerol-phosphate dehydratase HisB	1
 iron ABC transporter permease	4
 iron-containing alcohol dehydrogenase	1
 lactococcin 972 family bacteriocin	2
-lanthionine synthetase C family protein	145
+lanthionine synthetase C family protein	189
 lantibiotic ABC transporter permease	142
-lantibiotic dehydratase	143
-lantibiotic dehydratase family protein	1
+lantibiotic dehydratase	188
 lantibiotic transporter	1
 large conductance mechanosensitive channel protein MscL	1
 lipid II isoglutaminyl synthase subunit GatD	1
@@ -261,7 +329,13 @@ protein RepA	2
 protein kinase	1
 pseudouridine synthase	1
 pullulanase	1
+putative ABC transporter ATP-binding protein	42
+putative RNA methyltransferase	13
 putative bacteriocin export ABC transporter	2
+putative protein	2
+putative protein YbbA	3
+putative siderophore transport system permease protein YfhA	2
+rRNA adenine N-6-methyltransferase	22
 radical SAM family heme chaperone HemW	1
 recombinase RecF	2
 recombinase family protein	136
@@ -296,8 +370,8 @@ surface-displayed alpha-enolase	2
 tRNA uracil 4-sulfurtransferase ThiI	1
 tetracycline efflux MFS transporter Tet(40)	15
 tetracycline resistance determinant leader peptide	5
-tetracycline resistance ribosomal protection protein Tet(M)	5
-tetracycline resistance ribosomal protection protein Tet(O)	127
+tetracycline resistance ribosomal protection protein Tet(M)	9
+tetracycline resistance ribosomal protection protein Tet(O)	160
 thiopeptide-type bacteriocin biosynthesis protein	5
 thrombospondin type 3 repeat-containing protein	9
 toprim domain-containing protein	136
