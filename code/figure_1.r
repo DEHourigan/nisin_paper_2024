@@ -348,3 +348,8 @@ table_species = nisin_meta %>%
 unique(nisin_meta$species)
 unique(nisin_meta$family)
 unique(nisin_meta$genus)
+
+nisin_meta %>%
+  select(phylum, assembly) %>%
+  group_by(phylum) %>%
+  summarise(n = n())

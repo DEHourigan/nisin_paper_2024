@@ -87,21 +87,20 @@ nisin_operons_plot = gggenomes(synteny_table) %>%
   scale_fill_gradient(low="grey88", high="grey50") +
   ggnewscale::new_scale("fill") +
   geom_gene(aes(fill = gene), size = 6, show.legend = NA) +
-    scale_fill_manual("gene",
+  scale_fill_manual("gene",
       values = c("grey88",pal_npg("nrc", alpha=1)(10)), 
       na.value = "grey88", 
       guide = "legend") +
   coord_cartesian(clip = 'off') +
   geom_bin_label(
     size = 4, 
-    # fontface = "italic", 
     family = "Arial", 
     expand_left = 1) +
   theme(legend.position="right") +
   theme_gggenomes_clean(base_size = 14, base_family = "Arial") 
 
 nisin_operons_plot_flip = nisin_operons_plot  %>% 
-  flip_seqs((c("Velocimicrobium porci nisin-VP",unique_seq_ids_vector[c(8, 5,10)])))
+  flip_seqs(c(c("Velocimicrobium porci nisin-VP"),5,8))
 
 ggsave(nisin_operons_plot_flip, 
   file="../figures/nisin_operons.png", 

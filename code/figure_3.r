@@ -152,7 +152,10 @@ ggsave(core_peptide_sankey_plot,
 ################################
 #  ST of potentially pathogenic strains
 ################################
+nisin_meta <- fread("../data/tables/supplementary/supplementary_table_S1.csv") 
+
 st_df = fread("../data/tables/supplementary/supplementary_table_S5.csv", fill=TRUE)
+
 sd_df = st_df %>% select(V1,V2,V3) %>%
   dplyr::rename(id = V1, sp = V2, st = V3) %>%
   group_by(sp, st) %>%
@@ -170,21 +173,22 @@ sd_df = st_df %>% select(V1,V2,V3) %>%
 
 
 st_plot = ggplot(sd_df, aes(x = st, y = n)) +
-  geom_bar(stat = "identity", width = 0.7, aes(fill=sp)) +
+  geom_bar(stat = "identity", width = 0.7, aes(fill=sp), color="black") +
   #geom_violin(alpha = 0.5, fill="#21918c") +
   facet_wrap(~ sp, scales = "free_x", ncol = 4) +
   theme_bw() +
   labs(x = "Sequence Type (ST)", y = "Count", title = "") +
    theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
-    axis.text.y = element_text(size = 5)   # Adjust size as needed for y-axis labels
+    plot.title = element_blank(), 
+    axis.title.x = element_text(size = 8), 
+    axis.title.y = element_blank(),  
+    axis.text.x = element_text(size = 5, angle = 25),  
+    axis.text.y = element_text(size = 7)  
   ) +
   theme(legend.position = "none") +
   scale_fill_manual(values = c(pal_npg("nrc")(10)))
 
 ggsave(st_plot, 
   file = "../figures/supplementary_st_plot.png",
-  width = 14, height = 4, units = "cm")
+  width = 14, height = 4, units = "cm", dpi=600)
+

@@ -318,7 +318,7 @@ ggsave(ice_plot1,
 ################################
 # plot gene content of ICE
 ################################
-n_ice = 145 # number of ice predicted with nisin core peptides
+n_ice = 189 # number of ice predicted with nisin core peptides
 
 file_path <- "../data/ice/protein_content_analysis/in"
 file_pattern <- "*.faa"
@@ -348,6 +348,17 @@ ice_content <- all_data %>% select(product, contig)
 
 # Count the number of unique contigs for each product
 product_contig_count <- ice_content %>%
+  # remove the word in product that starts with ">" up to the first space
+  mutate(product = sub(">[^ ]* ", "", product)) %>%
+  # replace Lantibiotic nisin-U with nisin
+  mutate(product = case_when(
+    product == "Lantibiotic nisin-U" ~ "gallidermin/nisin family lantibiotic",
+    product == "lantibiotic dehydratase family protein" ~ "lantibiotic dehydratase",
+    product == "Nisin biosynthesis protein NisB" ~ "lantibiotic dehydratase",
+    product == "Nisin biosynthesis protein NisC" ~ "lanthionine synthetase C family protein",
+    product == "Nisin immunity protein" ~ "NisI/SpaI family lantibiotic immunity lipoprotein",
+    TRUE ~ product
+  )) %>%
   distinct(product, contig) %>%
   group_by(product) %>%
   summarise(contig_count = n())
@@ -355,6 +366,9 @@ product_contig_count <- ice_content %>%
 # Calculate the total number of unique contigs, this should equal the number of ICEs
 total_contigs <- n_distinct(ice_content$contig)
 total_contigs == n_ice
+
+product_contig_count %>%
+  filter(grepl("lant", product, ignore.case = TRUE))
 
 # Calculate the percentage of contigs for each product
 product_contig_percentage <- product_contig_count %>%
@@ -481,11 +495,13 @@ fwrite(product_seqid_count, "../data/tables/supplementary/supplementary_table_S9
 ################################
 # content of transposons
 ################################
+
 tn_content <- fread("../data/tables/tn_content.tsv", sep="\t")
 
 # Count the number of unique seq_id for each product
 product_seqid_count_tn <- tn_content %>%
   distinct(nucleotide_acc, product) %>%
+  filter(!nucleotide_acc %in% ice_contigs) %>%
   group_by(product) %>%
   summarise(seq_id_count = n()) %>%
   arrange(desc(seq_id_count))
@@ -496,8 +512,8 @@ total_seq_ids_tn == 123
 
 # Calculate the percentage of seq_id for each product
 product_seqid_percentage_60_75 <- product_seqid_count_tn %>%
-  mutate(percentage = (seq_id_count / total_seq_ids_tn) * 100) %>%
-  filter(percentage > 60 & percentage < 100) %>%
+  mutate(percentage = (seq_id_count / 34) * 100) %>%
+  filter(percentage > 60 ) %>%
   filter(product != "hypothetical protein") %>%
   arrange(desc(percentage))
 
@@ -526,6 +542,9 @@ count_mge_species = mge_table %>% select(species, nucleotide_acc, mge_class) %>%
   group_by(nucleotide_acc, species) %>%
   summarise(mge_class = paste(mge_class, collapse = ", "), .groups = 'drop') %>% # t
   group_by(species, mge_class) %>%
+  mutate(mge_class = case_when(
+    mge_class == "ICE_element, transposon" ~ "ICE_element",
+    TRUE ~ mge_class)) %>%
   summarise(count = n_distinct(nucleotide_acc)) %>%
   arrange(desc(count))
 
@@ -535,6 +554,9 @@ count_mge = mge_table %>% select(species, nucleotide_acc, mge_class) %>%
   group_by(nucleotide_acc, species) %>%
   summarise(mge_class = paste(mge_class, collapse = ", "), .groups = 'drop') %>% # t
   group_by(mge_class) %>%
+  mutate(mge_class = case_when(
+    mge_class == "ICE_element, transposon" ~ "ICE_element",
+    TRUE ~ mge_class)) %>%
   summarise(count = n_distinct(nucleotide_acc)) %>%
   arrange(desc(count)) %>%
   mutate(pecent = (count / 915) * 100)

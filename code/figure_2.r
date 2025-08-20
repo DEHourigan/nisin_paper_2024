@@ -22,6 +22,7 @@ library(tidyr)
 library(ggnewscale)
 library(rhmmer)
 library(ggtree)
+library(rcartocolor)
 pal_npg("nrc")(10)
 
 ####################################
@@ -29,37 +30,17 @@ pal_npg("nrc")(10)
 ####################################
 setwd("/data/san/data2/users/david/nisin/code")
 
-####################################
-# Load the data
-####################################
-
-# nisin_tsv = fread("../data/tables/nisin_tsv.csv")
-# core_peptides = fread("../data/tables/core_peptides.csv")
-
-
-
-
-
-################################
-# ggtree of ALL organisms
-################################
-tree = read.tree("../data/taxonomy/gtdbtk/tree/infer/intermediate_results/gtdbtk.unrooted.tree")
-tree$tip.label
-tree = ape::root.phylo(tree, 
- outgroup = "MGYG000121622")
-
-tax_file <- fread('../data/taxonomy/gtdbtk/classify/gtdbtk.bac120.summary.tsv', 
-  header = TRUE, sep="\t" ) %>%
-  filter(user_genome != "GCA_014488735.1_ASM1448873v1_genomic") %>% # this is the phage genome
-  separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") 
 
 
 
 ################################
 # taxa plots
 ################################
+supplementary_table_S1 = fread("../data/tables/supplementary/supplementary_table_S1.csv")
 
-fig2_tax_df = tax_file %>% select(user_genome, family, order, genus, species)
+fig2_tax_df = tax_file %>%
+  dplyr::select(user_genome, family, order, genus, species) %>%
+  mutate(assembly = gsub("GCF_", "GCA_", user_genome))
 
 fig2_tax_long <- fig2_tax_df %>%
   pivot_longer(cols = c(family, order, genus, species), 
@@ -85,12 +66,12 @@ taxa_plot_top10_species = ggplot(top_species, aes(x = reorder(taxon, count), y =
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
   theme_bw() +
    theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
+    plot.title = element_blank(),  
+    axis.title.x = element_text(size = 8),  
+    axis.title.y = element_blank(),  
+    axis.text.x = element_text(size = 7, angle = 25),  
     axis.text.y = element_text(size = 7),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
+    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   
   ) +
   theme(legend.position = "none") +
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
@@ -102,12 +83,12 @@ taxa_plot_top10_genus = ggplot(top_genus, aes(x = reorder(taxon, count), y = cou
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
   theme_bw() +
    theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
+    plot.title = element_blank(),  
+    axis.title.x = element_text(size = 8),  
+    axis.title.y = element_blank(),  
+    axis.text.x = element_text(size = 7, angle = 25),  
     axis.text.y = element_text(size = 7),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
+    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   
   ) +
   theme(legend.position = "none") +
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
@@ -119,12 +100,12 @@ taxa_plot_top10_family = ggplot(top_family, aes(x = reorder(taxon, count), y = c
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
   theme_bw() +
    theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
+    plot.title = element_blank(),  
+    axis.title.x = element_text(size = 8),  
+    axis.title.y = element_blank(),  
+    axis.text.x = element_text(size = 7, angle = 25),  
     axis.text.y = element_text(size = 7),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
+    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   
   ) +
   theme(legend.position = "none") +
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
@@ -136,12 +117,12 @@ taxa_plot_top10_order = ggplot(top_ordder, aes(x = reorder(taxon, count), y = co
   labs(x = NULL, y = NULL, title = "Top 10 Counts of Taxonomic Ranks") +
   theme_bw() +
    theme(
-    plot.title = element_blank(),  # Adjust size as needed
-    axis.title.x = element_text(size = 8),  # Adjust size as needed
-    axis.title.y = element_blank(),  # Adjust size as needed
-    axis.text.x = element_text(size = 5, angle = 25),  # Adjust size as needed for x-axis labels
+    plot.title = element_blank(),  
+    axis.title.x = element_text(size = 8),  
+    axis.title.y = element_blank(),  
+    axis.text.x = element_text(size = 7, angle = 25),  
     axis.text.y = element_text(size = 7),
-    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   # Adjust size as needed for y-axis labels
+    plot.margin = margin(0, 0.02, 0, 0.4, "cm")   
   ) +
   theme(legend.position = "none") +
   scale_fill_manual(values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.6)(10), pal_npg("nrc", alpha = 0.2)(10)))
@@ -180,16 +161,27 @@ n_distinct(fig2_tax_df$species)
 # ggtree of ALL organisms
 ################################
 
+tree = read.tree("../data/taxonomy/gtdbtk/tree/infer/intermediate_results/gtdbtk.unrooted.tree")
+tree$tip.label
+tree = ape::root.phylo(tree, 
+ outgroup = "MGYG000121622")
+
+tax_file <- fread('../data/taxonomy/gtdbtk/classify/gtdbtk.bac120.summary.tsv', 
+  header = TRUE, sep="\t" ) %>%
+  filter(user_genome != "GCA_014488735.1_ASM1448873v1_genomic") %>% # this is the phage genome
+  separate(classification, c("domain", "phylum", "class", "order", "family", "genus", "species"), sep = ";") 
+
+
 library(ape)
 tree_plot = ggtree(tree)
 tree_plot$data
 tree_plot_2 = tree_plot %<+% tax_file + 
 	geom_tippoint(pch=15, aes(col=family), size=2) +
 	#geom_hilight(mapping=aes(fill = as.factor(genus)), alpha = 0.5) +
-	scale_color_manual(values = c(pal_npg("nrc")(10),pal_npg("nrc", alpha = 0.6)(10),pal_npg("nrc", alpha = 0.2)(10) )) +
+	scale_color_manual(values = c(pal_npg("nrc", alpha = 0.6)(10),pal_npg("nrc", alpha = 0.2)(10),pal_npg("nrc")(10) )) +
 	theme(axis.text.x = element_blank(), 
     axis.ticks = element_blank(),
-    legend.text = element_text(size = 10),
+    legend.text = element_text(size = 12),
     legend.key.size = unit(0.1, "cm")) +
 	guides(col=guide_legend(ncol =1))
 
@@ -247,6 +239,8 @@ small_tax = tax_file %>%
                                user_genome)) %>%
   select(assembly, genus)
 
+small_tax$genus <- gsub("g__Phocaeicola","g__Phocaeicola*",small_tax$genus)
+small_tax$genus <- gsub("g__Bacteroides","g__Bacteroides*",small_tax$genus)
 
 # read in nisin tsv 
 tsv_df = fread("../data/tables/nisin_tsv.csv")
@@ -283,6 +277,7 @@ hmmer_wgs_master = hmmer_wgs_df %>%
 assemly_protein_df = tsv_df %>%
   select(assembly, protein_acc) %>% 
   distinct()
+
 small_names_df = tsv_df %>%
 	filter(assembly %in% tree$tip.label) %>%
   left_join(., hmmer_wgs_master, by = "protein_acc")
@@ -328,18 +323,18 @@ annot_df$nisC <- as.factor(annot_df$nisC)
 # annot_df$nisT <- as.factor(annot_df$nisT)
 annot_df$nisI <- as.factor(annot_df$nisI)
 
-
+annot_df <- annot_df %>%
+  dplyr::rename(core = nisins)
 ############ TREE
 # ape root tree to Bacteroides
 tree = ape::root.phylo(tree, 
  outgroup = "MGYG000121622")
 
 tree_plot = ggtree(tree)
-small_tax$genus <- gsub("g__Phocaeicola","g__Phocaeicola*",small_tax$genus)
-small_tax$genus <- gsub("g__Bacteroides","g__Bacteroides*",small_tax$genus)
+
 
 tree_plot_2 = tree_plot %<+% small_tax + 
-  geom_tiplab(aes(label=genus), offset=0.5, hjust=0, size=3.2, align=TRUE) +
+  geom_tiplab(aes(label=genus), offset=0.05, hjust=0, size=3.2, align=TRUE) +
   scale_color_manual(values = carto_pal("ag_GrnYl", n = n_distinct(small_tax$genus))) 
 
 
@@ -348,10 +343,10 @@ p1 <- gheatmap(tree_plot_2, annot_df,
       legend_title = "Presence/Absence", 
 			color = "black",
       colnames_angle=-45,
-      colnames_offset_y = -0.5, 
-			font.size = 2.7,
+      colnames_offset_y = -0.6, 
+			font.size = 4,
       colnames_offset_x = 0.03,
-      offset=1.04,
+      offset=0.5,
       width=0.3,) +
       scale_fill_manual(
     values = c(pal_npg("nrc")(10), pal_npg("nrc", alpha = 0.4)(4)),
@@ -372,3 +367,30 @@ p1 <- gheatmap(tree_plot_2, annot_df,
 ggsave(p1,
   file = "../figures/ggtree_heatmap.png", 
   width = 25, height = 25, limitsize = FALSE,dpi=600, units="cm")
+
+
+nisin_meta <- fread("../data/tables/supplementary/supplementary_table_S1.csv") 
+
+
+# what percentage of assemblies have a LanB, LanC, LanI
+
+table_lanABCI = tsv_df %>%
+  mutate(assembly = gsub("GCF_", "GCA_", assembly)) %>%
+  filter(assembly %in% nisin_meta$assembly) %>%
+  left_join(., hmmer_wgs_master, by = "protein_acc") %>%
+  select(assembly, type, evalue) %>%
+  filter(!is.na(type)) %>%
+  distinct(assembly, type) 
+
+
+
+assemblies_with_all_three <- table_lanABCI %>%
+  filter(type %in% c("nisI", "nisC", "nisB")) %>%
+  group_by(assembly) %>%
+  summarize(count = n_distinct(type)) %>%
+  filter(count == 3) %>%
+  distinct(assembly)
+
+percentage_all_three <- (n_distinct(assemblies_with_all_three$assembly) / 915) * 100
+
+cat("Percentage of assemblies with all three (nisI, nisC, and nisB):", percentage_all_three, "%\n")
